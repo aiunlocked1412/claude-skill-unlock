@@ -1,276 +1,438 @@
-# Skill Catalog — 37 AI Career Skills
+# Skill Catalog — 100 AI Career Skills
 
 > Catalog ครบทุก skill ใน bundle พร้อม tag, use case, และ output แต่ละตัว
+> **v1.1.0** — 100 skills ครอบคลุม 9 หมวดอาชีพ
 
 ---
 
-## 🎬 หมวด 1: Content Creator (5 skills)
+## 🎬 หมวด 1: Content Creator (11 skills)
 
 ### `/youtuber-pro`
 - **Tags:** `content` `video` `youtube` `reels` `tiktok`
-- **ทำอะไร:** สร้างสคริปต์ YouTube/Shorts/Reels, hook 3 วิ, thumbnail prompt, title ตัวเลือก
-- **Use cases:** รีวิวสินค้า, เล่าเรื่อง, สอน, vlog
-- **Output:** `.md` พร้อม sections (Hook / Body / CTA / Thumbnail / Title)
+- สคริปต์ YouTube/Shorts/Reels, hook 3 วิ, thumbnail prompt, title
 
 ### `/blogger-pro`
 - **Tags:** `content` `blog` `seo` `writing`
-- **ทำอะไร:** เขียนบทความ blog พร้อม SEO, outline, internal linking
-- **Use cases:** บทความยาว, รีวิว, how-to, listicle
-- **Output:** `.md` พร้อม frontmatter, meta description, tags
+- บทความ blog พร้อม SEO, outline, internal linking
 
 ### `/translator-pro`
 - **Tags:** `language` `translation` `subtitle` `localization`
-- **ทำอะไร:** แปลไทย↔อังกฤษ (และภาษาอื่นๆ), subtitle, ปรับ tone ท้องถิ่น
-- **Use cases:** แปลเอกสาร, subtitle, email, บทความ
-- **Output:** ข้อความแปล + notes การปรับ tone
+- แปลไทย↔อังกฤษ, subtitle, ปรับ tone ท้องถิ่น
 
 ### `/podcaster-pro`
 - **Tags:** `content` `podcast` `audio` `script`
-- **ทำอะไร:** สคริปต์ podcast, show notes, clip timestamps, guest questions
-- **Use cases:** solo podcast, สัมภาษณ์, narrative
-- **Output:** สคริปต์ + show notes + social media teaser
+- สคริปต์ podcast, show notes, clip timestamps
 
 ### `/storyteller-pro`
 - **Tags:** `creative` `writing` `fiction` `screenplay`
-- **ทำอะไร:** plot outline, character profile, dialogue, twist
-- **Use cases:** นิยาย, บทหนัง, เกม, การ์ตูน
-- **Output:** ผังเรื่อง + ตัวละคร + ฉากตัวอย่าง
+- plot outline, character profile, dialogue
+
+### `/course-creator` 🆕
+- **Tags:** `course` `online-course` `curriculum` `assessment`
+- สร้างคอร์สออนไลน์ — curriculum, lesson, sales page
+
+### `/newsletter-writer` 🆕
+- **Tags:** `newsletter` `substack` `email` `growth`
+- Newsletter ที่คนรอเปิด — hook, story, offer
+
+### `/ghostwriter-pro` 🆕
+- **Tags:** `ghostwriting` `voice` `byline`
+- เขียนแทนคนอื่น — voice matching, ethical disclosure
+
+### `/comic-writer` 🆕
+- **Tags:** `comic` `manga` `webtoon` `panel`
+- มังงะ การ์ตูน webtoon — panel layout, dialogue
+
+### `/game-narrative` 🆕
+- **Tags:** `game` `narrative` `lore` `quest`
+- เรื่องในเกม — lore, dialogue tree, character arc
+
+### `/tiktoker-pro` 🆕
+- **Tags:** `tiktok` `viral` `trend` `algorithm`
+- TikTok เน้นๆ — first-second hook, trend, FYP
 
 ---
 
-## 📣 หมวด 2: Marketing & Sales (6 skills)
+## 📣 หมวด 2: Marketing & Sales (14 skills)
 
 ### `/digital-marketer`
-- **Tags:** `marketing` `campaign` `strategy` `kpi`
-- **ทำอะไร:** วางแผน campaign, budget allocation, KPI, timeline
-- **Use cases:** launch product, promotion, rebrand
-- **Output:** Campaign brief + budget + KPI dashboard spec
+campaign plan + budget + KPI
 
 ### `/social-media-admin`
-- **Tags:** `marketing` `social` `facebook` `instagram` `calendar`
-- **ทำอะไร:** ปฏิทินโพส 30 วัน, caption, reply template, hashtag
-- **Use cases:** brand social, community management
-- **Output:** Calendar .md + caption bank
+ปฏิทินโพส + caption + reply
 
 ### `/seo-specialist`
-- **Tags:** `marketing` `seo` `keyword` `ranking`
-- **ทำอะไร:** keyword research, on-page audit, content outline, backlink plan
-- **Use cases:** บทความ blog, landing page, e-commerce
-- **Output:** Keyword list + SEO brief + audit report
+keyword + outline + on-page audit
 
 ### `/copywriter-pro`
-- **Tags:** `marketing` `copy` `ads` `email`
-- **ทำอะไร:** headline 10 แบบ, ad copy (FB/Google), email sequence, CTA
-- **Use cases:** Facebook Ads, Google Ads, email marketing, landing
-- **Output:** Copy bank พร้อม variation
+headline + ad copy + email
 
 ### `/online-seller`
-- **Tags:** `sales` `ecommerce` `live` `caption`
-- **ทำอะไร:** live script, product caption, FAQ, pricing psychology
-- **Use cases:** Facebook Live, Shopee/Lazada, TikTok Shop
-- **Output:** สคริปต์ live + caption + FAQ
+live script + product caption
 
 ### `/influencer-marketing`
-- **Tags:** `marketing` `influencer` `collab` `negotiation`
-- **ทำอะไร:** influencer brief, pitch email, rate card review, performance analysis
-- **Use cases:** จ้าง influencer/KOL, affiliate
-- **Output:** Brief + pitch template + evaluation sheet
+brief + negotiation + review
+
+### `/email-marketer` 🆕
+- **Tags:** `email` `automation` `sequence` `deliverability`
+- email sequence + automation + segmentation
+
+### `/affiliate-marketer` 🆕
+- **Tags:** `affiliate` `commission` `partner`
+- affiliate strategy + partner outreach + tracking
+
+### `/brand-strategist` 🆕
+- **Tags:** `brand` `identity` `positioning` `voice`
+- brand identity, positioning, voice, brand book
+
+### `/pr-manager` 🆕
+- **Tags:** `pr` `press-release` `media` `crisis`
+- press release, media pitch, crisis communication
+
+### `/event-marketer` 🆕
+- **Tags:** `event` `planning` `promotion`
+- event planning + promotion + post-event analysis
+
+### `/crm-strategist` 🆕
+- **Tags:** `crm` `segmentation` `lifecycle` `retention`
+- CRM strategy, RFM, customer lifecycle
+
+### `/sales-pro` 🆕
+- **Tags:** `sales` `b2b` `cold-outreach` `pipeline`
+- B2B sales, cold email, objection handling
+
+### `/market-researcher` 🆕
+- **Tags:** `research` `survey` `consumer-insight`
+- survey, focus group, consumer insights
 
 ---
 
-## 💻 หมวด 3: Tech & Development (6 skills)
+## 💻 หมวด 3: Tech & Development (13 skills)
 
 ### `/programmer-pro`
-- **Tags:** `tech` `code` `review` `debug`
-- **ทำอะไร:** code review, debug, refactor, explain code
-- **Use cases:** review PR, หา bug, refactor legacy
-- **Output:** Review report + suggestions + refactored code
+review + debug + refactor (ทุกภาษา)
 
 ### `/data-analyst-pro`
-- **Tags:** `tech` `data` `sql` `insight`
-- **ทำอะไร:** SQL query, data cleaning, insight extraction, dashboard spec
-- **Use cases:** วิเคราะห์ยอดขาย, churn, funnel
-- **Output:** SQL + insights + chart spec
+SQL + insight + dashboard
 
 ### `/web-designer-pro`
-- **Tags:** `tech` `design` `web` `ux`
-- **ทำอะไร:** wireframe, component spec, style guide, responsive plan
-- **Use cases:** landing page, SaaS, e-commerce
-- **Output:** Wireframe spec + component library
+wireframe + component spec
 
 ### `/qa-tester-pro`
-- **Tags:** `tech` `qa` `testing` `regression`
-- **ทำอะไร:** test case, bug report, regression checklist, automation plan
-- **Use cases:** feature testing, bug triage, release QA
-- **Output:** Test plan + bug report template
+test case + bug report
 
 ### `/no-code-builder`
-- **Tags:** `tech` `nocode` `automation` `builder`
-- **ทำอะไร:** tool recommendation, schema, automation flow (Zapier/Make/Airtable)
-- **Use cases:** internal tool, MVP, automation
-- **Output:** Tool comparison + schema + flow diagram
+Zapier, Make, Airtable
 
 ### `/devops-helper`
-- **Tags:** `tech` `devops` `deploy` `ci-cd`
-- **ทำอะไร:** Dockerfile, CI/CD yaml, monitoring alert, deployment checklist
-- **Use cases:** Docker setup, GitHub Actions, monitoring
-- **Output:** Dockerfile + `.yml` + alert config
+Docker, CI/CD, monitoring
+
+### `/mobile-app-builder` 🆕
+- **Tags:** `mobile` `ios` `android` `react-native`
+- iOS/Android (Swift, Kotlin, RN, Flutter)
+
+### `/security-engineer` 🆕
+- **Tags:** `security` `pentest` `owasp` `vulnerability`
+- pentest, vulnerability, OWASP Top 10
+
+### `/ai-engineer` 🆕
+- **Tags:** `ai` `ml` `llm` `rag` `prompt`
+- ML/AI integration, LLM API, RAG
+
+### `/database-architect` 🆕
+- **Tags:** `database` `sql` `schema` `optimization`
+- schema design, indexing, query optimization
+
+### `/game-dev-pro` 🆕
+- **Tags:** `game` `unity` `godot` `physics`
+- Unity/Godot, game mechanics
+
+### `/system-admin` 🆕
+- **Tags:** `sysadmin` `linux` `server` `network`
+- Linux server, backup, disaster recovery
+
+### `/tech-writer` 🆕
+- **Tags:** `documentation` `api-doc` `tutorial`
+- API doc, README, tutorial, ADR
 
 ---
 
-## 🎨 หมวด 4: Design & Creative (6 skills)
+## 🎨 หมวด 4: Design & Creative (13 skills)
 
 ### `/graphic-designer-pro`
-- **Tags:** `design` `graphic` `midjourney` `prompt`
-- **ทำอะไร:** Midjourney/DALL-E prompt, design brief, concept direction
-- **Use cases:** poster, logo, infographic, banner
-- **Output:** Prompt bank + design brief
+Midjourney/DALL-E prompt + design brief
 
 ### `/photographer-pro`
-- **Tags:** `design` `photo` `retouch` `lightroom`
-- **ทำอะไร:** retouching prompt, shot list, mood board, Lightroom recipe
-- **Use cases:** งานรับจ้าง, portrait, product, landscape
-- **Output:** Shot list + retouching guide
+retouching + shot list + mood board
 
 ### `/video-editor-pro`
-- **Tags:** `design` `video` `editing` `storyboard`
-- **ทำอะไร:** storyboard, edit timeline, sound cue, color grade plan
-- **Use cases:** YouTube, Reels, commercial, event
-- **Output:** Storyboard + edit plan
+storyboard + edit plan + sound cue
 
 ### `/architect-pro`
-- **Tags:** `design` `architecture` `render` `concept`
-- **ทำอะไร:** concept design, mood board, renderer prompt, material spec
-- **Use cases:** residential, commercial, interior
-- **Output:** Concept doc + renderer prompt
+concept + mood board + render
 
 ### `/fashion-designer-pro`
-- **Tags:** `design` `fashion` `collection` `pattern`
-- **ทำอะไร:** mood board, collection plan, pattern brief, colorway
-- **Use cases:** brand fashion, apparel, streetwear
-- **Output:** Collection doc + pattern spec
+mood board + collection plan
 
 ### `/product-designer-pro`
-- **Tags:** `design` `product` `packaging` `mockup`
-- **ทำอะไร:** packaging design brief, mockup prompt, spec sheet
-- **Use cases:** สินค้าใหม่, rebrand, e-commerce
-- **Output:** Product brief + mockup prompt
+packaging + mockup + spec
+
+### `/ux-designer` 🆕
+- **Tags:** `ux` `wireframe` `prototype` `usability`
+- user flow, wireframe, prototype, usability test
+
+### `/motion-designer` 🆕
+- **Tags:** `motion` `animation` `aftereffects` `lottie`
+- animation principle, AE spec, Lottie
+
+### `/illustrator-pro` 🆕
+- **Tags:** `illustration` `vector` `character` `icon`
+- vector illustration, character, icon set
+
+### `/3d-modeler` 🆕
+- **Tags:** `3d` `blender` `modeling` `texture`
+- Blender workflow, topology, UV, texturing
+
+### `/interior-designer` 🆕
+- **Tags:** `interior` `space` `layout` `material`
+- interior space design, layout, mood board
+
+### `/jewelry-designer` 🆕
+- **Tags:** `jewelry` `gem` `metal` `concept`
+- jewelry concept + render, gem, metal selection
+
+### `/tattoo-designer` 🆕
+- **Tags:** `tattoo` `style` `placement`
+- tattoo concept + style, placement, sizing
 
 ---
 
-## 💼 หมวด 5: Business & Service (7 skills)
+## 💼 หมวด 5: Business & Service (15 skills)
 
 ### `/business-consultant`
-- **Tags:** `business` `strategy` `swot` `pitch`
-- **ทำอะไร:** SWOT, business canvas, pitch deck outline, 5-force
-- **Use cases:** startup, SME, expansion, pivot
-- **Output:** Strategy doc + canvas + pitch
+SWOT + canvas + pitch deck
 
-### `/accountant-pro`
-- **Tags:** `business` `accounting` `finance` `tax`
-- **ทำอะไร:** จัดหมวดรายการ, วิเคราะห์งบ, tax note, cash flow
-- **Use cases:** ปิดงบ, วางแผนภาษี SME
-- **Output:** Categorized entries + analysis
+### `/accountant-pro` ⚠️
+จัดบัญชี + วิเคราะห์งบ + ภาษีไทย
 
 ### `/hr-officer-pro`
-- **Tags:** `business` `hr` `recruiting` `interview`
-- **ทำอะไร:** คัดกรอง resume, ประกาศงาน, interview guide, JD
-- **Use cases:** recruit, performance review
-- **Output:** JD + interview script
+JD + interview + onboarding
 
 ### `/customer-service-pro`
-- **Tags:** `business` `cs` `chatbot` `faq`
-- **ทำอะไร:** chatbot script, FAQ bank, escalation rule, reply template
-- **Use cases:** Line OA, Facebook Inbox, email support
-- **Output:** Chatbot flow + FAQ doc
+chatbot + FAQ + reply template
 
-### `/stock-trader-pro`
-- **Tags:** `business` `finance` `trading` `technical`
-- **ทำอะไร:** ข่าวหุ้น, technical analysis, risk management, trade plan
-- **Use cases:** day trader, swing, long-term
-- **Output:** Analysis report + trade plan
+### `/stock-trader-pro` ⚠️
+technical + risk management
 
-### `/lawyer-pro`
-- **Tags:** `business` `legal` `contract` `research`
-- **ทำอะไร:** ร่างสัญญา, สรุปคดี, legal research, memo
-- **Use cases:** สัญญาจ้าง, สัญญาเช่า, ที่ปรึกษากฎหมาย
-- **Output:** Contract draft + memo
+### `/lawyer-pro` ⚠️
+ร่างสัญญา + สรุปคดี
 
 ### `/real-estate-pro`
-- **Tags:** `business` `real-estate` `property` `listing`
-- **ทำอะไร:** ประกาศขาย, virtual tour script, market analysis
-- **Use cases:** broker, investment, rental
-- **Output:** Listing + market report
+ประกาศขาย + virtual tour + CMA
+
+### `/financial-planner` 🆕 ⚠️
+- **Tags:** `finance` `wealth` `retirement` `personal`
+- wealth management ส่วนบุคคล, asset allocation, FIRE
+
+### `/insurance-advisor` 🆕 ⚠️
+- **Tags:** `insurance` `life` `health` `policy`
+- ประกันชีวิต/รถ/สุขภาพ — need analysis, comparison
+
+### `/crypto-trader` 🆕 ⚠️
+- **Tags:** `crypto` `btc` `defi` `on-chain`
+- BTC/ETH/altcoin, DeFi, on-chain analysis
+
+### `/supply-chain-mgr` 🆕
+- **Tags:** `supply-chain` `logistics` `inventory`
+- logistics, inventory, demand forecast
+
+### `/procurement-pro` 🆕
+- **Tags:** `procurement` `vendor` `rfq` `negotiation`
+- buyer, vendor selection, RFQ
+
+### `/auditor-pro` 🆕 ⚠️
+- **Tags:** `audit` `compliance` `iso` `internal`
+- internal audit, compliance, ISO 27001
+
+### `/restaurant-mgr` 🆕
+- **Tags:** `restaurant` `f&b` `cost` `staffing`
+- F&B operations (food cost, labor, menu engineering)
+
+### `/ecommerce-mgr` 🆕
+- **Tags:** `ecommerce` `shopee` `lazada` `fulfillment`
+- online store ops, fulfillment, returns
 
 ---
 
-## 📚 หมวด 6: Education & Health (7 skills)
+## 📚 หมวด 6: Education & Health (15 skills)
 
 ### `/teacher-pro`
-- **Tags:** `education` `teaching` `lesson` `curriculum`
-- **ทำอะไร:** แผนการสอน, แบบฝึกหัด, rubric, quiz
-- **Use cases:** ครูประจำ, ติวเตอร์, online course
-- **Output:** Lesson plan + worksheet
+แผนการสอน + แบบฝึกหัด + rubric
 
 ### `/coach-pro`
-- **Tags:** `education` `coaching` `personal` `development`
-- **ทำอะไร:** โปรแกรมลูกค้า, session plan, progress tracking, goal setting
-- **Use cases:** life coach, business coach, career coach
-- **Output:** Coaching program + session templates
+GROW model + coaching program
 
-### `/nutritionist-pro`
-- **Tags:** `health` `nutrition` `meal-plan` `calorie`
-- **ทำอะไร:** meal plan, แคลอรี่, grocery list, macro split
-- **Use cases:** ลดน้ำหนัก, เพิ่มกล้าม, vegan, keto
-- **Output:** Meal plan + grocery list
+### `/nutritionist-pro` ⚠️
+meal plan + แคลอรี่ + macro
 
-### `/fitness-trainer-pro`
-- **Tags:** `health` `fitness` `workout` `training`
-- **ทำอะไร:** workout plan, ท่าฝึก, progress tracker, periodization
-- **Use cases:** gym, home workout, sport-specific
-- **Output:** Workout program + tracking sheet
+### `/fitness-trainer-pro` ⚠️
+workout + ท่าฝึก + periodization
 
-### `/doctor-helper` ⚠️
-- **Tags:** `health` `medical` `research` `reference`
-- **ทำอะไร:** สรุป research, differential diagnosis support, ยา
-- **Use cases:** หมอ, เภสัช, บุคลากรทางการแพทย์
-- **Output:** Research summary + reference
-- **⚠️ Disclaimer:** ห้ามใช้แทนการวินิจฉัยจริง
+### `/doctor-helper` ⚠️⚠️
+research + DDx + drug ref
 
-### `/psychologist-helper` ⚠️
-- **Tags:** `health` `psychology` `therapy` `cbt`
-- **ทำอะไร:** session notes, CBT framework, assessment template
-- **Use cases:** psychologist, counselor, coach
-- **Output:** Notes template + framework
-- **⚠️ Disclaimer:** ห้ามใช้แทนการรักษาจริง
+### `/psychologist-helper` ⚠️⚠️
+SOAP + CBT + framework
 
 ### `/researcher-pro`
-- **Tags:** `education` `research` `academic` `paper`
-- **ทำอะไร:** literature review, methodology, paper outline, citation
-- **Use cases:** thesis, paper, research project
-- **Output:** Lit review + methodology + outline
+lit review + methodology + paper
+
+### `/tutor-pro` 🆕
+- **Tags:** `tutoring` `1-on-1` `personalized`
+- 1-on-1 tutoring, diagnostic, customized
+
+### `/language-teacher` 🆕
+- **Tags:** `language` `tefl` `english` `chinese`
+- TEFL, ภาษาต่างประเทศ, CEFR-aligned
+
+### `/dentist-helper` 🆕 ⚠️⚠️
+- **Tags:** `dental` `medical` `reference`
+- dental reference สำหรับทันตแพทย์
+
+### `/pharmacist-helper` 🆕 ⚠️⚠️
+- **Tags:** `pharmacy` `drug` `interaction` `medical`
+- drug reference, interaction matrix
+
+### `/veterinarian-helper` 🆕 ⚠️⚠️
+- **Tags:** `vet` `animal` `medical`
+- สัตวแพทย์ — species, drug dosing weight-based
+
+### `/yoga-instructor` 🆕
+- **Tags:** `yoga` `asana` `breathing` `wellness`
+- yoga sequences, asana, breathing
+
+### `/meditation-coach` 🆕
+- **Tags:** `meditation` `mindfulness` `breathing`
+- mindfulness, guided meditation script
+
+### `/mental-wellness` 🆕
+- **Tags:** `wellness` `journaling` `self-help`
+- self-help, journaling prompts (ทั่วไป ไม่ใช่ clinical)
+
+---
+
+## 💰 หมวด 7: Lifestyle & Personal (7 skills) 🆕
+
+### `/personal-finance` ⚠️
+- **Tags:** `finance` `budget` `personal` `retirement`
+- งบส่วนตัว, หนี้, ลงทุน, วางแผนเกษียณ
+
+### `/resume-builder`
+- **Tags:** `resume` `cv` `cover-letter` `ats`
+- เขียน CV/Resume + cover letter (ATS-friendly)
+
+### `/interview-coach`
+- **Tags:** `interview` `behavioral` `star`
+- เตรียมสัมภาษณ์งาน + behavioral Q&A
+
+### `/relationship-coach` ⚠️
+- **Tags:** `relationship` `couple` `family` `dating`
+- couple, family, dating, conflict resolution
+
+### `/parenting-pro` ⚠️
+- **Tags:** `parenting` `kids` `development`
+- เลี้ยงลูก, child development, age-appropriate
+
+### `/wedding-planner`
+- **Tags:** `wedding` `planning` `vendor` `budget`
+- วางแผนงานแต่ง budget, timeline, vendor
+
+### `/travel-planner`
+- **Tags:** `travel` `itinerary` `booking` `trip`
+- itinerary, booking, trip planning ไทย+ต่างประเทศ
+
+---
+
+## 🍽️ หมวด 8: Hospitality & Service (5 skills) 🆕
+
+### `/restaurant-owner`
+- **Tags:** `restaurant` `f&b` `menu` `pricing`
+- F&B menu, pricing, marketing, operations
+
+### `/hotel-concierge`
+- **Tags:** `hotel` `concierge` `guest-service`
+- guest service, recommendation, request handling
+
+### `/tour-guide-pro`
+- **Tags:** `tour` `guide` `itinerary` `storytelling`
+- itinerary, storytelling สถานที่, group mgmt
+
+### `/salon-owner`
+- **Tags:** `salon` `beauty` `booking` `retention`
+- beauty salon (booking, service menu, upsell)
+
+### `/florist-pro`
+- **Tags:** `florist` `flower` `arrangement`
+- flower arrangement, design brief, occasion-based
+
+---
+
+## ⚙️ หมวด 9: Productivity & Modern Work (7 skills) 🆕
+
+### `/meeting-notetaker`
+- **Tags:** `meeting` `notes` `action-items`
+- สรุป meeting + action items + decision log
+
+### `/email-manager`
+- **Tags:** `email` `inbox-zero` `template`
+- inbox zero, template, follow-up
+
+### `/notion-builder`
+- **Tags:** `notion` `workspace` `database`
+- workspace design, database schema, automation
+
+### `/project-manager-pro`
+- **Tags:** `project` `pm` `gantt` `sprint`
+- Gantt, sprint, retrospective, RAID log
+
+### `/async-communicator`
+- **Tags:** `async` `rfc` `documentation`
+- RFC, doc-first, async culture
+
+### `/executive-assistant`
+- **Tags:** `ea` `scheduling` `briefing`
+- EA tasks (scheduling, travel, expense)
+
+### `/presentation-designer`
+- **Tags:** `presentation` `slides` `pitch-deck`
+- slide design, pitch deck, executive summary
 
 ---
 
 ## 🔍 ค้นหาตาม Tag
 
 ### Tag รวม
-`content` `video` `writing` `seo` `marketing` `ads` `copy` `tech` `code` `data` `design` `photo` `business` `finance` `legal` `hr` `education` `health` `research` `automation` `strategy`
+`content` `video` `writing` `seo` `marketing` `ads` `copy` `tech` `code` `data` `mobile` `security` `ai` `design` `ux` `motion` `3d` `business` `finance` `legal` `hr` `crypto` `education` `health` `medical` `wellness` `lifestyle` `personal` `hospitality` `restaurant` `hotel` `productivity` `notion` `pm` `automation` `strategy`
 
 ### แนะนำตามความสนใจ
 
-**อยากเริ่มทำ Content:** `/youtuber-pro`, `/blogger-pro`, `/storyteller-pro`
+**อยากเริ่มทำ Content:** `/youtuber-pro`, `/blogger-pro`, `/tiktoker-pro`, `/storyteller-pro`
 
-**อยากเริ่มขายของ:** `/online-seller`, `/copywriter-pro`, `/social-media-admin`
+**อยากเริ่มขายของ:** `/online-seller`, `/copywriter-pro`, `/ecommerce-mgr`
 
-**อยากเริ่ม Tech:** `/programmer-pro`, `/no-code-builder`, `/data-analyst-pro`
+**อยากเริ่ม Tech:** `/programmer-pro`, `/no-code-builder`, `/ai-engineer`
 
-**อยากเริ่ม Freelance Design:** `/graphic-designer-pro`, `/photographer-pro`, `/video-editor-pro`
+**อยากเริ่ม Freelance Design:** `/graphic-designer-pro`, `/ux-designer`, `/motion-designer`
 
-**อยากเริ่มทำ SME:** `/business-consultant`, `/accountant-pro`, `/customer-service-pro`
+**อยากเริ่มทำ SME:** `/business-consultant`, `/restaurant-mgr`, `/ecommerce-mgr`
 
-**อยากเริ่มสอน:** `/teacher-pro`, `/coach-pro`, `/researcher-pro`
+**อยากเริ่มสอน:** `/teacher-pro`, `/tutor-pro`, `/language-teacher`
+
+**อยากดูแลตัวเอง:** `/personal-finance`, `/resume-builder`, `/yoga-instructor`, `/meditation-coach`
+
+**อยากทำงานเร็วขึ้น:** `/notion-builder`, `/meeting-notetaker`, `/email-manager`
 
 ---
 
-*v1.0.0 — รวม 37 skills ครอบคลุม 6 หมวดอาชีพ*
+*v1.1.0 — รวม 100 skills ครอบคลุม 9 หมวดอาชีพ*
+*Made with ❤️ by [aiunlock.co](https://aiunlock.co)*

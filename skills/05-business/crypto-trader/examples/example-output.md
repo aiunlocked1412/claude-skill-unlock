@@ -1,0 +1,185 @@
+---
+type: crypto-analysis
+coin: BTC + ETH portfolio
+analysis_type: market + coin + on-chain
+created: 2026-04-16
+status: draft
+---
+
+# ₿ Crypto Analysis — BTC + ETH Portfolio Review
+
+## ⚠️ Risk Warning
+
+> **Crypto risk สูงมาก — ลงทุนเฉพาะเงินที่พร้อมเสีย**
+> ตัวอย่างนี้เป็น scenario สมมติเพื่อการเรียนรู้เท่านั้น
+
+---
+
+## 📊 Market Snapshot (สมมติ ณ 2026-04-16)
+
+| Metric | Value | Interpretation |
+|--------|-------|---------------|
+| BTC Price | $95,000 | post-halving year 2 |
+| ETH Price | $4,200 | recovering from $2,500 base |
+| Total Market Cap | $3.8T | new ATH |
+| BTC Dominance | 54% | mid-cycle, alt rotation pending |
+| Fear & Greed | 72 | greed (ระวัง near top) |
+| 24h Funding | +0.04% | bullish bias, ไม่ extreme |
+| Cycle Stage | Year 2 post-halving (peak zone) | ⚠️ ระวัง top |
+
+**Macro view:** เข้าสู่ช่วง mid-late bull cycle. ระวัง top signal ในอีก 3-6 เดือน
+
+---
+
+## 🪙 Coin Analysis: BTC
+
+### 1. Technical
+
+| Indicator | Reading | Signal |
+|-----------|---------|--------|
+| Price | $95,000 | above all EMAs |
+| EMA 20 | $89,000 | slope: up |
+| EMA 50 | $82,000 | up |
+| EMA 200 | $68,000 | up |
+| RSI (14) | 68 | nearing overbought |
+| MACD | bullish | trend intact |
+| Key Support | $85,000 (EMA20 zone) | |
+| Key Resistance | $100,000 (psychological) | |
+
+### 2. On-Chain (สมมติ data)
+
+| Metric | Value | Zone |
+|--------|-------|------|
+| MVRV | 2.8 | fair → upper (top zone = 3.7) |
+| NUPL | 0.62 | belief phase (0.75 = euphoria) |
+| SOPR | 1.04 | profit taking starting |
+| LTH Supply | 75% | HODLers strong |
+| Exchange Net Flow | -1,200 BTC/day | outflow → bullish |
+
+**Verdict BTC:** Bullish ต่อไปได้อีก 20-40% แต่เริ่มเข้า late cycle
+
+---
+
+## 🪙 Coin Analysis: ETH
+
+### Technical
+- Price $4,200 vs ATH $4,800 (Nov 2021)
+- EMA 200: $3,100 — strong support
+- ETH/BTC ratio: 0.044 (low → ETH undervalued vs BTC)
+
+### Catalysts (2026)
+- ETH ETF inflows continuing
+- L2 ecosystem growth (Arbitrum, Base, Optimism)
+- Staking yield 3-4%
+
+**Verdict ETH:** Catch-up trade vs BTC, target $5,500-$6,500
+
+---
+
+## 🌊 Altcoin Season Indicator
+
+| Indicator | Reading | Status |
+|-----------|---------|--------|
+| Altseason Index | 38/100 | Still BTC-led, ไม่ใช่ altseason เต็ม |
+| ETH/BTC ratio | 0.044 | rising slowly |
+| Total3 trend | sideways | rotation pending |
+
+**Verdict:** ยังไม่ใช่ altseason เต็ม — focus BTC + ETH ก่อน
+
+---
+
+## 💰 Suggested Portfolio (ทุน crypto $50,000)
+
+| Asset | Allocation | $ Amount | Rationale |
+|-------|-----------|---------|-----------|
+| BTC | 50% | $25,000 | ฐานหลัก, lowest risk |
+| ETH | 30% | $15,000 | catch-up, staking yield |
+| Stablecoin (DCA powder) | 15% | $7,500 | รอจังหวะซื้อเพิ่ม |
+| SOL/Top 10 alt | 5% | $2,500 | exposure altcoin (max 5%) |
+| **รวม** | 100% | $50,000 | |
+
+⚠️ $50k crypto = ควรเป็น ≤ 10% ของ net worth (net worth ≥ $500k)
+
+---
+
+## 📋 Trade Plan (BTC swing)
+
+```
+🎯 Thesis:
+BTC เข้า late bull cycle, target test $120k (psychological)
+ก่อนเข้า top zone (MVRV > 3.7)
+
+💰 Entry: $90,000 - $93,000 (DCA 3 ครั้ง)
+🛑 Stop Loss: $82,000 (-9% from avg)
+🎯 TP1: $110,000 (+19%) sell 30%
+🎯 TP2: $125,000 (+35%) sell 40%
+🎯 TP3: $140,000 (+52%) sell 30% (or trail)
+
+📏 Position: $25,000 (50% ของงบ crypto)
+⚖️  R/R: 1:3.2
+📅 Timeframe: 3-6 เดือน
+
+🚨 Exit ทันที:
+- $82k stop loss
+- MVRV > 3.7 (top signal)
+- Funding rate > 0.1% sustained 3 วัน (overheated)
+```
+
+---
+
+## 💎 DeFi Yield Strategy ($7,500 stablecoin)
+
+| Tier | Protocol | Asset | APY | Allocation |
+|------|----------|-------|-----|-----------|
+| 1 | Aave V3 (Arbitrum) | USDC | 5% | $3,000 |
+| 1 | Compound | USDT | 4% | $1,500 |
+| 2 | Curve 3pool | tri-stable | 10% | $2,000 |
+| 2 | Lido stETH (ETH portion) | ETH | 3.5% | swap from ETH |
+| Dry powder (CEX) | Bitkub | USDT | 1% | $1,000 |
+
+**Avg blended APY:** ~5-6%/year — ปลอดภัย, no IL exposure
+
+---
+
+## 🎯 Top Insights
+
+1. **Late bull cycle** — focus BTC + ETH, ลด altcoin exposure
+2. **MVRV 2.8** ยังไม่ top — มี runway 20-40%
+3. **Stablecoin yield** ใน DeFi Tier 1 ปลอดภัย ดีกว่าฝาก bank ไทย
+4. **Take profit เป็นขั้น** — อย่ารอขาย top เป๊ะ (ไม่มีใครทำได้)
+
+## 🚨 Risks
+
+1. **Cycle top** — historical avg 18-24 เดือนหลัง halving
+2. **Regulatory** — US ETF, SEC actions
+3. **Smart contract** — DeFi risk แม้ tier 1
+4. **TH tax** — กำไรจากการขาย ต้องยื่น 40(8) ภาษีเงินได้
+
+---
+
+## 💼 Position Management
+
+- งบ crypto: $50k = 8% ของ net worth ($625k) ✅
+- ห้ามเพิ่ม > 10% ของ net worth
+
+## 🔐 Security
+
+- [x] Ledger Nano X for $25k+ holdings
+- [x] 2FA Google Authenticator
+- [x] กระจาย 3 exchange (Bitkub + Binance + Coinbase)
+- [x] Whitelist address ทุก exchange
+- [x] Tax tracking (Koinly/CoinTracker)
+
+---
+
+## ⚠️ Disclaimer
+
+> **Crypto risk สูงมาก — ลงทุนเฉพาะเงินที่พร้อมเสีย**
+>
+> ตัวอย่างนี้เป็น scenario สมมติ ตัวเลขราคา on-chain เป็นการประมาณการ ไม่ใช่ data real-time การลงทุน crypto จริงต้องตรวจสอบ data ปัจจุบัน + ประเมิน risk เอง + ปรึกษาที่ปรึกษาการเงินที่มีใบอนุญาต
+>
+> ห้ามกู้มาลง / ห้ามใช้เงินที่กระทบชีวิตประจำวัน / ในไทยต้องเสียภาษีกำไร crypto
+
+---
+
+*Generated by /crypto-trader — Claude Skill Unlock v1.1*

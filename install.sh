@@ -35,7 +35,7 @@ done
 echo ""
 echo "╔════════════════════════════════════════════════╗"
 echo "║   Claude Skill Unlock — AI Career Skills       ║"
-echo "║   กำลังติดตั้ง 37 skills สำหรับ Claude Code       ║"
+echo "║   กำลังติดตั้ง 100 skills สำหรับ Claude Code      ║"
 echo "║   🎁 แจกฟรีโดย aiunlock.co                      ║"
 echo "╚════════════════════════════════════════════════╝"
 echo ""

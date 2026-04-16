@@ -4,6 +4,70 @@
 
 ---
 
+## [1.1.0] - 2026-04-16
+
+### 🎉 ขยายเป็น 100 skills + 3 หมวดใหม่
+
+เพิ่ม **63 skills** ใหม่ รวมเป็น **100 skills** ครอบคลุม **9 หมวดอาชีพ**
+
+#### Added — 3 หมวดใหม่ทั้งหมด
+
+**💰 หมวด 7: Lifestyle & Personal (7 skills)**
+- `personal-finance` — งบส่วนตัว, ลงทุน, วางแผนเกษียณ
+- `resume-builder` — เขียน CV/Resume + cover letter
+- `interview-coach` — เตรียมสัมภาษณ์งาน + behavioral Q&A
+- `relationship-coach` — couple, family, dating
+- `parenting-pro` — เลี้ยงลูก, child development
+- `wedding-planner` — วางแผนงานแต่ง
+- `travel-planner` — itinerary, booking, trip
+
+**🍽️ หมวด 8: Hospitality & Service (5 skills)**
+- `restaurant-owner` — F&B menu, pricing, marketing
+- `hotel-concierge` — guest service, recommendation
+- `tour-guide-pro` — itinerary, storytelling
+- `salon-owner` — booking, service menu, retention
+- `florist-pro` — arrangement, design brief
+
+**⚙️ หมวด 9: Productivity & Modern Work (7 skills)**
+- `meeting-notetaker` — สรุป meeting + action items
+- `email-manager` — inbox zero, template
+- `notion-builder` — workspace, database
+- `project-manager-pro` — Gantt, sprint, retrospective
+- `async-communicator` — RFC, doc-first
+- `executive-assistant` — EA tasks, scheduling
+- `presentation-designer` — slide design, pitch deck
+
+#### Added — ขยาย 6 หมวดเดิม (44 skills)
+
+**🎬 Content Creator (+6 → 11 ตัว)**
+- `course-creator`, `newsletter-writer`, `ghostwriter-pro`, `comic-writer`, `game-narrative`, `tiktoker-pro`
+
+**📣 Marketing & Sales (+8 → 14 ตัว)**
+- `email-marketer`, `affiliate-marketer`, `brand-strategist`, `pr-manager`, `event-marketer`, `crm-strategist`, `sales-pro`, `market-researcher`
+
+**💻 Tech & Development (+7 → 13 ตัว)**
+- `mobile-app-builder`, `security-engineer`, `ai-engineer`, `database-architect`, `game-dev-pro`, `system-admin`, `tech-writer`
+
+**🎨 Design & Creative (+7 → 13 ตัว)**
+- `ux-designer`, `motion-designer`, `illustrator-pro`, `3d-modeler`, `interior-designer`, `jewelry-designer`, `tattoo-designer`
+
+**💼 Business & Service (+8 → 15 ตัว)**
+- `financial-planner`, `insurance-advisor`, `crypto-trader`, `supply-chain-mgr`, `procurement-pro`, `auditor-pro`, `restaurant-mgr`, `ecommerce-mgr`
+
+**📚 Education & Health (+8 → 15 ตัว)**
+- `tutor-pro`, `language-teacher`, `dentist-helper`, `pharmacist-helper`, `veterinarian-helper`, `yoga-instructor`, `meditation-coach`, `mental-wellness`
+
+#### Updated
+- `install.sh` — banner เปลี่ยนเป็น "100 skills"
+- `uninstall.sh` — เพิ่ม 63 slugs ใหม่
+- `README.md` — badge + stats เปลี่ยน 37 → 100
+- `index.html` — เพิ่ม 63 skill objects + 3 categories
+- `docs/skill-catalog.md` — catalog ครบ 100 skills
+- `docs/คู่มือใช้งาน.md` — quick reference ครบ
+- `docs/FAQ.md` — เพิ่ม Q เกี่ยว skills ใหม่
+
+---
+
 ## [1.0.0] - 2026-04-16
 
 ### 🎉 เปิดตัว Bundle แรก — Claude Skill Unlock (แจกฟรี โดย aiunlock.co)
@@ -11,74 +75,41 @@
 #### Added (37 Skills)
 
 **🎬 หมวด Content Creator (5)**
-- `youtuber-pro` — สคริปต์ YouTube + thumbnail prompt + hook
-- `blogger-pro` — บทความ blog + SEO + outline
-- `translator-pro` — แปลไทย-อังกฤษ + subtitle + localization
-- `podcaster-pro` — สคริปต์ podcast + show notes + clip timestamps
-- `storyteller-pro` — plot + character + dialogue
+youtuber-pro, blogger-pro, translator-pro, podcaster-pro, storyteller-pro
 
 **📣 หมวด Marketing & Sales (6)**
-- `digital-marketer` — campaign plan + budget + KPI
-- `social-media-admin` — ปฏิทินโพส + caption + reply
-- `seo-specialist` — keyword + outline + on-page audit
-- `copywriter-pro` — headline + ad copy + email sequence
-- `online-seller` — live script + product caption
-- `influencer-marketing` — brief + negotiation + review
+digital-marketer, social-media-admin, seo-specialist, copywriter-pro, online-seller, influencer-marketing
 
 **💻 หมวด Tech & Development (6)**
-- `programmer-pro` — code review + debug + refactor
-- `data-analyst-pro` — SQL + insight + dashboard spec
-- `web-designer-pro` — wireframe + component spec
-- `qa-tester-pro` — test case + bug report + checklist
-- `no-code-builder` — tool recommendation + automation flow
-- `devops-helper` — Dockerfile + CI/CD + monitoring
+programmer-pro, data-analyst-pro, web-designer-pro, qa-tester-pro, no-code-builder, devops-helper
 
 **🎨 หมวด Design & Creative (6)**
-- `graphic-designer-pro` — Midjourney/DALL-E prompt + brief
-- `photographer-pro` — retouching + shot list + mood board
-- `video-editor-pro` — storyboard + edit plan + sound cue
-- `architect-pro` — concept + mood board + render prompt
-- `fashion-designer-pro` — mood board + collection plan
-- `product-designer-pro` — packaging + mockup + spec
+graphic-designer-pro, photographer-pro, video-editor-pro, architect-pro, fashion-designer-pro, product-designer-pro
 
 **💼 หมวด Business & Service (7)**
-- `business-consultant` — SWOT + business canvas + pitch
-- `accountant-pro` — จัดหมวดรายการ + วิเคราะห์งบ
-- `hr-officer-pro` — คัดกรอง resume + ประกาศงาน
-- `customer-service-pro` — chatbot script + FAQ
-- `stock-trader-pro` — ข่าว + technical + risk
-- `lawyer-pro` — ร่างสัญญา + สรุปคดี
-- `real-estate-pro` — ประกาศขาย + virtual tour
+business-consultant, accountant-pro, hr-officer-pro, customer-service-pro, stock-trader-pro, lawyer-pro, real-estate-pro
 
 **📚 หมวด Education & Health (7)**
-- `teacher-pro` — แผนการสอน + แบบฝึกหัด
-- `coach-pro` — โปรแกรมลูกค้า + session plan
-- `nutritionist-pro` — meal plan + แคลอรี่
-- `fitness-trainer-pro` — workout plan + ท่าฝึก
-- `doctor-helper` — สรุป research + differential
-- `psychologist-helper` — session notes + CBT
-- `researcher-pro` — lit review + methodology
+teacher-pro, coach-pro, nutritionist-pro, fitness-trainer-pro, doctor-helper, psychologist-helper, researcher-pro
 
 #### Infrastructure
 - `install.sh` / `uninstall.sh` — ติดตั้งและถอนอัตโนมัติ
 - `docs/คู่มือใช้งาน.md` — คู่มือใช้งานภาษาไทย
 - `docs/FAQ.md` — คำถามที่พบบ่อย
 - `docs/skill-catalog.md` — catalog 37 skills
-- `LICENSE.txt` — ลิขสิทธิ์การใช้งาน (Commercial / Personal Use)
+- `LICENSE.txt` — MIT License
+- `index.html` — interactive showcase page
 
 ---
 
 ## แผนอนาคต (Roadmap)
 
-### v1.1.0 (วางแผนไว้)
+### v1.2.0 (วางแผนไว้)
 - เพิ่ม 5-10 skills จาก feedback ผู้ใช้
 - เพิ่มตัวอย่าง output หลายรูปแบบในแต่ละ skill
 
-### v1.2.0
-- รองรับ integrations (Notion, Google Drive, Sheets)
-- Advanced workflow skills (multi-step automation)
-
 ### v2.0.0
+- รองรับ integrations (Notion, Google Drive, Sheets)
 - Dashboard HTML รวมผลลัพธ์จาก skills ต่างๆ
 - Team sharing (หลายคนในทีมใช้ร่วม)
 

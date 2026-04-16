@@ -1,0 +1,210 @@
+---
+type: jewelry-design-brief
+project: <ชื่อโปรเจค>
+jewelry_type: <ring/necklace/earring/bracelet>
+occasion: <engagement/wedding/anniversary/cocktail>
+budget: <THB amount>
+created: YYYY-MM-DD
+status: draft
+---
+
+# 💎 <ชื่อโปรเจค>
+
+## 📊 Brief Overview
+
+| Field | Value |
+|-------|-------|
+| Type | ... |
+| Occasion | ... |
+| Wearer | (เพศ อายุ skin tone) |
+| Style direction | minimal / vintage / modern |
+| Budget | ฿XXX,XXX |
+| Deadline | ... |
+
+---
+
+## 💭 Concept Statement
+
+> <1-2 ประโยคบรรยาย inspiration + symbolism>
+
+**Inspiration source:** ...
+**Symbolism:** ...
+**Wearer's story:** ...
+
+---
+
+## 💎 Gem Specification
+
+### Center Stone
+| Field | Value |
+|-------|-------|
+| Type | Diamond / Sapphire / Emerald |
+| Cut shape | Round / Oval / Cushion |
+| Carat weight | X.XX ct |
+| Color grade | (Diamond: D-Z) / (Color stone: vivid X) |
+| Clarity | (Diamond: FL-I3) |
+| Origin | (geography if colored stone) |
+| Treatment | None / Heat / Oil |
+| Certification | GIA / AIGS lab cert |
+| Estimated cost | ฿XXX,XXX |
+
+### Accent Stones (if any)
+| # | Type | Cut | Carat | Quantity |
+|---|------|-----|-------|----------|
+| 1 | Round diamond pavé | Round brilliant | 0.01 ct each | 16 |
+
+---
+
+## 🥇 Metal Specification
+
+| Field | Value |
+|-------|-------|
+| Metal type | 18K Yellow Gold / Pt950 |
+| Color | Yellow / White / Rose |
+| Finish | High polish / Brushed satin / Matte |
+| Weight estimate | X grams |
+| Hypoallergenic | Yes / No |
+| Estimated cost | ฿XXX,XXX |
+
+---
+
+## 🔧 Setting Specification
+
+- **Setting type:** Prong (4 / 6) / Bezel / Halo / Pavé / Channel
+- **Prong material:** Pt for security (even on gold band — prong tip)
+- **Gallery design:** Open / Closed / Filigree
+- **Profile:** Knife-edge / Cathedral / Low-set
+- **Comfort fit:** Yes (interior dome shape)
+
+---
+
+## 📏 Sizing
+
+| Field | Value |
+|-------|-------|
+| Ring size | US X / TH X (inner Ø XX.X mm) |
+| Resize allowance | ±2 sizes possible |
+| Width band | X mm |
+| Stone height above finger | X mm |
+
+(สำหรับ necklace/earring — ปรับตามประเภท)
+
+---
+
+## 🖼️ AI Render Prompts (3 Variants)
+
+### Variant A — Hero studio shot (3/4 angle)
+```
+<prompt>
+--ar 1:1 --v 6 --style raw
+```
+
+### Variant B — Macro gem detail (fire + brilliance)
+```
+<prompt>
+--ar 1:1 --v 6 --style raw
+```
+
+### Variant C — Lifestyle on hand/model
+```
+<prompt>
+--ar 4:5 --v 6 --style raw
+```
+
+---
+
+## 💰 Cost Breakdown
+
+| Item | Cost (THB) |
+|------|------------|
+| Center stone (gem) | XXX,XXX |
+| Accent stones (if any) | XX,XXX |
+| Metal (X grams @ market price) | XX,XXX |
+| Casting / handcraft labor | XX,XXX |
+| Stone setting labor | XX,XXX |
+| Polishing + finishing | X,XXX |
+| Certification (GIA/AIGS) | X,XXX |
+| Engraving (optional) | X,XXX |
+| Box + presentation | X,XXX |
+| **Subtotal** | **XXX,XXX** |
+| Designer fee | XX,XXX |
+| **TOTAL** | **฿XXX,XXX** |
+
+---
+
+## ✅ Production Checklist
+
+- [ ] Concept + 3 render variants approved
+- [ ] CAD 3D model (Matrix / Rhino jewelry CAD)
+- [ ] 3D printed wax / resin prototype
+- [ ] Try on prototype (size + comfort check)
+- [ ] Customer approval on prototype
+- [ ] Gem source + cert verification
+- [ ] Casting (lost-wax process)
+- [ ] Stone setting
+- [ ] Polishing + rhodium plate (if white gold)
+- [ ] Final QC + photo for record
+- [ ] Cert + appraisal documents
+- [ ] Presentation box + care card
+
+---
+
+## 🛡️ Care & Maintenance Guide
+
+### Daily care
+- Remove ก่อนอาบน้ำ, ออกกำลัง, ทำสวน, ทำอาหาร
+- เช็ดด้วยผ้านุ่ม after wear
+- เก็บแยกใน pouch (ป้องกันรอย scratch)
+
+### Periodic maintenance
+- Ultrasonic clean ทุก 6 เดือน (jeweler service)
+- Inspection prong ทุก 12 เดือน (security check)
+- Rhodium re-plate ทุก 18-24 เดือน (white gold only)
+- Polishing เมื่อ scratch สะสม (1-2 ปี)
+
+### Emergency
+- ห้ามใส่ chlorine pool, hot tub
+- หลีกเลี่ยง perfume, hairspray, lotion direct contact
+- ถ้าหลุด stone → เก็บไม่ทิ้ง, จะ re-set ได้
+
+### Insurance
+- **Recommend** สำหรับ jewelry > ฿100K
+- Get appraisal at 110-120% of cost (replacement value)
+- Update appraisal ทุก 3 ปี (price gem ขึ้น)
+
+---
+
+## 📜 Certification & Documentation
+
+- [ ] Gem certificate (GIA / AIGS / GRS) — ใส่ใน box
+- [ ] Appraisal document for insurance
+- [ ] Care card (laminated)
+- [ ] Brand authenticity card
+- [ ] Receipt with full spec breakdown
+
+---
+
+## 🛠️ Tools & Sources
+
+- **CAD:** RhinoGold / Matrix / 3Design
+- **Render:** KeyShot / V-Ray for jewelry
+- **AI render:** Midjourney v6 (presentation only, not production)
+- **Casting:** Lost-wax (จิวเวลรี ไทยทำได้)
+- **Gem source:** Bangkok Gem & Jewelry Trade Association
+- **Cert lab:** AIGS Bangkok / GIA Hong Kong
+
+---
+
+## 🔄 Next Steps
+
+1. Concept + render approve
+2. CAD design (3-5 days)
+3. Prototype wax/resin (try on, approve)
+4. Production casting + setting (2-3 weeks)
+5. Polishing + finishing
+6. Certification + appraisal
+7. Final delivery + presentation
+
+---
+
+*Generated by /jewelry-designer — Claude Skill Unlock v1.1*

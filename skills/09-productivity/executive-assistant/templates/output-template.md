@@ -1,0 +1,249 @@
+---
+type: ea-output
+mode: <calendar / travel / expense / briefing / triage / decline / summary>
+executive: <ชื่อ>
+created: YYYY-MM-DD
+status: draft
+---
+
+# 👔 EA Output — <หัวข้อ>
+
+## 📊 Context
+
+| Field | Value |
+|-------|-------|
+| Executive | <ชื่อ + ตำแหน่ง> |
+| Mode | Calendar / Travel / Expense / Briefing / ... |
+| Period | <วันที่ - วันที่> |
+| Created | YYYY-MM-DD |
+
+---
+
+## 📅 Calendar (ถ้า mode = calendar)
+
+### Week View — Week of DD/MM
+
+```
+จันทร์ DD/MM
+  09:00-12:00 🔵 Deep work — Q2 strategy memo
+  12:00-13:00 🟡 Lunch (sacred)
+  14:00-15:00 🟢 1:1 with VP Engineering
+  15:00-16:00 🟢 1:1 with VP Marketing
+  16:30-17:30 🔴 Customer call — Acme Corp
+
+อังคาร DD/MM
+  09:00-10:00 🟢 Weekly all-hands
+  10:30-11:30 🔴 Investor update — Sequoia
+  ...
+```
+
+### Health Check
+- 🔵 Focus time: X ชม. (target ≥ 10)
+- 🟡 Lunch blocked: ✅ all 5 days
+- 🟢 1:1 coverage: X/Y direct reports
+- 🚫 Conflicts: ...
+
+---
+
+## ✈️ Travel Itinerary (ถ้า mode = travel)
+
+### Trip Overview
+- **Destination:** <city>
+- **Purpose:** <business reason>
+- **Dates:** DD/MM - DD/MM (X days)
+- **Budget approved:** THB ...
+
+### Flight
+| Leg | Date | Flight | Time | Seat | Conf # |
+|-----|------|--------|------|------|--------|
+| Outbound | DD/MM | TG XXX | HH:MM-HH:MM | 12A | XXXXXX |
+| Return | DD/MM | TG XXX | HH:MM-HH:MM | 14C | XXXXXX |
+
+### Accommodation
+- **Hotel:** ...
+- **Address:** ...
+- **Check-in:** DD/MM HH:MM
+- **Check-out:** DD/MM HH:MM
+- **Room type:** ...
+- **Loyalty:** Marriott Bonvoy XXXXX
+- **Preferences:** high floor, away from elevator
+
+### Ground Transport
+- **Airport pickup:** Driver ชื่อ XXX (+phone XXX) — Toyota Alphard X-XXXX
+- **Daily transport:** ...
+- **Backup:** Uber app installed + linked credit card
+
+### Daily Schedule
+[Day-by-day timeline]
+
+### Briefing Pack
+[Link to briefing docs ใน Notion/Drive]
+
+### Logistics & Emergency
+- 📱 Phone: AIS roaming activated DD/MM-DD/MM
+- 💴 Currency: USD 500 + JPY 30,000 cash + Visa card
+- 📄 Visa: ✅ Valid until DD/MM/YY
+- 🏥 Insurance: AXA policy #XXXX
+- ☎️ Embassy: +XXX
+- ☎️ EA on-call: +XXX
+
+---
+
+## 💰 Expense Report (ถ้า mode = expense)
+
+### Period: DD/MM - DD/MM
+
+| Date | Category | Vendor | Amount (THB) | Tax | Receipt | Purpose |
+|------|----------|--------|--------------|-----|---------|---------|
+| 02/04 | ✈️ Travel | Thai Airways | 18,500 | 1,295 | ✅ | BKK-HND business trip |
+| 03/04 | 🍽️ Meals | Sushi Saito | 12,800 | 896 | ✅ | Client dinner — Sony Corp |
+| ... | ... | ... | ... | ... | ... | ... |
+| **Total** | — | — | **XXX,XXX** | XX,XXX | — | — |
+
+### Summary by Category
+- Travel: 45,800 (40%)
+- Meals: 32,500 (28%)
+- Professional dev: 18,000 (16%)
+- Other: 18,500 (16%)
+
+### Submitted to: Finance team via SAP Concur DD/MM
+
+---
+
+## 📋 Pre-Meeting Briefing (ถ้า mode = briefing)
+
+### 📅 Meeting Info
+- **What:** ...
+- **When:** DD/MM HH:MM (HH:MM your time / HH:MM their time)
+- **Where:** ... (or Zoom link)
+- **Duration:** XX minutes
+
+### 👥 Attendees
+**From their side:**
+- คุณ X (CEO) — background: ..., focus: ..., last interaction: DD/MM ...
+- คุณ Y (CFO) — background: ...
+
+**From our side:**
+- คุณ Boss
+- ผม (EA — observer only)
+
+### 🎯 Objective
+1 ประโยค: หลังประชุมจบ เราอยากให้เกิด ...
+
+### 📚 Background
+- Company: ..., revenue ..., recent funding ...
+- Recent news (30 days):
+  1. ...
+  2. ...
+- Previous meetings:
+  - DD/MM: ... → outcome: ...
+  - DD/MM: ... → outcome: ...
+
+### 💡 Talking Points
+1. ...
+2. ...
+3. ...
+
+### ❓ Ask / Outcome
+- ขอ: ... (concrete + measurable)
+
+### ⚠️ Avoid
+- ห้ามพูด: ...
+- Cultural: ...
+
+### 🎁 Gift (ถ้ามี)
+- ...
+
+### 📝 Post-meeting
+- Send thank-you within 24 hr
+- Internal debrief: ...
+
+---
+
+## 📧 Email Triage (ถ้า mode = triage)
+
+### Summary
+- 📥 Total: XX emails
+- 🔴 Tier 1 (boss reads): X
+- 🟡 Tier 2 (EA reply + CC): X
+- 🟢 Tier 3 (EA handles): X
+
+### Tier 1 — Boss attention
+1. From <name>: <subject> — Action: <suggestion>
+2. ...
+
+### Tier 2 — EA replied (CC boss)
+1. <name>: <subject> — Reply summary
+2. ...
+
+### Tier 3 — Handled
+1. <name>: <subject> — Action: unsubscribed / declined / forwarded
+
+---
+
+## 🚫 Polite Decline (ถ้า mode = decline)
+
+### Drafted reply:
+```
+[Email content]
+```
+
+### Alternative offered:
+- Option A: ...
+- Option B: ...
+- Option C: ...
+
+---
+
+## 📊 Weekly Summary (ถ้า mode = summary)
+
+```
+📊 EXECUTIVE WEEKLY — Week of DD/MM
+
+🎯 WINS THIS WEEK
+1. ...
+2. ...
+
+📊 KEY METRICS
+- Revenue: ... (vs target ...)
+- ...
+
+⚠️ ATTENTION NEEDED
+- ...
+
+📅 NEXT WEEK PRIORITIES
+- Mon: ...
+- Tue: ...
+- Wed: ...
+- Thu: ...
+- Fri: ...
+
+✈️ UPCOMING TRAVEL
+- DD/MM-DD/MM: <city>
+
+📋 DECISIONS WAITING ON YOU
+1. ... (need by DD/MM)
+2. ...
+
+💡 RECOMMENDATIONS
+- ...
+
+📅 PERSONAL REMINDERS
+- ...
+```
+
+---
+
+## 📋 EA Checklist
+
+- [ ] Calendar conflicts resolved
+- [ ] Travel confirmed (flight, hotel, transport) × 2
+- [ ] Briefing pack ready 24 hr before meeting
+- [ ] Email triage daily by 9:00
+- [ ] Expense weekly Friday
+- [ ] Sunday: prep boss for week ahead
+- [ ] Monthly: review preferences + update profile
+
+---
+
+*Generated by /executive-assistant — Claude Skill Unlock v1.1*

@@ -3,598 +3,245 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Claude Skill Unlock — 37 AI Career Skills แจกฟรี | aiunlock.co</title>
-<meta name="description" content="37 Claude Code skills ภาษาไทย แจกฟรี ครอบคลุม 6 หมวดอาชีพ — ปลดล็อกการใช้ AI ในทุกอาชีพ">
+<title>Claude Skill Unlock — 100 AI Career Skills แจกฟรี | aiunlock.co</title>
+<meta name="description" content="100 Claude Code skills ภาษาไทย แจกฟรี ครอบคลุม 9 หมวดอาชีพ — ปลดล็อกการใช้ AI ในทุกอาชีพ">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0a0a0f;
-    --bg-elevated: #14141c;
-    --bg-card: #1a1a24;
-    --bg-hover: #22222e;
-    --border: #2a2a38;
-    --text: #e8e8f0;
-    --text-dim: #9a9aaa;
-    --text-muted: #6a6a7a;
-    --accent: #a78bfa;
-    --accent-2: #f472b6;
-    --accent-glow: rgba(167, 139, 250, 0.15);
-    --success: #34d399;
-    --warn: #fbbf24;
-    --danger: #f87171;
-    --cat-1: #f472b6;
-    --cat-2: #60a5fa;
-    --cat-3: #34d399;
-    --cat-4: #fbbf24;
-    --cat-5: #a78bfa;
-    --cat-6: #f97316;
+    --bg: #0a0a0f; --bg-elevated: #14141c; --bg-card: #1a1a24; --bg-hover: #22222e;
+    --border: #2a2a38; --text: #e8e8f0; --text-dim: #9a9aaa; --text-muted: #6a6a7a;
+    --accent: #a78bfa; --accent-2: #f472b6; --accent-glow: rgba(167, 139, 250, 0.15);
+    --success: #34d399; --warn: #fbbf24; --danger: #f87171;
+    --cat-1: #f472b6; --cat-2: #60a5fa; --cat-3: #34d399; --cat-4: #fbbf24;
+    --cat-5: #a78bfa; --cat-6: #f97316; --cat-7: #ec4899; --cat-8: #14b8a6; --cat-9: #06b6d4;
   }
-
   [data-theme="light"] {
-    --bg: #fafaff;
-    --bg-elevated: #ffffff;
-    --bg-card: #ffffff;
-    --bg-hover: #f5f5fa;
-    --border: #e4e4ec;
-    --text: #1a1a2a;
-    --text-dim: #5a5a6a;
-    --text-muted: #8a8a9a;
+    --bg: #fafaff; --bg-elevated: #ffffff; --bg-card: #ffffff; --bg-hover: #f5f5fa;
+    --border: #e4e4ec; --text: #1a1a2a; --text-dim: #5a5a6a; --text-muted: #8a8a9a;
     --accent-glow: rgba(167, 139, 250, 0.08);
   }
-
   * { box-sizing: border-box; margin: 0; padding: 0; }
-
   html { scroll-behavior: smooth; }
-
   body {
-    font-family: 'IBM Plex Sans Thai', system-ui, -apple-system, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.6;
-    min-height: 100vh;
-    transition: background 0.3s ease, color 0.3s ease;
+    font-family: 'IBM Plex Sans Thai', system-ui, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh;
+    transition: background 0.3s, color 0.3s;
   }
-
-  /* Background effect */
   body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background:
-      radial-gradient(ellipse at top, var(--accent-glow), transparent 60%),
-      radial-gradient(ellipse at bottom right, rgba(244, 114, 182, 0.08), transparent 60%);
-    pointer-events: none;
-    z-index: 0;
+    content: ''; position: fixed; inset: 0;
+    background: radial-gradient(ellipse at top, var(--accent-glow), transparent 60%),
+                radial-gradient(ellipse at bottom right, rgba(244, 114, 182, 0.08), transparent 60%);
+    pointer-events: none; z-index: 0;
   }
-
-  .container {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 24px;
-    position: relative;
-    z-index: 1;
-  }
-
-  /* Header */
+  .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
   header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    position: sticky; top: 0; z-index: 100;
     background: color-mix(in srgb, var(--bg) 85%, transparent);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-bottom: 1px solid var(--border);
+    backdrop-filter: blur(20px); border-bottom: 1px solid var(--border);
   }
-  .header-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px 0;
-    gap: 16px;
-  }
+  .header-inner { display: flex; align-items: center; justify-content: space-between; padding: 16px 0; gap: 16px; }
   .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    text-decoration: none;
-    color: var(--text);
+    display: flex; align-items: center; gap: 10px;
+    font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px;
+    text-decoration: none; color: var(--text);
   }
   .logo-icon {
-    width: 32px; height: 32px;
-    border-radius: 8px;
+    width: 32px; height: 32px; border-radius: 8px;
     background: linear-gradient(135deg, var(--accent), var(--accent-2));
-    display: grid; place-items: center;
-    color: white;
-    font-size: 18px;
+    display: grid; place-items: center; color: white; font-size: 18px;
   }
-  .header-actions {
-    display: flex; gap: 12px; align-items: center;
-  }
+  .header-actions { display: flex; gap: 12px; align-items: center; }
   .btn {
-    padding: 8px 16px;
-    border-radius: 8px;
-    border: 1px solid var(--border);
-    background: var(--bg-card);
-    color: var(--text);
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    transition: all 0.15s ease;
-    font-family: inherit;
+    padding: 8px 16px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--bg-card); color: var(--text); font-size: 14px; font-weight: 500;
+    cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
+    transition: all 0.15s; font-family: inherit;
   }
-  .btn:hover {
-    background: var(--bg-hover);
-    border-color: var(--accent);
-  }
+  .btn:hover { background: var(--bg-hover); border-color: var(--accent); }
   .btn-primary {
-    background: linear-gradient(135deg, var(--accent), var(--accent-2));
-    color: white;
-    border: none;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: white; border: none;
   }
-  .btn-primary:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 8px 20px var(--accent-glow);
-  }
-
-  /* Hero */
-  .hero {
-    padding: 80px 0 60px;
-    text-align: center;
-  }
+  .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 8px 20px var(--accent-glow); }
+  .hero { padding: 80px 0 60px; text-align: center; }
   .badge-free {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 14px;
-    border-radius: 100px;
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 6px 14px; border-radius: 100px;
     background: linear-gradient(135deg, var(--accent-glow), rgba(244, 114, 182, 0.15));
-    border: 1px solid var(--border);
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--accent);
+    border: 1px solid var(--border); font-size: 13px; font-weight: 500; color: var(--accent);
     margin-bottom: 24px;
   }
   .hero h1 {
     font-family: 'Space Grotesk', 'IBM Plex Sans Thai', sans-serif;
-    font-size: clamp(32px, 6vw, 56px);
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-    margin-bottom: 20px;
+    font-size: clamp(32px, 6vw, 56px); font-weight: 700; line-height: 1.1;
+    letter-spacing: -0.02em; margin-bottom: 20px;
   }
   .gradient-text {
     background: linear-gradient(135deg, var(--accent), var(--accent-2));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
   }
   .hero p {
-    font-size: clamp(16px, 2vw, 19px);
-    color: var(--text-dim);
-    max-width: 640px;
-    margin: 0 auto 40px;
+    font-size: clamp(16px, 2vw, 19px); color: var(--text-dim);
+    max-width: 680px; margin: 0 auto 40px;
   }
   .hero-stats {
-    display: flex;
-    gap: 48px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 32px;
+    display: flex; gap: 48px; justify-content: center; flex-wrap: wrap; margin-bottom: 32px;
   }
-  .stat-item .num {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    color: var(--accent);
-  }
-  .stat-item .lbl {
-    font-size: 13px;
-    color: var(--text-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-  .hero-cta {
-    display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
-  }
-
-  /* Install snippet */
+  .stat-item .num { font-family: 'Space Grotesk', sans-serif; font-size: 36px; font-weight: 700; color: var(--accent); }
+  .stat-item .lbl { font-size: 13px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; }
+  .hero-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
   .install-snippet {
-    max-width: 560px;
-    margin: 32px auto 0;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 16px 20px;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 13px;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    color: var(--text-dim);
+    max-width: 560px; margin: 32px auto 0;
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px 20px; font-family: 'JetBrains Mono', monospace; font-size: 13px;
+    text-align: left; display: flex; align-items: center; justify-content: space-between;
+    gap: 12px; color: var(--text-dim);
   }
-  .install-snippet code {
-    color: var(--text);
-    white-space: nowrap;
-    overflow-x: auto;
-  }
+  .install-snippet code { color: var(--text); white-space: nowrap; overflow-x: auto; }
   .copy-btn {
-    padding: 4px 10px;
-    border-radius: 6px;
-    background: var(--bg-hover);
-    border: 1px solid var(--border);
-    color: var(--text-dim);
-    font-size: 12px;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: all 0.15s;
+    padding: 4px 10px; border-radius: 6px; background: var(--bg-hover);
+    border: 1px solid var(--border); color: var(--text-dim);
+    font-size: 12px; cursor: pointer; white-space: nowrap; transition: all 0.15s;
   }
-  .copy-btn:hover {
-    color: var(--text);
-    border-color: var(--accent);
-  }
-  .copy-btn.copied {
-    color: var(--success);
-    border-color: var(--success);
-  }
-
-  /* Controls */
+  .copy-btn:hover { color: var(--text); border-color: var(--accent); }
+  .copy-btn.copied { color: var(--success); border-color: var(--success); }
   .controls {
-    position: sticky;
-    top: 70px;
-    z-index: 50;
+    position: sticky; top: 70px; z-index: 50;
     background: color-mix(in srgb, var(--bg) 92%, transparent);
-    backdrop-filter: blur(12px);
-    padding: 16px 0;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 40px;
+    backdrop-filter: blur(12px); padding: 16px 0;
+    border-bottom: 1px solid var(--border); margin-bottom: 40px;
   }
-  .controls-inner {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .search-box {
-    position: relative;
-    flex: 1;
-    min-width: 240px;
-    max-width: 360px;
-  }
+  .controls-inner { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .search-box { position: relative; flex: 1; min-width: 240px; max-width: 360px; }
   .search-box input {
-    width: 100%;
-    padding: 10px 16px 10px 40px;
-    border-radius: 10px;
-    border: 1px solid var(--border);
-    background: var(--bg-card);
-    color: var(--text);
-    font-size: 14px;
-    font-family: inherit;
-    transition: all 0.15s;
+    width: 100%; padding: 10px 16px 10px 40px; border-radius: 10px;
+    border: 1px solid var(--border); background: var(--bg-card); color: var(--text);
+    font-size: 14px; font-family: inherit; transition: all 0.15s;
   }
   .search-box input:focus {
-    outline: none;
-    border-color: var(--accent);
-    box-shadow: 0 0 0 3px var(--accent-glow);
+    outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow);
   }
   .search-box::before {
-    content: '⌕';
-    position: absolute;
-    left: 14px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--text-muted);
-    font-size: 18px;
+    content: '⌕'; position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+    color: var(--text-muted); font-size: 18px;
   }
-  .category-filters {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    overflow-x: auto;
-  }
+  .category-filters { display: flex; gap: 8px; flex-wrap: wrap; overflow-x: auto; }
   .cat-chip {
-    padding: 8px 14px;
-    border-radius: 100px;
-    border: 1px solid var(--border);
-    background: var(--bg-card);
-    color: var(--text-dim);
-    font-size: 13px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.15s;
-    font-family: inherit;
-    white-space: nowrap;
+    padding: 8px 14px; border-radius: 100px; border: 1px solid var(--border);
+    background: var(--bg-card); color: var(--text-dim); font-size: 13px; font-weight: 500;
+    cursor: pointer; transition: all 0.15s; font-family: inherit; white-space: nowrap;
   }
-  .cat-chip:hover {
-    border-color: var(--accent);
-    color: var(--text);
-  }
-  .cat-chip.active {
-    background: var(--accent);
-    color: #000;
-    border-color: var(--accent);
-    font-weight: 600;
-  }
-
-  /* Category sections */
-  .category-section {
-    margin-bottom: 56px;
-  }
+  .cat-chip:hover { border-color: var(--accent); color: var(--text); }
+  .cat-chip.active { background: var(--accent); color: #000; border-color: var(--accent); font-weight: 600; }
+  .category-section { margin-bottom: 56px; }
   .category-header {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 24px;
-    padding-bottom: 16px;
-    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border);
   }
-  .category-title {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-  }
+  .category-title { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; }
   .category-count {
-    font-size: 13px;
-    color: var(--text-muted);
-    padding: 3px 10px;
-    border-radius: 100px;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
+    font-size: 13px; color: var(--text-muted);
+    padding: 3px 10px; border-radius: 100px;
+    background: var(--bg-card); border: 1px solid var(--border);
   }
-
-  /* Skill grid */
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 16px;
-  }
-
-  /* Skill card */
+  .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
   .skill-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 20px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    position: relative;
-    overflow: hidden;
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px;
+    padding: 20px; cursor: pointer; transition: all 0.2s; position: relative; overflow: hidden;
   }
   .skill-card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 3px;
-    background: var(--cat-color, var(--accent));
-    opacity: 0.6;
+    content: ''; position: absolute; top: 0; left: 0; right: 0;
+    height: 3px; background: var(--cat-color, var(--accent)); opacity: 0.6;
   }
   .skill-card:hover {
-    transform: translateY(-2px);
-    border-color: var(--cat-color, var(--accent));
+    transform: translateY(-2px); border-color: var(--cat-color, var(--accent));
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   }
-  .skill-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 12px;
-    margin-bottom: 12px;
-  }
-  .skill-name {
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 600;
-    font-size: 17px;
+  .skill-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+  .skill-name { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 17px; }
+  .new-badge {
+    display: inline-block; font-size: 10px; font-weight: 700;
+    padding: 2px 6px; border-radius: 4px; margin-left: 6px;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: white;
+    vertical-align: middle;
   }
   .skill-cmd {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 12px;
-    color: var(--text-dim);
-    padding: 3px 8px;
-    border-radius: 6px;
-    background: var(--bg);
-    border: 1px solid var(--border);
-    white-space: nowrap;
-    flex-shrink: 0;
+    font-family: 'JetBrains Mono', monospace; font-size: 12px;
+    color: var(--text-dim); padding: 3px 8px; border-radius: 6px;
+    background: var(--bg); border: 1px solid var(--border);
+    white-space: nowrap; flex-shrink: 0;
   }
-  .skill-desc {
-    color: var(--text-dim);
-    font-size: 14px;
-    line-height: 1.55;
-    margin-bottom: 14px;
-  }
-  .skill-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
+  .skill-desc { color: var(--text-dim); font-size: 14px; line-height: 1.55; margin-bottom: 14px; }
+  .skill-tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .skill-tag {
-    font-size: 11px;
-    padding: 3px 8px;
-    border-radius: 4px;
-    background: var(--bg-hover);
-    color: var(--text-muted);
-    font-weight: 500;
+    font-size: 11px; padding: 3px 8px; border-radius: 4px;
+    background: var(--bg-hover); color: var(--text-muted); font-weight: 500;
   }
   .skill-warn {
-    margin-top: 12px;
-    padding: 8px 12px;
-    border-radius: 8px;
-    background: rgba(251, 191, 36, 0.08);
-    border: 1px solid rgba(251, 191, 36, 0.2);
-    font-size: 12px;
-    color: var(--warn);
+    margin-top: 12px; padding: 8px 12px; border-radius: 8px;
+    background: rgba(251, 191, 36, 0.08); border: 1px solid rgba(251, 191, 36, 0.2);
+    font-size: 12px; color: var(--warn);
   }
-
-  /* Modal */
   .modal-backdrop {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(8px);
-    z-index: 1000;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+    position: fixed; inset: 0; background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(8px);
+    z-index: 1000; display: none; align-items: center; justify-content: center; padding: 20px;
     animation: fadeIn 0.2s ease;
   }
   .modal-backdrop.open { display: flex; }
   @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-  @keyframes slideUp {
-    from { transform: translateY(20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
-  }
+  @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
   .modal {
-    background: var(--bg-elevated);
-    border: 1px solid var(--border);
-    border-radius: 20px;
-    max-width: 720px;
-    width: 100%;
-    max-height: 88vh;
-    overflow-y: auto;
-    animation: slideUp 0.25s ease;
-    position: relative;
+    background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 20px;
+    max-width: 720px; width: 100%; max-height: 88vh; overflow-y: auto;
+    animation: slideUp 0.25s ease; position: relative;
   }
   .modal-head {
-    padding: 24px 28px 20px;
-    border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
-    background: var(--bg-elevated);
-    z-index: 1;
+    padding: 24px 28px 20px; border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; background: var(--bg-elevated); z-index: 1;
   }
   .modal-close {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    width: 32px; height: 32px;
-    border-radius: 8px;
-    color: var(--text-dim);
-    font-size: 20px;
-    cursor: pointer;
-    display: grid;
-    place-items: center;
-    transition: all 0.15s;
-    line-height: 1;
+    position: absolute; top: 16px; right: 16px;
+    background: var(--bg-card); border: 1px solid var(--border);
+    width: 32px; height: 32px; border-radius: 8px; color: var(--text-dim);
+    font-size: 20px; cursor: pointer; display: grid; place-items: center;
+    transition: all 0.15s; line-height: 1;
   }
-  .modal-close:hover {
-    color: var(--danger);
-    border-color: var(--danger);
-  }
-  .modal-title {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 6px;
-  }
-  .modal-cmd {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 14px;
-    color: var(--accent);
-  }
-  .modal-body {
-    padding: 24px 28px 28px;
-  }
-  .modal-section {
-    margin-bottom: 24px;
-  }
+  .modal-close:hover { color: var(--danger); border-color: var(--danger); }
+  .modal-title { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; margin-bottom: 6px; }
+  .modal-cmd { font-family: 'JetBrains Mono', monospace; font-size: 14px; color: var(--accent); }
+  .modal-body { padding: 24px 28px 28px; }
+  .modal-section { margin-bottom: 24px; }
   .modal-section h4 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--text-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    font-family: 'Space Grotesk', sans-serif; font-size: 14px; font-weight: 600;
+    color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em;
+    margin-bottom: 10px; display: flex; align-items: center; gap: 8px;
   }
-  .modal-section p {
-    color: var(--text);
-    font-size: 15px;
-    line-height: 1.7;
-  }
+  .modal-section p { color: var(--text); font-size: 15px; line-height: 1.7; }
   .usecase-list { list-style: none; }
   .usecase-list li {
-    padding: 8px 12px;
-    background: var(--bg-card);
-    border-radius: 8px;
-    margin-bottom: 6px;
-    font-size: 14px;
-    display: flex;
-    gap: 8px;
+    padding: 8px 12px; background: var(--bg-card); border-radius: 8px;
+    margin-bottom: 6px; font-size: 14px; display: flex; gap: 8px;
   }
-  .usecase-list li::before {
-    content: '→';
-    color: var(--accent);
-    font-weight: bold;
-    flex-shrink: 0;
-  }
+  .usecase-list li::before { content: '→'; color: var(--accent); font-weight: bold; flex-shrink: 0; }
   .example-box {
-    background: var(--bg);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 16px 20px;
-    margin-top: 8px;
+    background: var(--bg); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px 20px; margin-top: 8px;
   }
-  .example-box .ex-title {
-    font-size: 13px;
-    color: var(--accent);
-    margin-bottom: 8px;
-    font-weight: 500;
-  }
+  .example-box .ex-title { font-size: 13px; color: var(--accent); margin-bottom: 8px; font-weight: 500; }
   .example-box pre {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 12px;
-    color: var(--text-dim);
-    white-space: pre-wrap;
-    line-height: 1.6;
-    max-height: 280px;
-    overflow-y: auto;
+    font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-dim);
+    white-space: pre-wrap; line-height: 1.6; max-height: 280px; overflow-y: auto;
   }
-
-  /* Footer */
   footer {
-    margin-top: 80px;
-    padding: 40px 0 32px;
-    border-top: 1px solid var(--border);
-    text-align: center;
-    color: var(--text-muted);
-    font-size: 14px;
+    margin-top: 80px; padding: 40px 0 32px; border-top: 1px solid var(--border);
+    text-align: center; color: var(--text-muted); font-size: 14px;
   }
   footer a { color: var(--accent); text-decoration: none; }
   footer a:hover { text-decoration: underline; }
-  footer .links {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-bottom: 16px;
-    flex-wrap: wrap;
-  }
-
-  /* Empty state */
-  .empty-state {
-    text-align: center;
-    padding: 60px 20px;
-    color: var(--text-muted);
-    display: none;
-  }
+  footer .links { display: flex; gap: 20px; justify-content: center; margin-bottom: 16px; flex-wrap: wrap; }
+  .empty-state { text-align: center; padding: 60px 20px; color: var(--text-muted); display: none; }
   .empty-state.show { display: block; }
-
-  /* Responsive */
   @media (max-width: 640px) {
     .hero-stats { gap: 24px; }
     .stat-item .num { font-size: 28px; }
@@ -602,8 +249,7 @@
     .controls-inner { flex-direction: column; align-items: stretch; }
     .search-box { max-width: 100%; }
     .modal { max-height: 95vh; border-radius: 16px; }
-    .modal-head { padding: 20px; }
-    .modal-body { padding: 20px; }
+    .modal-head, .modal-body { padding: 20px; }
   }
 </style>
 </head>
@@ -617,9 +263,7 @@
         <span>Claude Skill Unlock</span>
       </a>
       <div class="header-actions">
-        <button class="btn" id="themeToggle" title="Toggle theme">
-          <span id="themeIcon">☀︎</span>
-        </button>
+        <button class="btn" id="themeToggle" title="Toggle theme"><span id="themeIcon">☀︎</span></button>
         <a href="https://github.com/aiunlocked1412/claude-skill-unlock" class="btn" target="_blank" rel="noopener">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
           GitHub
@@ -632,14 +276,14 @@
 <main>
   <section class="hero" id="top">
     <div class="container">
-      <span class="badge-free">🎁 แจกฟรี · MIT License</span>
+      <span class="badge-free">🎁 แจกฟรี · MIT License · v1.1.0</span>
       <h1>ปลดล็อก AI ช่วยทำงาน<br><span class="gradient-text">ทุกอาชีพ</span> ภายใน 5 นาที</h1>
-      <p>37 Claude Code skills ภาษาไทย ครอบคลุม 6 หมวดอาชีพ — ตั้งแต่ครีเอเตอร์ นักการตลาด โปรแกรมเมอร์ ไปจนถึงนักจิตวิทยา พร้อมใช้งานทันที</p>
+      <p><strong>100 Claude Code skills ภาษาไทย</strong> ครอบคลุม <strong>9 หมวดอาชีพ</strong> — ตั้งแต่ครีเอเตอร์ นักการตลาด โปรแกรมเมอร์ จนถึงนักจิตวิทยา และชีวิตประจำวัน พร้อมใช้งานทันที</p>
 
       <div class="hero-stats">
-        <div class="stat-item"><div class="num">37</div><div class="lbl">Skills</div></div>
-        <div class="stat-item"><div class="num">6</div><div class="lbl">หมวดอาชีพ</div></div>
-        <div class="stat-item"><div class="num">192</div><div class="lbl">ไฟล์</div></div>
+        <div class="stat-item"><div class="num">100</div><div class="lbl">Skills</div></div>
+        <div class="stat-item"><div class="num">9</div><div class="lbl">หมวดอาชีพ</div></div>
+        <div class="stat-item"><div class="num">500+</div><div class="lbl">ไฟล์</div></div>
         <div class="stat-item"><div class="num">100%</div><div class="lbl">ฟรี</div></div>
       </div>
 
@@ -659,7 +303,7 @@
     <div class="container">
       <div class="controls-inner">
         <div class="search-box">
-          <input type="text" id="searchInput" placeholder="ค้นหา skill, tag, use case...">
+          <input type="text" id="searchInput" placeholder="ค้นหา 100 skills, tag, use case...">
         </div>
         <div class="category-filters" id="catFilters">
           <button class="cat-chip active" data-cat="all">ทั้งหมด</button>
@@ -668,7 +312,10 @@
           <button class="cat-chip" data-cat="tech">💻 Tech</button>
           <button class="cat-chip" data-cat="design">🎨 Design</button>
           <button class="cat-chip" data-cat="business">💼 Business</button>
-          <button class="cat-chip" data-cat="education">📚 Education & Health</button>
+          <button class="cat-chip" data-cat="education">📚 Education</button>
+          <button class="cat-chip" data-cat="lifestyle">💰 Lifestyle</button>
+          <button class="cat-chip" data-cat="hospitality">🍽️ Hospitality</button>
+          <button class="cat-chip" data-cat="productivity">⚙️ Productivity</button>
         </div>
       </div>
     </div>
@@ -701,1256 +348,2791 @@
       <a href="https://github.com/aiunlocked1412/claude-skill-unlock" target="_blank" rel="noopener">GitHub Repo</a>
       <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude Code</a>
     </div>
-    <div>Made with ❤️ by <a href="https://aiunlock.co" target="_blank" rel="noopener">aiunlock.co</a> · v1.0.0 · MIT License</div>
+    <div>Made with ❤️ by <a href="https://aiunlock.co" target="_blank" rel="noopener">aiunlock.co</a> · v1.1.0 · 100 skills · MIT License</div>
   </div>
 </footer>
 
 <script>
 const CATEGORIES = {
-  content:    { name: '🎬 Content Creator', color: '#f472b6' },
-  marketing:  { name: '📣 Marketing & Sales', color: '#60a5fa' },
-  tech:       { name: '💻 Tech & Development', color: '#34d399' },
-  design:     { name: '🎨 Design & Creative', color: '#fbbf24' },
-  business:   { name: '💼 Business & Service', color: '#a78bfa' },
-  education:  { name: '📚 Education & Health', color: '#f97316' }
+  content:      { name: '🎬 Content Creator', color: '#f472b6' },
+  marketing:    { name: '📣 Marketing & Sales', color: '#60a5fa' },
+  tech:         { name: '💻 Tech & Development', color: '#34d399' },
+  design:       { name: '🎨 Design & Creative', color: '#fbbf24' },
+  business:     { name: '💼 Business & Service', color: '#a78bfa' },
+  education:    { name: '📚 Education & Health', color: '#f97316' },
+  lifestyle:    { name: '💰 Lifestyle & Personal', color: '#ec4899' },
+  hospitality:  { name: '🍽️ Hospitality & Service', color: '#14b8a6' },
+  productivity: { name: '⚙️ Productivity & Modern Work', color: '#06b6d4' }
 };
 
+// Helper for shorter skill definitions
+const s = (id, name, category, desc, tags, useCases, exTitle, exPreview, opts = {}) => ({
+  id, name, category, desc, tags, useCases,
+  example: { title: exTitle, preview: exPreview },
+  isNew: opts.isNew || false,
+  warning: opts.warning || null
+});
+
 const SKILLS = [
-  // 🎬 Content Creator
-  {
-    id: 'youtuber-pro', name: 'YouTuber Pro', category: 'content',
-    desc: 'สคริปต์ YouTube/Shorts/Reels/TikTok พร้อม hook 3 วิ, thumbnail prompt, title ตัวเลือก และ SEO metadata',
-    tags: ['video', 'youtube', 'reels', 'tiktok', 'script'],
-    useCases: ['รีวิวสินค้า', 'สอน/tutorial', 'vlog/lifestyle', 'storytelling'],
-    example: {
-      title: 'รีวิวกล้อง Canon AE-1 8 นาที',
-      preview: `# 🎬 รีวิวกล้อง Canon AE-1 ใช้ 3 ปี — ยังคุ้มในปี 2026 หรือไม่?
+  // ===== 🎬 Content Creator (11) =====
+  s('youtuber-pro', 'YouTuber Pro', 'content',
+    'สคริปต์ YouTube/Shorts/Reels พร้อม hook 3 วิ, thumbnail prompt, title ตัวเลือก, SEO metadata',
+    ['video','youtube','reels','tiktok'],
+    ['รีวิวสินค้า','สอน/tutorial','vlog','storytelling'],
+    'รีวิวกล้อง Canon AE-1 8 นาที',
+    `# 🎬 รีวิวกล้อง Canon AE-1 ใช้ 3 ปี
+## 🎯 Hook (0:00-0:10)
+"ผมใช้กล้องตัวนี้มา 3 ปี ถ่ายไป 80 ม้วน...
+และวันนี้จะบอกสิ่งที่ไม่มีใครยอมบอกคุณ"
+## 📣 Promise
+✅ ข้อดี 3 อย่าง / ❌ ข้อเสีย 2 อย่าง / 💰 งบประมาณจริง`),
 
-## 🎯 Hook (0:00 - 0:10)
-"ผมใช้กล้องฟิล์มตัวนี้มา 3 ปี ถ่ายไปแล้ว 80 ม้วน...
-...และวันนี้ผมจะบอกสิ่งที่ไม่มีคนไหนยอมบอกคุณเกี่ยวกับมัน"
-
-## 📣 Promise (0:10 - 0:30)
-✅ ข้อดี 3 อย่างที่ทำให้ผมยังใช้อยู่
-❌ ข้อเสีย 2 อย่างที่เกือบทำให้เลิกใช้
-💰 งบประมาณจริง (ไม่ใช่แค่ค่ากล้อง)
-
-## 🏷️ Title Options
-1. "ผมใช้กล้องฟิล์มตัวนี้ 3 ปี แล้วค้นพบสิ่งที่ไม่มีคนบอก"
-2. "ห้ามซื้อ Canon AE-1 ถ้าคุณยังไม่ดูคลิปนี้"`
-    }
-  },
-  {
-    id: 'blogger-pro', name: 'Blogger Pro', category: 'content',
-    desc: 'เขียนบทความ blog พร้อม SEO, outline H1-H3, meta description, internal linking plan',
-    tags: ['blog', 'seo', 'writing', 'article'],
-    useCases: ['บทความยาว', 'รีวิวสินค้า', 'how-to', 'listicle', 'บทวิเคราะห์'],
-    example: {
-      title: 'วิธีลดหย่อนภาษีสำหรับฟรีแลนซ์ 2026',
-      preview: `---
-title: วิธีลดหย่อนภาษีสำหรับฟรีแลนซ์ 2026 — ครบทุกรายการที่คนส่วนใหญ่พลาด
-meta_description: รวมรายการลดหย่อนภาษี 2026 สำหรับฟรีแลนซ์ ทั้ง RMF SSF ประกัน...
-keywords: [ลดหย่อนภาษีฟรีแลนซ์, ภาษีฟรีแลนซ์ 2026, ภ.ง.ด.90]
+  s('blogger-pro', 'Blogger Pro', 'content',
+    'เขียนบทความ blog พร้อม SEO, outline H1-H3, meta description, internal linking',
+    ['blog','seo','writing'],
+    ['บทความยาว','รีวิว','how-to','listicle'],
+    'วิธีลดหย่อนภาษีฟรีแลนซ์ 2026',
+    `---
+title: วิธีลดหย่อนภาษีสำหรับฟรีแลนซ์ 2026
+keywords: [ลดหย่อนภาษีฟรีแลนซ์, ภ.ง.ด.90]
 ---
-
 # วิธีลดหย่อนภาษีสำหรับฟรีแลนซ์ 2026
-
-ฟรีแลนซ์หลายคนจ่ายภาษีเกินจำเป็น เพราะไม่รู้ว่า...
-
 ## 1. ลดหย่อนหลักที่ทุกคนใช้ได้
 ## 2. ลดหย่อนเฉพาะทางสำหรับฟรีแลนซ์
-## 3. การวางแผนภาษีตลอดปี`
-    }
-  },
-  {
-    id: 'translator-pro', name: 'Translator Pro', category: 'content',
-    desc: 'แปลไทย-อังกฤษที่ได้ใจความ ปรับ tone ท้องถิ่น ไม่ใช่แปลคำต่อคำ + subtitle + localization',
-    tags: ['translation', 'subtitle', 'localization', 'srt'],
-    useCases: ['แปลเอกสาร', 'subtitle (.srt)', 'email ธุรกิจ', 'landing page', 'transcreation'],
-    example: {
-      title: 'แปล Landing Page SaaS EN→TH',
-      preview: `EN: "Stop wasting hours on repetitive tasks"
+## 3. การวางแผนภาษีตลอดปี`),
 
+  s('translator-pro', 'Translator Pro', 'content',
+    'แปลไทย-อังกฤษได้ใจความ ปรับ tone ท้องถิ่น ไม่ใช่แปลคำต่อคำ + subtitle + localization',
+    ['translation','subtitle','localization'],
+    ['แปลเอกสาร','subtitle','email','transcreation'],
+    'แปล Landing Page SaaS EN→TH',
+    `EN: "Stop wasting hours on repetitive tasks"
 ❌ แปลตรง: "หยุดเสียเวลาชั่วโมงกับงานซ้ำๆ"
 ✅ Transcreation: "ลืมงานน่าเบื่อไปได้เลย — เรามี AI ให้"
+📌 Notes: "Stop wasting" ฟังขึ้งเคียดในไทย → positive framing`),
 
-📌 Notes:
-- "Stop wasting" ในไทยฟังดูขึ้งเคียด → เปลี่ยนเป็น positive framing
-- เพิ่มคำว่า "AI" เพื่อ clarify context (ลูกค้าไทยเข้าใจง่ายขึ้น)
-
-🔤 Glossary (คำศัพท์เทคนิค):
-- "onboarding" → "การเริ่มต้นใช้งาน"
-- "workflow" → "ขั้นตอนการทำงาน"`
-    }
-  },
-  {
-    id: 'podcaster-pro', name: 'Podcaster Pro', category: 'content',
-    desc: 'สคริปต์ podcast ที่ฟังแล้วไม่เบื่อ + show notes + clip timestamps + teaser สำหรับ social',
-    tags: ['podcast', 'audio', 'script', 'show-notes'],
-    useCases: ['solo podcast', 'สัมภาษณ์', 'narrative story', 'audio brand'],
-    example: {
-      title: 'EP12: เทคนิคอ่านหนังสือเร็ว (25 นาที)',
-      preview: `# EP12 — เทคนิคอ่านหนังสือเร็ว 3 เท่า
-
+  s('podcaster-pro', 'Podcaster Pro', 'content',
+    'สคริปต์ podcast ที่ฟังแล้วไม่เบื่อ + show notes + clip timestamps + teaser social',
+    ['podcast','audio','script'],
+    ['solo podcast','สัมภาษณ์','narrative'],
+    'EP12 เทคนิคอ่านหนังสือเร็ว 25 นาที',
+    `# EP12 — เทคนิคอ่านหนังสือเร็ว 3 เท่า
 ## 🎙️ Cold Open (0:00-0:30)
-"คุณเคยซื้อหนังสือมา 10 เล่ม อ่านจบแค่ 2 เล่ม
-แล้ว 8 เล่มที่เหลือยังอยู่บนชั้น?
-ผมเข้าใจ — และวันนี้ผมจะแก้ปัญหานี้ให้คุณ"
+"คุณเคยซื้อหนังสือ 10 เล่ม อ่านจบแค่ 2..."
+## ✂️ Teaser Clips
+Clip A (45s): 4:12-4:57 "ทำไมอ่านช้าถึงดี"
+Clip B (30s): 12:03 "สูตรเลิกอ่าน 50 หน้าแรก"`),
 
-## 📖 Segments
-0:30 — เรื่องที่คนสอนผิด: "อ่านให้ครบทุกบรรทัด"
-4:00 — เทคนิค 1: Skimming แบบมีระบบ
-9:00 — เทคนิค 2: Question-Based Reading
-...
-
-## ✂️ Teaser Clips (สำหรับ social)
-Clip A (45 วิ): 4:12-4:57 — "ทำไมอ่านช้าถึงดีบางครั้ง"
-Clip B (30 วิ): 12:03-12:33 — "สูตรเลิกอ่าน 50 หน้าแรก"`
-    }
-  },
-  {
-    id: 'storyteller-pro', name: 'Storyteller Pro', category: 'content',
-    desc: 'plot outline (3-act) + character profile + dialogue ที่สมจริง — สำหรับนิยาย บทหนัง เกม',
-    tags: ['fiction', 'screenplay', 'character', 'plot'],
-    useCases: ['short story', 'นิยายตอน', 'บทหนังสั้น', 'เกม narrative', 'การ์ตูน'],
-    example: {
-      title: 'เรื่องสั้น mystery: ร้านกาแฟริมน้ำ',
-      preview: `# ร้านกาแฟริมน้ำ (~1,520 คำ)
-
+  s('storyteller-pro', 'Storyteller Pro', 'content',
+    'plot outline 3-act + character profile + dialogue ที่สมจริง — นิยาย บทหนัง เกม',
+    ['fiction','screenplay','character'],
+    ['short story','นิยาย','บทหนังสั้น'],
+    'เรื่องสั้น mystery: ร้านกาแฟริมน้ำ',
+    `# ร้านกาแฟริมน้ำ (~1,520 คำ)
 ## 3-Act Structure
-ACT I: ภีมย้ายมาอยู่บ้านยายที่เพิ่งเสีย — พบร้านกาแฟที่...
-  ไม่มีในแผนที่ Google
-ACT II: กลับมาทุกเช้า เจอเจ้าของร้านพูดถึงคนที่...
-  ตายไปแล้ว 30 ปี
-ACT III: ค้นพบว่าร้านเป็น memorial ของคู่รักที่...
+ACT I: ภีมพบร้านกาแฟที่ไม่มีใน Google Maps
+ACT II: เจ้าของพูดถึงคนที่ตายไปแล้ว 30 ปี
+ACT III: ค้นพบว่าร้านเป็น memorial...`),
 
-## Character Profiles
-ภีม, 28 — สถาปนิกที่เพิ่งเลิกกับแฟน
-  Flaw: หลีกเลี่ยงการเผชิญอดีต
-  Want: หาที่อยู่เงียบ ๆ / Need: ยอมรับการสูญเสีย
+  s('course-creator', 'Course Creator', 'content',
+    'สร้างคอร์สออนไลน์ — curriculum, lesson plan, assessment, sales page, completion optimization',
+    ['course','curriculum','online-learning'],
+    ['cohort course','evergreen','membership site'],
+    'คอร์ส "Excel for Business" 8 modules',
+    `# Course: Excel for Business (8 weeks)
+Week 1: Foundation (formulas, formatting)
+Week 2: Data Analysis (pivot, lookup)
+Week 4: Dashboard Design
+Week 8: Capstone Project + Cert
 
-ป้าดวง, ?? — เจ้าของร้านกาแฟ
-  เก็บความลับที่ผูกกับบ้านยายของภีม`
-    }
-  },
+## Module Format
+- Video lecture (15-20 min)
+- Worksheet (download)
+- Quiz (5 questions, ≥80% pass)
+- Live Q&A weekly`,
+    { isNew: true }),
 
-  // 📣 Marketing & Sales
-  {
-    id: 'digital-marketer', name: 'Digital Marketer', category: 'marketing',
-    desc: 'วางแผน campaign ตั้งแต่ budget allocation, KPI, timeline ถึง Gantt chart',
-    tags: ['campaign', 'strategy', 'kpi', 'budget'],
-    useCases: ['launch product', 'promotion', 'rebrand', 'lead gen'],
-    example: {
-      title: 'Campaign คอร์ส Excel งบ 50,000 / 30 วัน',
-      preview: `# Campaign: "Master Excel in 30 Days"
-Goal: ขายคอร์ส 50 ที่นั่ง × 1,990 บาท = 99,500 บาท
-ROAS Target: 4.0× (≥ 2.0× break even)
+  s('newsletter-writer', 'Newsletter Writer', 'content',
+    'Substack/email newsletter — issue planning, hook, story, CTA, growth tactics, monetization',
+    ['newsletter','substack','email'],
+    ['weekly newsletter','daily brief','niche audience'],
+    'Newsletter "Bangkok Founders" Issue #12',
+    `Subject: "ทำไม Founder ไทยส่วนใหญ่ล้มเหลวที่ Series A"
+Preview: 3 จุดผิดพลาดที่เจอบ่อยที่สุด
 
-## Budget Allocation (50,000)
-- Meta Ads (FB/IG):  24,000 (48%)
-- Google Search:      12,000 (24%)
-- TikTok Ads:         8,000 (16%)
-- Influencer:         6,000 (12%)
+## Hook (3 บรรทัดแรก)
+ผมเพิ่งคุยกับ founder 12 คนที่ล้มเหลว...
+3 ใน 4 ทำผิดพลาดเดียวกัน
+และพวกเขาไม่รู้จนตอนสาย
 
-## KPI Dashboard
-Week 1: 250 คลิก, CPL ≤ 50, CTR > 1.5%
-Week 2: 20 leads/day, Landing conversion 8%
-Week 4: ≥ 50 paid enrollments, ROAS ≥ 4.0×`
-    }
-  },
-  {
-    id: 'social-media-admin', name: 'Social Media Admin', category: 'marketing',
-    desc: 'ปฏิทินโพส 30 วัน + caption 3 variants + reply template + hashtag bank',
-    tags: ['facebook', 'instagram', 'calendar', 'hashtag'],
-    useCases: ['brand social', 'community management', 'customer engagement'],
-    example: {
-      title: 'ปฏิทินเดือน เม.ย. — บ้านขนมป้าวรรณ',
-      preview: `# Social Calendar — April 2026 (Songkran)
+## Body
+1. ขายโดยไม่ฟัง...
+## CTA
+Reply กลับมาบอก stage ของคุณ`,
+    { isNew: true }),
 
-Mon 1 Apr | FB+IG | 09:00 | Engagement
-  Caption: "เมษายนมาแล้ว! ป้าวรรณเปิดตัว..."
+  s('ghostwriter-pro', 'Ghostwriter Pro', 'content',
+    'เขียนแทนคนอื่น — voice matching, byline writing, ethical disclosure, scope management',
+    ['ghostwriting','voice','byline'],
+    ['LinkedIn ghostwriting','book ghostwriting','op-ed'],
+    'LinkedIn post style ของ CEO startup',
+    `# Voice Analysis: Founder X
+- Tone: Direct, contrarian, slightly humble
+- Sentence length: Short (avg 12 words)
+- Vocab: Tech jargon mix common Thai
 
-Wed 3 Apr | IG Story | 15:00 | Behind-the-scenes
-  Caption: "หลังร้านป้าวรรณวันนี้..."
+## Sample Post (in their voice)
+"3 ปีที่แล้วผมจ้าง dev 5 คน
+วันนี้ผมเลิกจ้างทั้งหมด — และ revenue สูงขึ้น
+นี่คือสิ่งที่ผมเรียนรู้..."
 
-Fri 5 Apr | FB+IG | 19:00 | Product launch
-  Caption (3 variants):
-  A: "ใหม่! ขนมช่อม่วง — สีสวยเหมือนสงกรานต์..."
-  B: "ทุกคนถามมา — เมื่อไหร่มีช่อม่วง? วันนี้เลย..."
-  C: "POV: คุณเดินผ่านหน้าร้าน แล้วเห็นสีม่วง..."
+## Ethical Notes
+- Disclose to client: "ghost-written by..."
+- Don't write controversial views client wouldn't say`,
+    { isNew: true }),
 
-# Reply Templates
-DM "สั่งกี่ชิ้นคะ?" → "สวัสดีค่ะ 😊 สั่งได้..."
-DM "ส่งต่างจังหวัด?" → "ส่งได้ค่ะ ค่าส่ง..."`
-    }
-  },
-  {
-    id: 'seo-specialist', name: 'SEO Specialist', category: 'marketing',
-    desc: 'keyword research + content outline with H-structure + on-page audit + JSON-LD schema',
-    tags: ['seo', 'keyword', 'ranking', 'on-page'],
-    useCases: ['บทความ blog', 'landing page', 'e-commerce', 'local SEO'],
-    example: {
-      title: 'บทความรีวิว Sony A7IV ภาษาไทย',
-      preview: `## Primary Keyword: "รีวิว Sony A7IV"
+  s('comic-writer', 'Comic Writer', 'content',
+    'มังงะ การ์ตูน webtoon — panel-by-panel script, dialogue density, sound effects (SFX), pacing',
+    ['comic','manga','webtoon'],
+    ['webtoon ตอนละ 60-80 panels','manga chapter','one-shot'],
+    'Webtoon ตอน 1: "Office Lunch" 8 panels',
+    `# Episode 1 — "Office Lunch"
+
+## Panel 1 (Wide)
+Setting: Modern office, lunch time
+Visual: Pim sitting alone, phone open
+Caption: "12:30 — เวลาที่ทุกคนหายไปจาก desk"
+
+## Panel 2 (Close-up)
+Visual: Phone screen showing "อาหาร delivery"
+Pim (thought): "วันนี้กินอะไรดี..."
+
+## Panel 3 (Medium)
+Visual: New colleague (Boss) approaches
+SFX: "ทึ่ง!"
+Boss: "พิม! ไปกินข้าวกันมั้ย?"`,
+    { isNew: true }),
+
+  s('game-narrative', 'Game Narrative', 'content',
+    'เรื่องในเกม — lore building, dialogue tree, character arc, quest design, environmental storytelling',
+    ['game','narrative','quest','lore'],
+    ['RPG','visual novel','side quest','character backstory'],
+    'Side Quest: "Lost Letter" RPG',
+    `# Quest: Lost Letter
+Level: 5 | Type: Side | Length: 30 min
+
+## Hook (NPC opener)
+Old Woman: "หนู... ช่วยหาจดหมายให้ป้าหน่อยได้มั้ย?
+20 ปีก่อน ป้าเขียนถึงคนรัก แต่ไม่ได้ส่ง..."
+
+## Branches
+A) Find letter, deliver to recipient (alive)
+   → Bittersweet ending, +reputation
+B) Find letter, recipient died
+   → Player chooses: tell truth / keep secret
+C) Don't find — talk to old woman differently
+   → Discover she IS the recipient (twist)
+
+## Environmental Clues
+- Letter in old chest behind waterfall
+- Tombstone reveals recipient's fate`,
+    { isNew: true }),
+
+  s('tiktoker-pro', 'TikToker Pro', 'content',
+    'TikTok เน้นๆ — first-second hook, trending sound, comment bait, FYP optimization 2026',
+    ['tiktok','viral','trend','algorithm'],
+    ['POV','tutorial','reaction','storytime'],
+    'POV TikTok 30 วิ',
+    `# TikTok 30s — "POV: ใช้ ChatGPT ทำการบ้าน"
+
+## 0-1s (Visual Hook BANG!)
+Text: "ครู: เขียน essay 2,000 คำ"
+Visual: หน้าตกใจ + zoom in
+Sound: trending audio "duun duun duun"
+
+## 1-15s (Build)
+Text overlay เปลี่ยนเร็ว:
+"ผม: ฉัน + AI = ทีม"
+Show: ChatGPT screen
+"15 นาทีต่อมา..."
+
+## 15-25s (Reveal)
+Show: essay เสร็จ
+Sound: drop / transition
+
+## 25-30s (CTA + Loop)
+Text: "วิธีในคอมเมนต์"
+(ทำให้คนวนกลับ)`,
+    { isNew: true }),
+
+  // ===== 📣 Marketing & Sales (14) =====
+  s('digital-marketer', 'Digital Marketer', 'marketing',
+    'วางแผน campaign — budget allocation, KPI dashboard, timeline Gantt',
+    ['campaign','strategy','kpi','budget'],
+    ['launch product','promotion','rebrand'],
+    'Campaign คอร์ส Excel งบ 50K / 30 วัน',
+    `# Campaign: "Master Excel in 30 Days"
+Goal: 50 ที่นั่ง × 1,990 = 99,500 บาท
+ROAS Target: 4.0×
+
+## Budget Allocation (50K)
+- Meta Ads: 24K (48%)
+- Google: 12K (24%)
+- TikTok: 8K (16%)
+- Influencer: 6K (12%)`),
+
+  s('social-media-admin', 'Social Media Admin', 'marketing',
+    'ปฏิทินโพส 30 วัน + caption 3 variants + reply template + hashtag bank',
+    ['facebook','instagram','calendar'],
+    ['brand social','community mgmt'],
+    'ปฏิทินเดือน เม.ย. — บ้านขนมป้าวรรณ',
+    `# Social Calendar — April 2026 (Songkran)
+Mon 1 | FB+IG 09:00 | "เมษายนมาแล้ว..."
+Wed 3 | IG Story 15:00 | Behind-the-scenes
+Fri 5 | FB+IG 19:00 | Product launch
+
+## Reply Templates
+"สั่งกี่ชิ้น?" → "สวัสดีค่ะ 😊 สั่งได้..."
+"ส่งต่างจังหวัด?" → "ส่งได้ค่ะ ค่าส่ง..."`),
+
+  s('seo-specialist', 'SEO Specialist', 'marketing',
+    'keyword research + content outline + on-page audit + JSON-LD schema',
+    ['seo','keyword','ranking'],
+    ['blog','landing','e-commerce'],
+    'รีวิว Sony A7IV ภาษาไทย',
+    `## Primary: "รีวิว Sony A7IV"
 Volume: 1,300/mo | KD: 32 | CPC: 12 บาท
 
 ## LSI Keywords
 - sony a7iv ราคา (880/mo)
 - sony a7iv เทียบ a7iii (590/mo)
-- sony a7iv สเปค (430/mo)
-- sony a7iv ภาษาไทย (320/mo)
 
-## Content Outline (H-structure)
-H1: รีวิว Sony A7IV — กล้อง 33MP คุ้มไหมในปี 2026?
-  H2: สเปคที่สำคัญ (ย่อ)
-  H2: ทดลองใช้จริง 2 เดือน
-    H3: ถ่ายภาพนิ่ง
-    H3: ถ่ายวิดีโอ 4K60
-    H3: Autofocus สำหรับเด็ก/สัตว์เลี้ยง
-  H2: เปรียบเทียบกับ A7III (ตาราง)
-  H2: สรุป — เหมาะกับใคร?`
-    }
-  },
-  {
-    id: 'copywriter-pro', name: 'Copywriter Pro', category: 'marketing',
-    desc: 'headline 10 variants + FB/Google ad copy + email sequence 5 emails ที่ conversion สูง',
-    tags: ['copy', 'ads', 'email', 'headline'],
-    useCases: ['Facebook Ads', 'Google Ads', 'email marketing', 'landing page'],
-    example: {
-      title: 'ครีมกันแดด SunShield SPF50+',
-      preview: `# Headlines (10 variants)
+## Outline (H-structure)
+H1: รีวิว Sony A7IV — คุ้มไหมในปี 2026?
+H2: สเปคสำคัญ
+H2: ทดลองใช้จริง 2 เดือน`),
+
+  s('copywriter-pro', 'Copywriter Pro', 'marketing',
+    'headline 10 variants + FB/Google ad copy + email sequence ที่ conversion สูง',
+    ['copy','ads','email','headline'],
+    ['Facebook Ads','Google Ads','email marketing'],
+    'ครีมกันแดด SunShield SPF50+',
+    `# Headlines (10 variants)
 1. "เลิกเป็นฝ้าในปีหน้า — เริ่มวันนี้"
 2. "SPF50+ ที่ไม่เหนียว ไม่ขาววอก"
 3. "ครีมกันแดดที่สาวออฟฟิศใช้กัน"
 
-## FB Ad Copy (Short)
-ฉากที่ 1 (Awareness):
-"UV ในกรุงเทพ = 9-11 ทุกวัน
-แต่ 80% ของคนไม่ได้ใช้กันแดด
-เพราะมันเหนียว ขาววอก หรือแพ้ง่าย
-SunShield SPF50+ — แก้ทั้ง 3 ปัญหา"
+## Email Sequence
+Day 0: Welcome / Day 2: Education
+Day 4: Social proof / Day 6: Offer
+Day 8: Last chance`),
 
-## Email Sequence (5 emails)
-Day 0: Welcome (ทำความรู้จัก)
-Day 2: Education (UV index 101)
-Day 4: Social proof (รีวิว 500+)
-Day 6: Offer (ส่วนลด 30%)
-Day 8: Last chance (FOMO close)`
-    }
-  },
-  {
-    id: 'online-seller', name: 'Online Seller', category: 'marketing',
-    desc: 'live script 30 นาที + product caption + FAQ 20 ข้อ + pricing psychology',
-    tags: ['live', 'ecommerce', 'caption', 'pricing'],
-    useCases: ['Facebook Live', 'Shopee/Lazada', 'TikTok Shop', 'Line Shop'],
-    example: {
-      title: 'ขาย Moka Pot 790 บาท ใน FB Live',
-      preview: `# Live Script (5 Acts, 30 นาที)
-
+  s('online-seller', 'Online Seller', 'marketing',
+    'live script 30 นาที + product caption + FAQ 20 ข้อ + pricing psychology',
+    ['live','ecommerce','caption'],
+    ['Facebook Live','Shopee/Lazada','TikTok Shop'],
+    'ขาย Moka Pot 790 บาท FB Live',
+    `# Live Script (5 Acts, 30 min)
 ## Act 1: Hook (0-3 min)
-"สวัสดีค่าทุกคน วันนี้มีของดีมาฝาก
-วันนี้คนเดียวเท่านั้น — ราคา Moka Pot แบบ...
-(ชงกาแฟโชว์ + พูดถึงปัญหาคนที่ใช้เครื่องแพงๆ)"
-
-## Act 3: Demo (10-20 min)
-- ชงกาแฟจริง 3 ครั้ง
-- เปรียบเทียบกับเครื่อง espresso 5,000 บาท
-- ให้ผู้ดูชิมทางใจ (describe taste)
+"สวัสดีค่ะ วันนี้มีของดีมาฝาก..."
+(ชงกาแฟโชว์)
 
 ## Act 5: Close (25-30 min)
-- Urgency: "Live นี้จบใน 5 นาที"
-- Scarcity: "เหลือแค่ 12 ตัวนะคะ"
-- Bonus: "+ ถ้วยกาแฟฟรี 2 ใบ"
-- CTA: "พิมพ์ CF ในคอมเมนต์เลยค่ะ"`
-    }
-  },
-  {
-    id: 'influencer-marketing', name: 'Influencer Marketing', category: 'marketing',
-    desc: 'influencer brief + pitch email + rate card evaluation + performance review ที่ data-driven',
-    tags: ['influencer', 'kol', 'negotiation', 'review'],
-    useCases: ['จ้าง influencer', 'micro/macro KOL', 'affiliate', 'UGC'],
-    example: {
-      title: 'หา beauty KOL 5 คน — งบ 100,000',
-      preview: `# Campaign: GlowUp Essence Launch
-Target KOL: 5 คน | Budget: 100,000 บาท
-Breakdown: 1 macro (50K) + 4 micro (12.5K ต่อคน)
+- Urgency: "Live จบใน 5 นาที"
+- Scarcity: "เหลือ 12 ตัว"
+- Bonus: "+ ถ้วยฟรี 2 ใบ"`),
 
-## Tier Strategy
-Macro (100K+ followers): 1 คน → awareness
-Micro (10-50K): 4 คน → conversion
+  s('influencer-marketing', 'Influencer Marketing', 'marketing',
+    'influencer brief + pitch email + rate card evaluation + performance review',
+    ['influencer','kol','negotiation'],
+    ['micro/macro KOL','affiliate','UGC'],
+    'หา beauty KOL 5 คน — งบ 100K',
+    `# Campaign: GlowUp Essence Launch
+Budget: 100K | KOL: 1 macro + 4 micro
 
 ## KOL Vetting Checklist
-✓ Engagement Rate ≥ 3% (ไม่ใช่แค่ followers)
-✓ Audience โปรไฟล์ตรงกลุ่มเป้าหมาย (ใช้ HypeAuditor)
+✓ Engagement Rate ≥ 3%
+✓ Audience โปรไฟล์ตรง
 ✓ ความถี่โพสสม่ำเสมอ
-✓ ไม่มี fake followers (ตรวจด้วย SocialBlade)
+✓ ไม่มี fake followers`),
 
-## Pitch Email Template
-Subject: "Collab SunShield x [ชื่อ KOL] — Skincare Launch"
-Body: ...`
-    }
-  },
+  s('email-marketer', 'Email Marketer', 'marketing',
+    'email sequence + automation + segmentation + deliverability + A/B test subject',
+    ['email','automation','sequence'],
+    ['welcome series','abandoned cart','re-engagement'],
+    'Welcome Series 5 emails',
+    `# Welcome Sequence — SaaS onboarding
+Day 0: Welcome (set expectation)
+  Subject: "ยินดีต้อนรับ! เริ่มกันเลย 👋"
 
-  // 💻 Tech
-  {
-    id: 'programmer-pro', name: 'Programmer Pro', category: 'tech',
-    desc: 'review โค้ดแบบ senior — bug, performance, security, architecture รองรับทุกภาษา',
-    tags: ['code-review', 'debug', 'refactor', 'typescript', 'python'],
-    useCases: ['review PR', 'หา bug', 'refactor legacy', 'explain code'],
-    example: {
-      title: 'Review React useEffect infinite loop',
-      preview: `# Review: UserProfile.tsx
+Day 2: Quick win (use feature ใน 5 min)
+  Subject: "1 trick ที่ทำให้คุณรู้สึก 'wow'"
 
-## 🔴 Critical Issues (1)
+Day 5: Social proof (case study)
+Day 9: Offer (upgrade with discount)
+Day 14: Re-engagement if inactive
+
+## Deliverability Tips
+- Warm up sender domain
+- ≤ 1 image / 3 sentences ratio
+- DKIM + SPF + DMARC setup`,
+    { isNew: true }),
+
+  s('affiliate-marketer', 'Affiliate Marketer', 'marketing',
+    'affiliate strategy + commission structure + partner outreach + tracking links',
+    ['affiliate','commission','partner'],
+    ['SaaS affiliate','course affiliate','physical product'],
+    'Affiliate Program Setup สำหรับคอร์ส',
+    `# Program: Excel Course Affiliate
+Product: 1,990 บาท | Commission: 30%
+
+## Tier Structure
+Tier 1 (1-10 sales): 25%
+Tier 2 (11-30): 30%
+Tier 3 (31+): 35% + bonus
+
+## Partner Outreach Email
+Subject: "เปลี่ยน audience คุณเป็นเงิน 600/sale"
+Body: ...
+- Cookie duration: 60 days
+- Tracking: ?ref=PARTNER_ID
+- Payout: monthly via PromptPay`,
+    { isNew: true }),
+
+  s('brand-strategist', 'Brand Strategist', 'marketing',
+    'brand identity + positioning + voice + brand book + archetype framework',
+    ['brand','identity','positioning'],
+    ['startup branding','rebrand','brand audit'],
+    'Brand Book "Kaffa Origin" specialty coffee',
+    `# Brand: Kaffa Origin
+Archetype: The Sage (knowledge + craft)
+
+## Positioning Statement
+"For coffee enthusiasts who care about origin
+and craft, Kaffa Origin offers single-origin
+specialty coffee from Ethiopia, unlike mass
+brands that prioritize convenience over story."
+
+## Voice Matrix
+Direct ←————•————→ Suggestive
+Serious ←—•——————→ Playful
+Premium ●————————→ Affordable
+
+## Brand Book Outline
+1. Origin story
+2. Mission/Vision
+3. Voice & Tone
+4. Visual identity (color, type, logo usage)
+5. Do's and Don'ts`,
+    { isNew: true }),
+
+  s('pr-manager', 'PR Manager', 'marketing',
+    'press release + media pitch + crisis communication + Thai media list',
+    ['pr','press-release','crisis'],
+    ['product launch PR','crisis response','media relations'],
+    'Press Release: SaaS Series A funding',
+    `# FOR IMMEDIATE RELEASE
+
+ProjectFlow ระดมทุน Series A 50 ล้านบาท
+ขยายตลาดจัดการโปรเจคในเอเชียตะวันออกเฉียงใต้
+
+กรุงเทพฯ — 16 เมษายน 2569 — ProjectFlow,
+ผู้ให้บริการ SaaS การจัดการโปรเจค...
+
+## Quote (Founder)
+"เงินทุนรอบนี้จะช่วยให้เราขยายทีม..."
+
+## About
+ProjectFlow เปิดตัวในปี 2024...
+
+## Media Contact
+ชื่อ-นามสกุล | เบอร์ | email
+
+## Thai Media List
+- matichon.co.th (business desk)
+- prachachat.net (tech section)
+- techsauce.co (startup focus)`,
+    { isNew: true }),
+
+  s('event-marketer', 'Event Marketer', 'marketing',
+    'event planning + promotion + post-event analysis + sponsor pitch',
+    ['event','planning','promotion'],
+    ['conference','workshop','launch event','webinar'],
+    'Workshop "Excel Bootcamp" 100 ที่นั่ง',
+    `# Event: Excel Bootcamp Live
+Date: 2026-05-15 | Capacity: 100 | Price: 1,990
+
+## Funnel Plan
+Awareness (4 weeks before): 5,000 reach goal
+Registration (3 weeks): 200 sign-ups goal
+Confirmation (1 week): 70% confirm rate
+Attendance: 65% show-up
+Post: 30% upgrade to course
+
+## Promotion Channels
+- FB Ads: 15K budget (lead gen objective)
+- Email blast (existing list 5K)
+- Partner cross-promo (3 communities)
+- Influencer (1 micro: 8K)
+
+## Day-of Run-of-Show
+09:00 Doors / 09:30 Welcome
+12:00 Lunch / 16:00 Networking
+17:00 Wrap`,
+    { isNew: true }),
+
+  s('crm-strategist', 'CRM Strategist', 'marketing',
+    'CRM strategy + RFM segmentation + customer lifecycle + churn prediction + win-back',
+    ['crm','segmentation','lifecycle','retention'],
+    ['e-commerce CRM','SaaS retention','loyalty program'],
+    'RFM Segmentation E-commerce',
+    `# RFM Segments — Beauty Brand
+(Recency, Frequency, Monetary)
+
+## Champions (R5/F5/M5)
+% of base: 8% | Revenue: 35%
+Action: VIP program, early access, referral incentive
+
+## At Risk (R2/F4/M4)
+% of base: 12% | Revenue: 18%
+Action: Win-back email + discount
+Subject: "เราคิดถึงคุณ 💔 มีของขวัญให้"
+
+## Lost (R1/F1/M1)
+% of base: 25% | Revenue: 5%
+Action: Last chance email, then suppress
+
+## New (R5/F1/M1)
+% of base: 15% | Revenue: 8%
+Action: Welcome series → 2nd purchase trigger`,
+    { isNew: true }),
+
+  s('sales-pro', 'Sales Pro', 'marketing',
+    'B2B sales — cold outreach, SPIN/MEDDIC, objection handling, follow-up sequence',
+    ['sales','b2b','cold-outreach','pipeline'],
+    ['B2B SaaS sales','enterprise deals','consulting'],
+    'Cold Email Sequence B2B (5 touches)',
+    `# Cold Email — Enterprise SaaS
+
+## Touch 1: Curiosity (Day 0)
+Subject: "{Company} — quick question"
+Body: 3 sentences, asking instead of pitching
+Specific to their recent move (LinkedIn signal)
+
+## Touch 2: Value (Day 3)
+Share insight relevant to their industry
+No CTA, just give
+
+## Touch 3: Case study (Day 7)
+1-paragraph case of similar company
+
+## Touch 4: Soft ask (Day 12)
+"Worth a 15-min chat next week?"
+
+## Touch 5: Break-up (Day 18)
+"Should I close the loop on this?"
+
+# Objection Handling
+"Too expensive" → "Compared to what cost?"
+"Not now" → "When is the next budget cycle?"
+"We use X" → "What do you wish X did better?"`,
+    { isNew: true }),
+
+  s('market-researcher', 'Market Researcher', 'marketing',
+    'survey design + interview guide + persona output + JTBD framework + competitive analysis',
+    ['research','survey','consumer-insight'],
+    ['product validation','persona research','competitive analysis'],
+    'JTBD Research — Coffee Subscription',
+    `# Research Plan: Coffee Subscription Service
+
+## Method
+- 12 interviews (60 min each)
+- Survey n=300
+
+## Interview Guide
+"Tell me about the last time you bought coffee."
+"What were you trying to accomplish?"
+"What did you try first? Why didn't it work?"
+
+## JTBD Output
+"When I [run out of good coffee at home],
+I want to [get fresh beans without thinking],
+so I can [start my morning ritual without stress]."
+
+## Persona: "Productive Pat"
+- 28-35, urban professional
+- Pain: hates running out, hates bad cafes
+- Joy: ritual, quality, effortless
+- Will pay: 700-900 บาท/month`,
+    { isNew: true }),
+
+  // ===== 💻 Tech & Development (13) =====
+  s('programmer-pro', 'Programmer Pro', 'tech',
+    'review โค้ดแบบ senior — bug, performance, security, architecture รองรับทุกภาษา',
+    ['code-review','debug','refactor'],
+    ['review PR','หา bug','refactor legacy'],
+    'Review React useEffect infinite loop',
+    `# Review: UserProfile.tsx
+## 🔴 Critical (1)
 ### L23: Infinite re-render
 \`\`\`tsx
 useEffect(() => {
   fetchUser(userId).then(setUser)
-}, [user])  // ❌ setUser triggers re-run
+}, [user])  // ❌ should be [userId]
 \`\`\`
-**Fix:** dependency ควรเป็น \`[userId]\`
-
 ## 🟡 Warnings (2)
-### L45: Missing cleanup in useEffect
-\`\`\`tsx
-useEffect(() => {
-  const sub = api.subscribe(handler)
-  // missing: return () => sub.unsubscribe()
-}, [])
-\`\`\`
+### L45: Missing cleanup
+### L67: any type used`),
 
-### L67: any type
-\`\`\`tsx
-const data: any = await response.json()
-// Better: define interface User { ... }
-\`\`\`
-
-## ✅ Positives
-- Good separation of concerns (hooks in separate file)
-- Consistent naming convention`
-    }
-  },
-  {
-    id: 'data-analyst-pro', name: 'Data Analyst Pro', category: 'tech',
-    desc: 'SQL optimized + insight extraction + dashboard spec รองรับ Postgres/MySQL/BigQuery',
-    tags: ['sql', 'analytics', 'dashboard', 'insight'],
-    useCases: ['วิเคราะห์ยอดขาย', 'churn analysis', 'funnel', 'cohort'],
-    example: {
-      title: 'E-commerce 6 เดือน — churn + funnel',
-      preview: `-- Finding 1: Churn rate เพิ่ม 8% ใน Q2
+  s('data-analyst-pro', 'Data Analyst Pro', 'tech',
+    'SQL optimized + insight extraction + dashboard spec รองรับ Postgres/MySQL/BigQuery',
+    ['sql','analytics','dashboard'],
+    ['ยอดขาย','churn','funnel','cohort'],
+    'E-commerce 6 เดือน — churn analysis',
+    `-- Finding 1: Churn rate Q2 = 23% (Q1 = 15%)
 WITH monthly_active AS (
-  SELECT
-    DATE_TRUNC('month', order_date) AS month,
-    COUNT(DISTINCT user_id) AS active_users
-  FROM orders
-  WHERE order_date >= '2025-10-01'
+  SELECT DATE_TRUNC('month', order_date) AS month,
+    COUNT(DISTINCT user_id) AS users
+  FROM orders WHERE order_date >= '2025-10-01'
   GROUP BY 1
-),
-churn AS (
-  SELECT
-    month,
-    LAG(active_users) OVER (ORDER BY month) - active_users AS churned
-  FROM monthly_active
 )
-SELECT * FROM churn ORDER BY month;
+SELECT month, LAG(users) OVER (ORDER BY month) - users AS churned
+FROM monthly_active;
 
-## Insights (3)
-Finding 1: Churn rate Q2 = 23% (Q1 = 15%) ↑ 8pp
-  So what: กลุ่มใหม่หลัง campaign Q1 ไม่ retain
-  Action: wining-back email sequence day 30
+## Insight
+Churn ↑ 8pp = win-back email needed (day 30)`),
 
-Finding 2: Cart → Checkout drop = 62% (benchmark 45%)
-  So what: Checkout UX มีปัญหา
-  Action: A/B test one-page checkout`
-    }
-  },
-  {
-    id: 'web-designer-pro', name: 'Web Designer Pro', category: 'tech',
-    desc: 'wireframe + component spec + style guide + responsive breakpoint พร้อม developer handoff',
-    tags: ['wireframe', 'ui', 'components', 'responsive'],
-    useCases: ['landing page', 'SaaS', 'e-commerce', 'dashboard'],
-    example: {
-      title: 'SaaS Landing Page (Mobile-first)',
-      preview: `# Wireframe: ProjectFlow Landing
-
+  s('web-designer-pro', 'Web Designer Pro', 'tech',
+    'wireframe + component spec + style guide + responsive breakpoint + dev handoff',
+    ['wireframe','ui','components'],
+    ['landing page','SaaS','dashboard'],
+    'SaaS Landing (Mobile-first)',
+    `# Wireframe: ProjectFlow Landing
 ## Mobile (375px)
-┌──────────────────────┐
-│ [Logo]    [Menu ≡]  │
-├──────────────────────┤
-│                      │
-│   ProjectFlow         │
-│   จัดการโปรเจคง่าย    │
-│                      │
-│  [ลองฟรี 14 วัน]     │
-│  [ดู Demo]           │
-│                      │
-│  [Product Screenshot] │
-│                      │
-└──────────────────────┘
+[Logo]    [Menu ≡]
+ProjectFlow — จัดการโปรเจคง่าย
+[ลองฟรี 14 วัน] [ดู Demo]
 
 ## Design Tokens
-Color:
-  --primary-500: #6366f1
-  --primary-600: #4f46e5
-  --gray-900: #18181b
-Typography:
-  --font-display: 'Space Grotesk'
-  --font-body: 'Inter'
-Breakpoints:
-  mobile: 375px  |  tablet: 768px  |  desktop: 1280px`
-    }
-  },
-  {
-    id: 'qa-tester-pro', name: 'QA Tester Pro', category: 'tech',
-    desc: 'test case matrix (unit/integration/e2e) + bug report template + regression checklist',
-    tags: ['testing', 'qa', 'regression', 'edge-cases'],
-    useCases: ['feature testing', 'bug triage', 'release QA', 'automation'],
-    example: {
-      title: 'Login Feature — 22 Test Cases',
-      preview: `# Test Matrix: Login Feature
+--primary-500: #6366f1
+--font-display: 'Space Grotesk'
+Breakpoints: 375 / 768 / 1280`),
 
-## Happy Path (4 cases)
-TC-001: Login ด้วย email+password ถูกต้อง
-  Pre: มี user registered
-  Steps: กรอก → Submit
-  Expected: redirect ไป /dashboard
+  s('qa-tester-pro', 'QA Tester Pro', 'tech',
+    'test case matrix (unit/integration/e2e) + bug report + regression checklist',
+    ['testing','qa','regression'],
+    ['feature testing','bug triage','release QA'],
+    'Login — 22 Test Cases',
+    `# Test Matrix: Login Feature
+## Happy Path (4)
+TC-001: Email+password ถูกต้อง → /dashboard
+## Sad Path (8)
+TC-005: ผิด 3 ครั้ง → lock 15 min
+## Edge (6)
+TC-013: Password 500 ตัวอักษร
+TC-014: SQL injection in email
+## Non-functional (4)
+TC-019: Response < 500ms (95th)`),
 
-## Sad Path (8 cases)
-TC-005: Password ผิด 3 ครั้ง
-  Expected: lock account 15 min + email warning
-TC-006: Email ไม่มีในระบบ
-  Expected: "Email or password incorrect" (generic)
+  s('no-code-builder', 'No-Code Builder', 'tech',
+    'tool recommendation (Airtable/Zapier/Make/Bubble) + schema + automation flow',
+    ['nocode','automation','airtable'],
+    ['internal tool','MVP','CRM','automation'],
+    'CRM ร้านนวด — booking + reminder',
+    `# Stack: Airtable + Zapier + Softr
 
-## Edge Cases (6 cases)
-TC-013: Password มี 500 ตัวอักษร
-TC-014: SQL injection in email field
-TC-015: Emoji ใน password
-TC-016: Session expire ขณะ login
+## Airtable Schema
+Customers: Name, Phone, Last Visit, Total Spent
+Bookings: Customer link, Date/Time, Service, Status
 
-## Non-functional (4 cases)
-TC-019: Response time < 500ms (95th percentile)
-TC-020: Rate limit: 10 attempts/min`
-    }
-  },
-  {
-    id: 'no-code-builder', name: 'No-Code Builder', category: 'tech',
-    desc: 'tool recommendation (Airtable/Zapier/Make/Bubble) + schema design + automation flow',
-    tags: ['nocode', 'automation', 'airtable', 'zapier'],
-    useCases: ['internal tool', 'MVP', 'CRM', 'automation workflow'],
-    example: {
-      title: 'CRM ร้านนวด — รับ booking + reminder',
-      preview: `# Solution Stack (3 tools)
-- Airtable: Database (customer, booking)
-- Zapier: Automation (SMS, email)
-- Softr: Customer-facing booking page
+## Zapier Flow
+Trigger: Booking created
+→ SMS confirmation (Twilio)
+→ Calendar invite
+→ 24h reminder`),
 
-## Schema (Airtable)
-Table: Customers
-  - Name (text)
-  - Phone (phone)
-  - Last Visit (date)
-  - Total Spent (currency, formula)
-  - Preferred Therapist (link)
-  - Notes (long text)
-
-Table: Bookings
-  - Customer (link → Customers)
-  - Date/Time (datetime)
-  - Service (select: นวดไทย/อโรม่า/...)
-  - Therapist (link)
-  - Status (select: Booked/Done/No-show)
-
-## Automation (Zapier)
-Trigger: Booking created (Airtable)
-  → Send SMS confirmation (Twilio)
-  → Send calendar invite (Google Calendar)
-
-24h Before Booking
-  → Send reminder SMS`
-    }
-  },
-  {
-    id: 'devops-helper', name: 'DevOps Helper', category: 'tech',
-    desc: 'Dockerfile optimized + docker-compose + GitHub Actions + Prometheus/Grafana alert',
-    tags: ['docker', 'ci-cd', 'deploy', 'monitoring'],
-    useCases: ['Docker setup', 'GitHub Actions', 'monitoring alert', 'VPS deploy'],
-    example: {
-      title: 'Next.js → Docker + CI/CD + VPS',
-      preview: `# Multi-stage Dockerfile
+  s('devops-helper', 'DevOps Helper', 'tech',
+    'Dockerfile optimized + docker-compose + GitHub Actions + Prometheus alert',
+    ['docker','ci-cd','deploy','monitoring'],
+    ['Docker setup','GitHub Actions','VPS deploy'],
+    'Next.js → Docker + CI/CD',
+    `# Multi-stage Dockerfile
 FROM node:20-alpine AS builder
 WORKDIR /app
-COPY package*.json ./
-RUN npm ci
 COPY . .
-RUN npm run build
+RUN npm ci && npm run build
 
 FROM node:20-alpine AS runner
-WORKDIR /app
-ENV NODE_ENV=production
 COPY --from=builder /app/.next/standalone ./
-COPY --from=builder /app/.next/static ./.next/static
 USER node
-EXPOSE 3000
-CMD ["node", "server.js"]
+CMD ["node", "server.js"]`),
 
-# .github/workflows/deploy.yml
-name: Deploy
-on:
-  push:
-    branches: [main]
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Build Docker image
-      - name: SSH to VPS and restart`
-    }
-  },
+  s('mobile-app-builder', 'Mobile App Builder', 'tech',
+    'iOS/Android (Swift, Kotlin, React Native, Flutter) — architecture, deployment',
+    ['mobile','ios','android','react-native'],
+    ['startup MVP','enterprise app','game'],
+    'React Native Todo App architecture',
+    `# Architecture: Todo App (React Native)
 
-  // 🎨 Design
-  {
-    id: 'graphic-designer-pro', name: 'Graphic Designer Pro', category: 'design',
-    desc: 'Midjourney/DALL-E prompt คุณภาพสูง + design brief + mood board + color palette',
-    tags: ['midjourney', 'dalle', 'logo', 'poster'],
-    useCases: ['logo', 'poster', 'infographic', 'social media post'],
-    example: {
-      title: 'โลโก้ร้านกาแฟ "Kaffa Origin"',
-      preview: `# Design Brief — Kaffa Origin
-Brand: ร้านกาแฟ specialty จาก Ethiopia
+## Tech Stack
+- React Native + Expo (รวดเร็ว)
+- TanStack Query (API state)
+- Zustand (UI state)
+- AsyncStorage (offline)
+
+## Folder Structure
+src/
+├── screens/   (Home, Detail, Settings)
+├── components/ (TodoItem, FAB, Modal)
+├── hooks/     (useTodos, useAuth)
+├── services/  (api.ts, storage.ts)
+└── store/     (todoStore.ts)
+
+## Deployment
+EAS Build → TestFlight (iOS) + Internal (Android)
+Production: App Store + Google Play`,
+    { isNew: true }),
+
+  s('security-engineer', 'Security Engineer', 'tech',
+    'pentest + vulnerability assessment + secure code + OWASP Top 10 audit',
+    ['security','pentest','owasp'],
+    ['security audit','code review','penetration test'],
+    'OWASP Audit — Web App',
+    `# Security Audit: Auth Flow
+
+## A01: Broken Access Control
+🔴 IDOR vulnerability in /api/users/:id
+  → Anyone can fetch any user's data
+  Fix: Check req.user.id === params.id
+
+## A02: Cryptographic Failures
+🟡 Password hashed with MD5
+  → Use bcrypt (cost 12+)
+
+## A03: Injection
+✅ Parameterized queries used (good)
+
+## A07: Identification & Auth
+🔴 No rate limit on /login
+  → Add rate limiter (5 attempts/min)
+  → Add CAPTCHA after 3 fails
+
+## Recommended Tools
+- OWASP ZAP (automated scan)
+- Snyk (dependency vuln)
+- bcrypt cost ≥ 12`,
+    { isNew: true }),
+
+  s('ai-engineer', 'AI Engineer', 'tech',
+    'ML/AI integration — LLM API, RAG, fine-tuning, prompt engineering, eval',
+    ['ai','ml','llm','rag'],
+    ['ChatGPT integration','RAG search','custom GPT'],
+    'RAG System for Internal Docs',
+    `# Architecture: Internal Docs RAG
+
+## Stack
+- LLM: Claude Sonnet (Anthropic)
+- Embeddings: text-embedding-3-large
+- Vector DB: pgvector (Postgres)
+- Framework: LangChain (TS)
+
+## Flow
+1. Ingest: docs → chunks (500 token, 50 overlap)
+   → embed → store in pgvector
+2. Query: user Q → embed → retrieve top-5
+   → LLM with retrieved context
+
+## Prompt
+"คุณคือผู้ช่วยบริษัท X ตอบคำถามจากเอกสาร
+ข้างล่างเท่านั้น ถ้าไม่มีข้อมูลให้ตอบ 'ไม่ทราบ'
+
+เอกสาร:
+{context}
+
+คำถาม: {question}"
+
+## Eval Setup
+- 50 Q&A test set
+- Faithfulness, Relevance scoring
+- Token cost tracking ($/query)`,
+    { isNew: true }),
+
+  s('database-architect', 'Database Architect', 'tech',
+    'schema design + indexing + query optimization + migration safety + EXPLAIN ANALYZE',
+    ['database','sql','schema','optimization'],
+    ['multi-tenant SaaS','time-series','analytics'],
+    'Multi-tenant SaaS Schema',
+    `# Schema: B2B SaaS (PostgreSQL)
+
+## Tenant Isolation: Shared schema, tenant_id
+
+CREATE TABLE workspaces (
+  id UUID PRIMARY KEY,
+  name TEXT NOT NULL,
+  plan TEXT CHECK (plan IN ('free','pro','enterprise'))
+);
+
+CREATE TABLE projects (
+  id UUID PRIMARY KEY,
+  workspace_id UUID REFERENCES workspaces(id),
+  name TEXT, created_at TIMESTAMPTZ
+);
+
+-- CRITICAL: workspace_id index
+CREATE INDEX idx_projects_workspace ON projects(workspace_id);
+
+-- Composite for common query
+CREATE INDEX idx_projects_ws_created
+  ON projects(workspace_id, created_at DESC);
+
+## Migration Safety
+1. Add column NULL first
+2. Backfill in batches
+3. Add NOT NULL after
+(Avoid table rewrite)`,
+    { isNew: true }),
+
+  s('game-dev-pro', 'Game Dev Pro', 'tech',
+    'game dev (Unity C#, Godot GDScript) — mechanics, save system, basic physics',
+    ['game','unity','godot'],
+    ['indie game','prototype','mobile game'],
+    'Unity Save System Pattern',
+    `# Save System: Unity (JSON-based)
+
+## SaveData Class
+[Serializable]
+public class SaveData {
+  public int level;
+  public float playtime;
+  public List<string> unlockedItems;
+}
+
+## SaveManager (singleton)
+public static class SaveManager {
+  static string Path =>
+    Application.persistentDataPath + "/save.json";
+
+  public static void Save(SaveData data) {
+    string json = JsonUtility.ToJson(data);
+    File.WriteAllText(Path, json);
+  }
+
+  public static SaveData Load() {
+    if (!File.Exists(Path)) return new SaveData();
+    string json = File.ReadAllText(Path);
+    return JsonUtility.FromJson<SaveData>(json);
+  }
+}
+
+## Best Practices
+- Auto-save on checkpoint
+- Multiple save slots
+- Cloud sync (optional)`,
+    { isNew: true }),
+
+  s('system-admin', 'System Admin', 'tech',
+    'Linux server (Ubuntu) + Nginx + fail2ban + automated backup + monitoring',
+    ['sysadmin','linux','server','backup'],
+    ['VPS setup','web server','self-hosted'],
+    'Ubuntu Server Setup Checklist',
+    `# Initial Server Setup (Ubuntu 24.04)
+
+## 1. Security Hardening
+- Create non-root user with sudo
+- Disable root SSH login
+- SSH keys only (no password)
+- Change SSH port (e.g., 2222)
+- ufw allow 2222/tcp, 80, 443
+
+## 2. fail2ban
+[sshd]
+enabled = true
+maxretry = 3
+bantime = 3600
+findtime = 600
+
+## 3. Nginx + Let's Encrypt
+sudo apt install nginx certbot
+sudo certbot --nginx -d example.com
+
+## 4. Automated Backup
+0 3 * * * /usr/local/bin/backup.sh
+- Database: pg_dumpall | gzip
+- Files: rsync to S3/Backblaze
+
+## 5. Monitoring
+- Uptime: UptimeRobot (free tier)
+- Logs: journalctl + logrotate
+- Resources: htop + netdata`,
+    { isNew: true }),
+
+  s('tech-writer', 'Tech Writer', 'tech',
+    'API documentation + README + tutorial + ADR (architecture decision record)',
+    ['documentation','api-doc','tutorial'],
+    ['open source README','SaaS docs','internal wiki'],
+    'README.md Template (Open Source)',
+    `# ProjectName
+
+[Badge: build status] [Badge: version] [Badge: license]
+
+> One-line tagline that explains what this does
+
+## Quick Start
+
+\`\`\`bash
+npm install projectname
+\`\`\`
+
+\`\`\`js
+import { thing } from 'projectname';
+thing.do(); // returns "magic"
+\`\`\`
+
+## Why ProjectName?
+
+- ✅ Solves problem X (vs alternatives Y, Z)
+- ✅ Performance: 10× faster than X
+- ✅ Type-safe, zero deps
+
+## Documentation
+- [Getting Started](./docs/start.md)
+- [API Reference](./docs/api.md)
+- [Examples](./examples)
+
+## Contributing
+[CONTRIBUTING.md]
+
+## License
+MIT`,
+    { isNew: true }),
+
+  // ===== 🎨 Design (13) =====
+  s('graphic-designer-pro', 'Graphic Designer Pro', 'design',
+    'Midjourney/DALL-E prompt + design brief + mood board + color palette',
+    ['midjourney','dalle','logo'],
+    ['logo','poster','infographic'],
+    'โลโก้ "Kaffa Origin"',
+    `# Design Brief — Kaffa Origin
 Tone: Minimal + warm + craft
-Target: Coffee enthusiast 25-40 ปี
+## Color Palette
+Primary: #2C1810 / Accent: #D4A574
 
-# Color Palette
-- Primary: #2C1810 (Dark roast)
-- Accent:  #D4A574 (Golden crema)
-- Neutral: #F5F0E8 (Paper white)
+## Midjourney Prompt
+minimalist coffee shop logo, letter "K" with
+coffee bean inside, Japandi aesthetic, warm
+brown tones, --ar 1:1 --v 6 --style raw`),
 
-# Midjourney Prompt (Variant A)
-minimalist coffee shop logo, letter "K" with coffee bean
-inside the counter, Japandi aesthetic, warm brown and
-cream tones, subtle gradient, clean vector lines,
-professional brand identity design, centered composition,
-white background --ar 1:1 --v 6 --style raw
+  s('photographer-pro', 'Photographer Pro', 'design',
+    'shot list + mood board + Lightroom preset + retouching checklist',
+    ['photography','shot-list','lightroom'],
+    ['portrait','product','wedding','event'],
+    'ครอบครัว outdoor 1 ชม.',
+    `# Session: ครอบครัว Pattanawit
+Location: สวนรถไฟ | Time: 16:30 (golden hour)
 
-# Mood Board Keywords
-"wabi-sabi", "single-origin coffee", "minimal Nordic",
-"hand-lettered", "warm minimalism"`
-    }
-  },
-  {
-    id: 'photographer-pro', name: 'Photographer Pro', category: 'design',
-    desc: 'shot list + mood board + Lightroom preset + retouching checklist',
-    tags: ['photography', 'shot-list', 'lightroom', 'retouching'],
-    useCases: ['portrait', 'product', 'event', 'wedding', 'family'],
-    example: {
-      title: 'ครอบครัว outdoor 1 ชั่วโมง 15 shots',
-      preview: `# Session: ครอบครัว Pattanawit
-Location: สวนรถไฟ
-Time: 16:30-17:30 (golden hour)
-Duration: 60 min | Shots: 15
+## Shot List (15 shots)
+Warm-up (5): wide / medium / close-up
+Formal (5): family / parents / kids
+Candid (5): running / ice cream / laughing
 
-# Shot List
-## Warm-up (5 shots, 15 min)
-1. Wide: ครอบครัวเดินเข้ากล้อง (full body)
-2. Medium: พ่อแม่ moment — คุยกัน (bokeh)
-3. Close-up: ลูก 2 คนเล่น (candid)
+## Lightroom "Warm Family"
+Temp +8 | Tint +3
+Highlights -30 | Shadows +25`),
 
-## Formal (5 shots, 20 min)
-6. Full family looking at camera
-7. Parents only (romantic)
-
-## Candid Story (5 shots, 25 min)
-11. Running together (motion blur)
-13. Ice cream moment (reactions)
-
-# Lightroom Preset "Warm Family"
-Temp: +8  |  Tint: +3
-Highlights: -30  |  Shadows: +25
-HSL: Orange saturation +10, Yellow +5`
-    }
-  },
-  {
-    id: 'video-editor-pro', name: 'Video Editor Pro', category: 'design',
-    desc: 'storyboard + edit timeline + music cue + color grading plan',
-    tags: ['video', 'editing', 'storyboard', 'color-grade'],
-    useCases: ['YouTube', 'Reels', 'wedding highlight', 'commercial'],
-    example: {
-      title: 'Wedding Highlight "ภีม & พราว" 3 นาที',
-      preview: `# Edit Plan: ภีม & พราว Wedding Highlight (3:00)
+  s('video-editor-pro', 'Video Editor Pro', 'design',
+    'storyboard + edit timeline + music cue + color grading plan',
+    ['video','editing','storyboard'],
+    ['YouTube','Reels','wedding','commercial'],
+    'Wedding Highlight 3 นาที',
+    `# Edit Plan: ภีม & พราว Wedding (3:00)
 
 ## Act 1: Prep (0:00-0:45)
 Music: soft piano (low energy)
-Clips:
-  0:00-0:08 | เสื้อผ้าแขวน, ดอกไม้ close-up
-  0:08-0:20 | แต่งหน้าพราว (handheld)
-  0:20-0:35 | ภีมผูกเน็กไท + พ่อช่วย
-  0:35-0:45 | First look — slow-mo 50%
+Clips: เสื้อผ้า / แต่งหน้า / first look slow-mo
 
 ## Act 2: Ceremony (0:45-1:45)
-Music: rises to emotional peak
-Clips:
-  0:45-1:00 | Walking down aisle (dolly)
-  1:00-1:20 | Vows — interview cut-in
-  1:20-1:40 | First kiss (2 angles)
-  1:40-1:45 | Rings close-up
+Music: rises to peak
+Clips: walking aisle / vows / first kiss
 
-## Color Grade
-Film emulation: Kodak Portra 400
-Highlights: +lift warm
-Shadows: +crushed teal`
-    }
-  },
-  {
-    id: 'architect-pro', name: 'Architect Pro', category: 'design',
-    desc: 'concept narrative + site analysis + material spec + Midjourney render prompt',
-    tags: ['architecture', 'render', 'concept', 'material'],
-    useCases: ['residential', 'commercial', 'interior', 'landscape'],
-    example: {
-      title: '"House of Silence" Japandi tropical 250 ตร.ม.',
-      preview: `# Concept: House of Silence
-Site: ภูเก็ต, 450 ตร.ม. plot
-Building: 250 ตร.ม. 2-story
-Style: Japandi + Tropical
+## Color Grade: Kodak Portra 400 emulation`),
+
+  s('architect-pro', 'Architect Pro', 'design',
+    'concept narrative + mood board + Midjourney render prompt + material spec',
+    ['architecture','render','concept'],
+    ['residential','commercial','interior'],
+    '"House of Silence" Japandi 250 ตร.ม.',
+    `# Concept: House of Silence
+Site: ภูเก็ต 450 ตร.ม.
 
 ## Concept Narrative
-"บ้านที่ฟังเสียงตัวเองได้" — design รอบ courtyard
-เพื่อบล็อก noise จากถนน + create internal garden
-ที่เป็นหัวใจของบ้าน
-
-## Functional Zones
-Ground: Living + Dining + Kitchen (open-plan)
-         + 1 BR (guest) + Japanese garden
-2nd:     Master BR + 2 BR kids + Study + Balcony
+"บ้านที่ฟังเสียงตัวเองได้" — courtyard
+เพื่อบล็อก noise + create internal garden
 
 ## Material Palette
-- Teak wood (สยาม, reclaimed)
+- Teak wood (reclaimed)
 - Travertine (warm beige)
-- Textured white render
-- Black steel (slim profile)
+- Black steel (slim profile)`),
 
-## Render Prompt (Midjourney)
-"Japandi tropical villa with internal courtyard,
-teak wood facade, white textured walls, black steel
-roof, bamboo garden visible through large openings,
-golden hour lighting, architectural photography,
-ultra detailed, --ar 16:9 --v 6"`
-    }
-  },
-  {
-    id: 'fashion-designer-pro', name: 'Fashion Designer Pro', category: 'design',
-    desc: 'collection plan + color story + silhouette + fabric recommendation + pattern brief',
-    tags: ['fashion', 'collection', 'pattern', 'lookbook'],
-    useCases: ['streetwear', 'ready-to-wear', 'capsule collection', 'luxury'],
-    example: {
-      title: 'Capsule "Bangkok Monsoon" SS26',
-      preview: `# Collection: Bangkok Monsoon SS26
-Brand: GREYHOUR
-Pieces: 10 (4 tops, 4 bottoms, 2 layers)
-Season: Spring/Summer 2026
+  s('fashion-designer-pro', 'Fashion Designer Pro', 'design',
+    'collection plan + color story + silhouette + fabric recommendation',
+    ['fashion','collection','pattern'],
+    ['streetwear','RTW','capsule'],
+    'Capsule "Bangkok Monsoon" SS26',
+    `# Collection: Bangkok Monsoon
+Brand: GREYHOUR | 10 pieces
 
 ## Theme
 "เสื้อผ้าสำหรับฝนตกกลางกรุง"
-— functional + poetic + urban monsoon
 
 ## Color Story
-- Charcoal grey (ท้องฟ้าก่อนฝน)
-- Deep olive (ใบไม้เปียก)
-- Cream off-white (พื้นตึกในสายหมอก)
-- Rust red (1 accent piece)
+Charcoal grey / Deep olive / Cream / Rust accent
 
-## Silhouettes (ย่อ)
+## Silhouettes
 Look 1: Oversized trench + tapered pants
-Look 2: Cropped windbreaker + wide-leg shorts
-Look 3: Gilet layer + midi skirt
+Look 2: Cropped windbreaker + wide-leg shorts`),
 
-## Fabric Recommendation
-- Technical cotton (WR coating, breathable)
-- Heavyweight linen (wrinkle-resistant)
-- Recycled polyester (weather layer)`
-    }
-  },
-  {
-    id: 'product-designer-pro', name: 'Product Designer Pro', category: 'design',
-    desc: 'product brief + packaging design + mockup prompt + shelf appeal analysis',
-    tags: ['product', 'packaging', 'mockup', 'retail'],
-    useCases: ['สินค้าใหม่', 'rebrand', 'e-commerce', 'shelf design'],
-    example: {
-      title: 'Drip Coffee 15g — Ethiopian Yirgacheffe',
-      preview: `# Product Brief
-Product: Single-serve drip coffee bag
-Weight: 15g (ground coffee)
+  s('product-designer-pro', 'Product Designer Pro', 'design',
+    'product brief + packaging design + mockup prompt + shelf appeal',
+    ['product','packaging','mockup'],
+    ['สินค้าใหม่','rebrand','e-commerce'],
+    'Drip Coffee 15g — Yirgacheffe',
+    `# Product: Single-serve drip 15g
 Brand: Kaffa Origin
-Channel: E-commerce + specialty shops
 
 ## Packaging Spec
-Primary: Foil-lined paper bag (barrier)
-  Size: 100 × 130 mm
-  Material: Kraft paper + aluminum foil
-  Closure: Heat-seal + tear notch
-
-Secondary: Box of 10
-  Size: 150 × 130 × 50 mm
-  Material: Matt laminate cardboard
+Primary: Foil-lined paper bag
+  Size: 100×130mm | Heat-seal + tear notch
 
 ## Design Direction
-- Color: Cream #F5F0E8 / Dark roast #2C1810
-- Typography: Serif (editorial) + Mono (info)
-- Visual: Minimal illustration of origin (Ethiopia map)
-- Info hierarchy: Origin > Tasting notes > Brew guide
+Color: Cream #F5F0E8 / Dark brown #2C1810
+Visual: Hand-drawn Ethiopia map illustration
 
-## Mockup Prompt (Midjourney)
-"minimalist drip coffee bag packaging, cream paper
-with dark brown accents, hand-drawn illustration of
-Ethiopian landscape, modern typography, standing on
-wood surface, soft natural light, product photography,
---ar 3:4 --v 6 --style raw"`
-    }
-  },
+## Mockup Prompt
+"minimalist drip coffee bag packaging,
+cream paper with dark brown accents,
+hand-drawn Ethiopia illustration"`),
 
-  // 💼 Business
-  {
-    id: 'business-consultant', name: 'Business Consultant', category: 'business',
-    desc: 'SWOT + Business Canvas + Porter 5 Forces + pitch deck outline + 3-year forecast',
-    tags: ['strategy', 'swot', 'canvas', 'pitch'],
-    useCases: ['startup pitch', 'SME expansion', 'pivot', 'M&A'],
-    example: {
-      title: 'ร้านขนมไทยเปิดสาขา 2',
-      preview: `# Expansion Analysis: ร้านขนมไทย "แม่ทอง"
+  s('ux-designer', 'UX Designer', 'design',
+    'user flow + wireframe + prototype + usability test + information architecture',
+    ['ux','wireframe','prototype','usability'],
+    ['SaaS app','e-commerce','dashboard','mobile'],
+    'User Flow: SaaS Onboarding',
+    `# UX Flow: SaaS Onboarding
 
+## User Goal
+"Sign up → first 'aha' moment ใน < 5 min"
+
+## IA (Information Architecture)
+Sign up → Email verify → Welcome
+  → Setup workspace (3 questions)
+  → Templates (recommended starts)
+  → First action (create first project)
+
+## Wireframe Specs
+Step 1 (Sign up):
+  - Email + Password (or Google OAuth)
+  - "Why should I trust this?" microcopy
+Step 2 (Setup):
+  - 3 questions max
+  - Skip option (don't force)
+Step 3 (Templates):
+  - 4 cards (most popular)
+  - "Start blank" alternative
+
+## Usability Test Plan
+n=5, task: "create your first project"
+Success criteria: complete in < 3 min
+Pain points to log: confusion at step X`,
+    { isNew: true }),
+
+  s('motion-designer', 'Motion Designer', 'design',
+    'animation principles + AfterEffects expression + Lottie spec + motion brief',
+    ['motion','animation','aftereffects','lottie'],
+    ['app micro-interactions','explainer video','title sequence'],
+    'Lottie Loading Animation Spec',
+    `# Motion Brief: Loading Animation
+Use: SaaS dashboard "Saving..." state
+Duration: 1.5s loop | Format: Lottie JSON
+
+## 12 Principles Applied
+- Anticipation: small dip before main motion
+- Easing: ease-in-out (not linear)
+- Follow-through: subtle bounce on end
+
+## AfterEffects Setup
+Composition: 200×200, 30fps
+Layer 1: Circle (24px) — orbit motion
+  Position keyframes: 0s, 0.5s, 1s, 1.5s
+  Easy ease all (F9)
+Layer 2: Inner pulse — scale 0→1 loop
+
+## Export to Lottie
+- Use Bodymovin plugin
+- Export JSON (no audio)
+- Optimize: < 50KB target`,
+    { isNew: true }),
+
+  s('illustrator-pro', 'Illustrator Pro', 'design',
+    'vector illustration + character design + icon set + style consistency',
+    ['illustration','vector','character','icon'],
+    ['app onboarding','website hero','icon library','character mascot'],
+    'Icon Set 24px (Tab Bar)',
+    `# Icon Set: SaaS App Tab Bar
+Style: Outline / Stroke 2px / Rounded 2px
+
+## Grid System
+24×24 viewBox, 20×20 active area
+2px padding all sides
+
+## Icon List (5)
+1. Home — house outline (chimney optional)
+2. Search — circle + handle (Σ shape)
+3. Add — plus in circle (24×24 fill)
+4. Inbox — open box with arrow down
+5. Profile — person silhouette (circle + ⌐)
+
+## Naming Convention
+icon-name-default.svg
+icon-name-active.svg (filled)
+
+## Color
+Default: currentColor (inherit)
+Active: brand-500`,
+    { isNew: true }),
+
+  s('3d-modeler', '3D Modeler', 'design',
+    'Blender workflow — modeling, topology, UV, texturing, baking, render',
+    ['3d','blender','modeling','texture'],
+    ['game asset','product render','character','arch viz'],
+    'Game Asset: Wooden Crate (Low-poly)',
+    `# Asset: Wooden Crate
+Use: Game prop | Polycount: < 500 tris
+
+## Workflow
+1. Modeling
+   - Start with cube (1m × 1m × 1m)
+   - Bevel edges (2mm, 2 segments)
+   - Add wood plank cuts
+2. UV unwrap
+   - Mark seams along edges
+   - Smart UV project (margin 0.05)
+3. High-poly bake
+   - Sculpt detail (wood grain, dents)
+   - Bake normal map to low-poly
+4. Texturing (Substance / GIMP)
+   - Albedo: wood texture
+   - Normal: from bake
+   - Roughness: 0.7
+5. Export
+   - .fbx for Unity
+   - .glb for web (smaller)`,
+    { isNew: true }),
+
+  s('interior-designer', 'Interior Designer', 'design',
+    'interior space design + functional layout + furniture spec + lighting plan',
+    ['interior','space','layout','material'],
+    ['คอนโด','บ้าน','office','retail'],
+    'คอนโด 35 ตร.ม. Studio Minimal',
+    `# Project: Studio Condo 35 sqm
+Style: Japandi minimal | Budget: 250K
+
+## Functional Zones
+- Sleep (8 sqm): platform bed + storage
+- Work (4 sqm): floating desk + chair
+- Cook (4 sqm): pantry built-in
+- Living (10 sqm): sofa + low table
+- Bath (5 sqm): existing
+- Entry/Storage (4 sqm)
+
+## Furniture Spec
+Bed: queen platform with drawers (Index)
+Sofa: 2-seater (Crate&Barrel) 28K
+Coffee table: round wood (low) 8K
+
+## Lighting Plan
+Ambient: warm white (3000K) ceiling
+Task: desk lamp + reading light
+Accent: LED strip behind TV (RGB)
+
+## Material Palette
+Floor: light oak vinyl (warm)
+Wall: white + 1 accent wall (sage green)`,
+    { isNew: true }),
+
+  s('jewelry-designer', 'Jewelry Designer', 'design',
+    'jewelry concept + render prompt + gem selection + metal recommendation',
+    ['jewelry','gem','metal'],
+    ['engagement ring','necklace','custom design'],
+    'Engagement Ring — Sapphire Halo',
+    `# Custom Engagement Ring
+
+## Concept
+Halo design — ceylon sapphire center
+diamond accent halo + band
+
+## Stone Spec
+Center: 1.0ct ceylon sapphire (oval)
+  - Color: cornflower blue
+  - Clarity: VS1
+Halo: 16 round diamonds (1.5mm each, ~0.3ct total)
+
+## Metal
+18k White gold (rhodium plated)
+Band width: 1.8mm
+Setting: prong (4-prong center)
+
+## Render Prompt (Midjourney)
+"luxury engagement ring with center cornflower
+blue sapphire, halo of small diamonds, 18k
+white gold, professional jewelry photography,
+soft studio lighting, --ar 1:1 --v 6"`,
+    { isNew: true }),
+
+  s('tattoo-designer', 'Tattoo Designer', 'design',
+    'tattoo concept + style selection + placement + sizing + after-care guide',
+    ['tattoo','style','placement'],
+    ['traditional','japanese','realism','watercolor'],
+    'Custom Sleeve — Japanese Style',
+    `# Project: Half-Sleeve Tattoo
+Client: Male, 32, first tattoo
+Style: Japanese (Irezumi)
+
+## Concept
+Theme: Koi swimming upstream (perseverance)
+Elements:
+- Koi fish (main, 12cm)
+- Cherry blossoms (filler, 8 flowers)
+- Wind bars (dynamic flow)
+
+## Placement & Size
+Location: Upper arm (deltoid → mid bicep)
+Size: ~25 × 18 cm
+Visibility: hidden by t-shirt
+
+## Color Palette
+Black (outline + shading) — heavy
+Red (koi, blossoms) — accent
+Blue-gray (water, wind bars)
+
+## Sessions
+3 sessions × 4 hours
+Total est.: 18,000-25,000 บาท
+
+## After-care
+Day 0-3: Wrap on, gentle wash
+Day 4-14: Moisturize, no sun, no soaking
+Avoid: gym 2 weeks, sun exposure 1 month`,
+    { isNew: true }),
+
+  // ===== 💼 Business (15) =====
+  s('business-consultant', 'Business Consultant', 'business',
+    'SWOT + Business Canvas + Porter 5 Forces + pitch deck + 3-year forecast',
+    ['strategy','swot','canvas','pitch'],
+    ['startup pitch','SME expansion','pivot'],
+    'ร้านขนมไทยเปิดสาขา 2',
+    `# Expansion: ร้านขนมไทย "แม่ทอง"
 ## SWOT
-Strengths
-- Brand 15 ปี (loyal customer base 2,000+)
-- Signature recipe (ข้าวเหนียวมะม่วงจัดเซ็ตพรีเมียม)
-- ทำเลเดิมทราฟฟิกดี
+S: Brand 15 ปี, signature recipe
+W: ขึ้นกับเจ้าของ, ไม่มี online
+## Recommendation
+A) สาขา 2 ใน community mall (800K)
+B) Delivery 50km radius (150K)
+Recommended: เริ่ม B → A ปีถัดไป`),
 
-Weaknesses
-- ขึ้นกับเจ้าของทำเอง (no process)
-- ไม่มี online presence
+  s('accountant-pro', 'Accountant Pro', 'business',
+    'จัดบัญชี + วิเคราะห์งบ + ภาษีไทย (ภ.ง.ด./ภ.พ.30) + cash flow',
+    ['accounting','tax','thailand'],
+    ['SME บัญชี','ภาษี','วางแผน cash flow'],
+    'SME ออนไลน์ 2M/ปี',
+    `# Tax Planning: SME ขายของออนไลน์
+Revenue 2026: 2,000,000
 
-## Business Canvas (เลือก key blocks)
-Value Proposition: "ขนมไทยโบราณระดับพรีเมียม
-  ที่หาไม่ได้ในห้าง"
-Channels: Walk-in (80%) + LINE Order (20%)
-Revenue: 450K/month avg
-
-## Recommendation — 3 ตัวเลือก
-A) เปิดสาขา 2 ใน community mall (Investment 800K)
-B) เน้น delivery 50km radius (Investment 150K)
-C) Franchise model (Investment 200K, 2-year)
-
-Recommended: เริ่ม B, เตรียม A ปีถัดไป`
-    }
-  },
-  {
-    id: 'accountant-pro', name: 'Accountant Pro', category: 'business',
-    desc: 'จัดบัญชี + วิเคราะห์งบ + ภาษีไทย (ภ.ง.ด./ภ.พ.30) + cash flow analysis',
-    tags: ['accounting', 'tax', 'thailand', 'cash-flow'],
-    useCases: ['SME บัญชี', 'ภาษี', 'วางแผนกระแสเงินสด', 'ปิดงบ'],
-    warning: 'ต้องให้นักบัญชีตรวจก่อนยื่นภาษีจริง',
-    example: {
-      title: 'SME ออนไลน์ 2 ลบ./ปี — วิเคราะห์ภาษี',
-      preview: `# Tax Planning: SME ขายของออนไลน์
-Revenue 2026: 2,000,000 บาท
-Business type: บุคคลธรรมดา
-
-## ภ.ง.ด.90 Calculation
-เงินได้: 2,000,000
-หัก ค่าใช้จ่ายเหมาจ่าย 60% = 1,200,000
-หัก ค่าลดหย่อน (ส่วนตัว 60K + ประกัน 100K
-    + RMF 200K + SSF 200K) = 560,000
-เงินได้สุทธิ: 240,000
+## ภ.ง.ด.90
+หัก ค่าใช้จ่าย 60% = 1,200,000
+หัก ลดหย่อน = 560,000 (ส่วนตัว+RMF+SSF)
 ภาษี: ~7,500 บาท
 
 ## ภ.พ.30 (VAT)
-หากรายได้ ≥ 1,800,000 → ต้องจด VAT
-VAT รายเดือน: Output VAT − Input VAT
-ยื่นภายในวันที่ 15 ของเดือนถัดไป
+รายได้ ≥ 1.8M → ต้องจด VAT`,
+    { warning: 'ต้องให้นักบัญชีตรวจก่อนยื่นภาษีจริง' }),
 
-## Recommendations
-1. พิจารณาจดบริษัทเมื่อรายได้ > 3M
-   (ภาษี 20% flat + หักค่าใช้จ่ายจริง)
-2. RMF/SSF เต็ม max (500K limit)
-3. เก็บใบเสร็จทุกครั้ง (claim input VAT)
-
-⚠️ ให้นักบัญชีที่มีใบอนุญาตตรวจก่อนยื่นจริง`
-    }
-  },
-  {
-    id: 'hr-officer-pro', name: 'HR Officer Pro', category: 'business',
-    desc: 'JD + interview script (behavioral) + resume scoring matrix + onboarding 90 วัน',
-    tags: ['hr', 'recruiting', 'interview', 'onboarding'],
-    useCases: ['recruit', 'JD writing', 'performance review', 'onboarding'],
-    example: {
-      title: 'Digital Marketer 25-35K',
-      preview: `# JD: Digital Marketer
-Location: กรุงเทพ (Hybrid 3 days)
-Salary: 25,000-35,000
-Level: 2-4 ปี ประสบการณ์
-
+  s('hr-officer-pro', 'HR Officer Pro', 'business',
+    'JD + interview script (behavioral) + resume scoring + onboarding 90 วัน',
+    ['hr','recruiting','interview'],
+    ['recruit','JD writing','onboarding'],
+    'Digital Marketer 25-35K',
+    `# JD: Digital Marketer
 ## Must Have
-- FB Ads Manager + Google Ads (lv. intermediate)
+- FB Ads + Google Ads (intermediate)
 - GA4 + basic SQL
-- Copywriting (TH native)
-- ROAS tracking mindset
+- Copywriting TH native
 
-## Nice to Have
-- TikTok Ads
-- SEO basics
-- HubSpot/ActiveCampaign
+## Interview (Behavioral)
+Q1: "Campaign ที่ภูมิใจ — KPI?"
+Q2: "Campaign ที่พัง — แก้ยังไง?"
 
-## Interview Script (Behavioral)
-Q1: "เล่า campaign ที่คุณภูมิใจที่สุด — KPI เท่าไหร่?"
-  → Listen for: specific numbers, owned responsibility
-Q2: "Campaign ที่พังล่าสุด — เกิดอะไร แก้ยังไง?"
-  → Listen for: ownership, learning
-Q3: "ถ้าต้องเลือก budget 50K แต่ CPL แพงสุด
-     คุณทำอะไรก่อน?"
-  → Listen for: structured thinking, metrics-first
+## Scoring (100)
+Experience 30 | Skills 25 | Portfolio 25
+Culture fit 10 | Education 10`),
 
-## Resume Scoring Matrix (100 pts)
-Experience: 30 | Skills: 25 | Portfolio: 25
-Culture fit: 10 | Education: 10`
-    }
-  },
-  {
-    id: 'customer-service-pro', name: 'Customer Service Pro', category: 'business',
-    desc: 'chatbot flow + FAQ 20+ ข้อ + escalation rule + reply template (inbox/DM/email)',
-    tags: ['cs', 'chatbot', 'faq', 'support'],
-    useCases: ['Line OA', 'Facebook Inbox', 'IG DM', 'email support'],
-    example: {
-      title: 'GlowUp Cosmetics — 120 inbox/วัน',
-      preview: `# Chatbot Flow (Line OA)
-
-## Welcome
+  s('customer-service-pro', 'Customer Service Pro', 'business',
+    'chatbot flow + FAQ 20+ + escalation rule + reply template',
+    ['cs','chatbot','faq'],
+    ['Line OA','FB Inbox','IG DM'],
+    'GlowUp Cosmetics CS',
+    `# Chatbot Flow (Line OA)
 "สวัสดีค่า 😊 ฉันช่วยอะไรได้บ้าง?"
-[1] ดูสินค้า [2] สั่งซื้อ [3] ติดตามพัสดุ [4] อื่นๆ
+[1] ดูสินค้า [2] สั่งซื้อ [3] ติดตาม [4] อื่นๆ
 
-## Branch: ดูสินค้า
-→ แสดง catalog (8 products card)
-→ "สนใจสินค้าไหนคะ?"
-→ ถ้าเลือก → Product detail + CTA "สั่งซื้อ"
+## FAQ
+Q: ส่งต่างจังหวัด?
+A: ส่งทั่วไทย ค่าส่ง 50 (ฟรี ≥500)
 
-## FAQ (ตัวอย่าง 5/20)
-Q: ส่งต่างจังหวัดไหม?
-A: ส่งทั่วไทยค่ะ ค่าส่ง 50 บาท (ฟรีเมื่อ ≥ 500)
+## Escalation
+"คืนเงิน"/"ไม่พอใจ" → human agent (10 min)`),
 
-Q: ใช้ติดผิวแพ้ได้ไหม?
-A: สูตรอ่อนโยน ไม่มี paraben/แอลกอฮอล์
-   แต่แนะนำ patch test ก่อนใช้
+  s('stock-trader-pro', 'Stock Trader Pro', 'business',
+    'technical analysis + R/R + position sizing + news impact',
+    ['trading','technical','SET'],
+    ['day trader','swing','long-term'],
+    'CPALL Swing Trade',
+    `# Technical: CPALL @ 62.50
+RSI(14): 48 | MACD: bullish crossover
+EMA20 > EMA50: golden cross 3 วัน
 
-## Escalation Rule
-หาก user พิมพ์: "คืนเงิน", "ไม่พอใจ", "แพ้"
-  → escalate to human agent (within 10 min)
-  → tag conversation: "urgent"`
-    }
-  },
-  {
-    id: 'stock-trader-pro', name: 'Stock Trader Pro', category: 'business',
-    desc: 'technical analysis + R/R calculation + position sizing + news impact summary',
-    tags: ['trading', 'technical', 'risk-management', 'SET'],
-    useCases: ['day trader', 'swing', 'long-term investor'],
-    warning: 'ไม่ใช่คำแนะนำลงทุน — ผู้ใช้ตัดสินใจเอง',
-    example: {
-      title: 'CPALL Swing Trade Plan',
-      preview: `# Technical Analysis: CPALL
-Current Price: 62.50 (2026-04-16)
-Trend: Sideways accumulation
+## Trade Plan
+Entry: 62.50-63.00 | Stop: 60.50 (-3.2%)
+TP1: 65.00 (+4%) | TP2: 67.50 (+8%)
+R/R: 1:2.5 (good)`,
+    { warning: 'ไม่ใช่คำแนะนำลงทุน — ผู้ใช้ตัดสินใจเอง' }),
 
-## Indicators
-RSI(14): 48 → neutral zone
-MACD: Bullish crossover pending
-EMA(20) > EMA(50): Golden cross 3 วันก่อน
-Volume: ↑ 35% above 20-day avg
-
-## Support & Resistance
-S1: 61.00 (strong, tested 3x)
-S2: 58.50 (50% Fibonacci)
-R1: 65.00 (recent high)
-R2: 68.00 (analyst target)
-
-## Trade Plan (Swing, 2-4 weeks)
-Entry: 62.50-63.00
-Stop Loss: 60.50 (-3.2%)
-Take Profit 1: 65.00 (+4.0%)
-Take Profit 2: 67.50 (+8.0%)
-R/R: 1:2.5 (good)
-
-## Position Sizing
-Portfolio: 1M
-Risk per trade: 1% = 10,000
-Max loss: (63 - 60.50) / 63 = 4%
-Position size: 10,000 / 4% = 250,000 = 3,968 หุ้น
-
-⚠️ ข้อมูลนี้เพื่อการศึกษาเท่านั้น ไม่ใช่คำแนะนำลงทุน`
-    }
-  },
-  {
-    id: 'lawyer-pro', name: 'Lawyer Pro', category: 'business',
-    desc: 'ร่างสัญญา (จ้าง/เช่า/NDA) + สรุปคดี + legal memo + research กฎหมายไทย',
-    tags: ['legal', 'contract', 'thailand', 'research'],
-    useCases: ['สัญญาจ้าง', 'สัญญาเช่า', 'NDA', 'legal memo'],
-    warning: 'ต้องให้ทนายตรวจก่อนใช้เอกสารจริง',
-    example: {
-      title: 'สัญญาจ้าง Freelance Dev 3 เดือน 150K',
-      preview: `สัญญาจ้างทำงานอิสระ
-========================
-
-สัญญานี้ทำขึ้นเมื่อวันที่ 16 เมษายน 2569
-ระหว่าง
-  "ผู้ว่าจ้าง"  บริษัท ABC จำกัด
-  "ผู้รับจ้าง"  นาย/น.ส. [ชื่อ]
+  s('lawyer-pro', 'Lawyer Pro', 'business',
+    'ร่างสัญญา (จ้าง/เช่า/NDA) + สรุปคดี + legal memo + research กฎหมายไทย',
+    ['legal','contract','thailand'],
+    ['สัญญาจ้าง','สัญญาเช่า','NDA'],
+    'สัญญาจ้าง Freelance Dev',
+    `สัญญาจ้างทำงานอิสระ
+ระหว่าง บริษัท ABC (ผู้ว่าจ้าง)
+และ นาย/น.ส. [ชื่อ] (ผู้รับจ้าง)
 
 ## มาตรา 1: ขอบเขตงาน
-ผู้รับจ้างตกลงพัฒนา web application ตามสเปก
-ที่ระบุในเอกสารแนบ (Scope of Work)
+พัฒนา web app ตาม Scope of Work
 
-## มาตรา 2: ค่าตอบแทนและการชำระเงิน
-2.1 ค่าจ้างรวม 150,000 บาท (ไม่รวม VAT)
-2.2 ชำระแบ่ง 3 งวด:
-    งวด 1: 30% เมื่อลงนาม = 45,000
-    งวด 2: 40% เมื่อ MVP = 60,000
-    งวด 3: 30% เมื่อ handoff = 45,000
-2.3 หัก withholding tax 3% ตามกฎหมายไทย
+## มาตรา 2: ค่าตอบแทน 150,000 บาท
+งวด 1: 30% เมื่อลงนาม = 45,000
+งวด 2: 40% เมื่อ MVP = 60,000
+งวด 3: 30% เมื่อ handoff = 45,000`,
+    { warning: 'ต้องให้ทนายตรวจก่อนใช้เอกสารจริง' }),
 
-## มาตรา 3: กรรมสิทธิ์ในทรัพย์สินทางปัญญา
-โค้ดและผลงานทั้งหมดตกเป็นของผู้ว่าจ้าง
-เมื่อชำระครบถ้วน (ตาม พรบ.ลิขสิทธิ์ ม.14)
+  s('real-estate-pro', 'Real Estate Pro', 'business',
+    'listing copy (3 versions) + virtual tour + CMA + neighborhood analysis',
+    ['real-estate','listing','condo'],
+    ['ขาย/เช่า condo','บ้านเดี่ยว','broker'],
+    'Condo Charoennakhon 6.5M',
+    `# Listing (3 versions)
+A: Lifestyle — "ตื่นมาเห็นแม่น้ำ..."
+B: Investment — "ROI 4.8%/ปี ใกล้ BTS"
+C: Concise — "45 ตร.ม. | 1นอน | ริมน้ำ"
 
-## มาตรา 4: การบอกเลิกสัญญา
-...
+## CMA
+Unit A: 5.8M (ต่ำกว่า)
+Unit B: 7.2M (สูงกว่า)
+Our: 6.5M → upper mid-range`),
 
-⚠️ ร่างนี้เพื่อเริ่มต้น — ให้ทนายตรวจก่อนใช้`
-    }
-  },
-  {
-    id: 'real-estate-pro', name: 'Real Estate Pro', category: 'business',
-    desc: 'listing copy (3 versions) + virtual tour script + CMA + neighborhood analysis',
-    tags: ['real-estate', 'listing', 'condo', 'market'],
-    useCases: ['ขาย/เช่า condo', 'บ้านเดี่ยว', 'broker', 'investment'],
-    example: {
-      title: 'Condo Charoennakhon 45 ตร.ม. 6.5 ลบ.',
-      preview: `# Listing Copy (3 versions)
+  s('financial-planner', 'Financial Planner', 'business',
+    'wealth management ส่วนบุคคล — asset allocation, retirement, tax optimization, FIRE',
+    ['finance','wealth','retirement','personal'],
+    ['ลงทุนระยะยาว','วางแผนเกษียณ','FIRE'],
+    'Wealth Plan อายุ 30 → เกษียณ 55',
+    `# Wealth Plan: Pat, อายุ 30
+Goal: เกษียณอายุ 55 + ใช้ 50K/เดือน
 
-## Version A: Lifestyle
-"ตื่นเช้ามาเปิดประตูระเบียง เห็นแม่น้ำเจ้าพระยา
-ทอดตัวไปไกลสุดสายตา นี่คือชีวิตประจำวัน
-ที่คอนโดริมน้ำ Charoennakhon 42 ชั้น 28"
+## Required Nest Egg (4% rule)
+50K × 12 × 25 = 15M
 
-## Version B: Investment
-"ROI 4.8%/ปี (yield จากตลาด) พื้นที่ริมแม่น้ำ
-เจริญทุกปี 8-12% ระยะ 5 ปี ใกล้ BTS ตากสิน
-2 นาที ICONSIAM 3 นาที"
+## Current State
+Income: 80K/month
+Expenses: 50K
+Savings: 30K (37%)
+Net worth: 800K
 
-## Version C: Concise
-"45 ตร.ม. | 1 นอน 1 น้ำ | ริมน้ำ | ชั้น 28
-สระว่ายน้ำ infinity pool + ฟิตเนส 24 ชม.
-ฟรี ที่จอดรถ 1 คัน + Super Internet"
+## Asset Allocation (Age-based)
+Stocks: 70% (Thai 30 + US 40)
+Bonds: 15% (Gov + Corp)
+REITs: 10%
+Cash: 5%
 
-# CMA — คอนโดเทียบ (3 units)
-Unit A (ชั้น 15, 40 ตร.ม.): 5.8M → ต่ำกว่า
-Unit B (ชั้น 30, 48 ตร.ม.): 7.2M → สูงกว่าเล็กน้อย
-Unit C (ชั้น 25, 45 ตร.ม.): 6.3M → ใกล้เคียง
+## Path to 15M (25 years)
+Save 30K/month at 7% annual return
+= 24M (above goal!)
 
-Our unit (ชั้น 28, 45 ตร.ม.): 6.5M
-→ ราคาเหมาะสม (upper mid-range)`
-    }
-  },
+## Tax Optimization
+RMF max: 500K/year
+SSF max: 200K/year
+Combined deduction: ~140K tax saved`,
+    { isNew: true, warning: 'ไม่ใช่คำแนะนำลงทุน ปรึกษาที่ปรึกษาการเงินที่มีใบอนุญาต' }),
 
-  // 📚 Education & Health
-  {
-    id: 'teacher-pro', name: 'Teacher Pro', category: 'education',
-    desc: 'แผนการสอน 5E + ใบงาน + rubric 4 ระดับ + การบ้านสร้างสรรค์',
-    tags: ['teaching', 'lesson-plan', 'worksheet', 'rubric'],
-    useCases: ['อนุบาล', 'ประถม-มัธยม', 'มหาวิทยาลัย', 'ติวเตอร์'],
-    example: {
-      title: 'คณิต ม.2 — พีทาโกรัส 50 นาที',
-      preview: `# Lesson Plan: ทฤษฎีบทพีทาโกรัส
-ระดับ: ม.2 | เวลา: 50 นาที | ขนาดห้อง: 30 คน
+  s('insurance-advisor', 'Insurance Advisor', 'business',
+    'ประกันชีวิต/รถ/สุขภาพ — need analysis (DIME), policy comparison',
+    ['insurance','life','health','policy'],
+    ['ประกันชีวิต','ประกันสุขภาพ','ประกันรถ'],
+    'Need Analysis ครอบครัว 4 คน',
+    `# Insurance Need: Family of 4
+Father 35 (sole earner) | Mother 32 | Kids 5, 2
 
-## Learning Objectives
-1. เขียนทฤษฎีบทพีทาโกรัสได้ (a² + b² = c²)
-2. นำทฤษฎีบทไปใช้แก้ปัญหาได้
-3. พิสูจน์ทฤษฎีบทด้วยวิธีตัดกระดาษได้
+## DIME Method (Coverage needed)
+D - Debt: บ้าน 4M + รถ 500K = 4.5M
+I - Income replacement (10x): 60K × 12 × 10 = 7.2M
+M - Mortgage: covered in D
+E - Education: 2 kids × 2M = 4M
+TOTAL: 15.7M
 
-## 5E Lesson Flow
-### Engage (5 min)
-ถาม: "ถ้าคุณเดินไปทางเหนือ 3 ก้าว
-      แล้วเลี้ยวขวาเดิน 4 ก้าว
-      คุณห่างจากจุดเริ่มต้นกี่ก้าว?"
-  → ให้เดาก่อน → วาดรูป → สัญญาว่าสอนวิธีคำนวณ
+## Recommendation
+Term Life 15M (15-year): ~12K/year
+  vs Whole Life 5M: ~80K/year
+  → Term เหมาะกว่า (high coverage, low cost)
 
-### Explore (15 min)
-กิจกรรมตัดกระดาษ: สามเหลี่ยมมุมฉาก
-→ วัดพื้นที่กำลังสองบนแต่ละด้าน
-→ พบความสัมพันธ์ด้วยตัวเอง
+Health: ผู้ป่วยใน 2M/ปี + ผู้ป่วยนอก 30K/ปี
+ประมาณ 35K/year for father
 
-### Explain (10 min): สรุปทฤษฎีบท
-### Elaborate (15 min): 3 โจทย์ประยุกต์
-### Evaluate (5 min): quiz 3 ข้อ
+Critical Illness: 3M lump sum
+~15K/year
 
-## Rubric (4 ระดับ)
-4 (ดีเยี่ยม): ใช้สูตรถูก + อธิบายเหตุผลได้ชัด
-3 (ดี):      ใช้สูตรถูก + คำตอบถูก
-2 (ผ่าน):    ใช้สูตรถูก + คำตอบอาจผิดจากการคำนวณ
-1 (ต้องเพิ่มเติม): ยังไม่เข้าใจทฤษฎีบท`
-    }
-  },
-  {
-    id: 'coach-pro', name: 'Coach Pro', category: 'education',
-    desc: 'coaching program ด้วย GROW model + intake form + session plan + progress tracker',
-    tags: ['coaching', 'grow-model', 'session', 'career'],
-    useCases: ['life coach', 'business coach', 'career coach', 'health coach'],
-    example: {
-      title: 'Career Coaching 12 สัปดาห์ (freelance)',
-      preview: `# Program: เปลี่ยนสายงาน → Freelance (12 weeks)
+## Total: ~62K/year (~5K/month)
+~ 8% of income (within recommended 5-10%)`,
+    { isNew: true, warning: 'เปรียบเทียบเบื้องต้น ตรวจสอบกับตัวแทนประกันก่อนซื้อ' }),
 
-## Phase 1: Self-Discovery (Week 1-3)
-Week 1 — Kickoff
-  Session: GROW model
-    G (Goal): อยากเป็น freelance developer ภายใน 6 เดือน
-    R (Reality): ปัจจุบัน full-time, ไม่มี portfolio
-    O (Options): side project / bootcamp / network
-    W (Will): เริ่ม side project week หน้า
+  s('crypto-trader', 'Crypto Trader', 'business',
+    'BTC/ETH/altcoin analysis + DeFi yield + on-chain metrics + risk management',
+    ['crypto','btc','defi','on-chain'],
+    ['spot trading','DeFi yield','long-term hodl'],
+    'BTC Analysis + DeFi Yield Strategy',
+    `# BTC Analysis (2026-04-16)
+Price: $87,500 | Dominance: 54%
 
-Week 2 — Strengths Audit
-  Homework: StrengthsFinder + เขียน 10 งานที่ภูมิใจ
+## On-Chain Signals
+- MVRV: 2.3 (mid-cycle, not euphoric)
+- NUPL: 0.55 (Belief stage)
+- Exchange reserve: ↓ (bullish supply)
+- Fear & Greed: 68 (Greed)
 
-Week 3 — Values & Vision
-  Session: ค่านิยม 5 อันดับ + vision 3 ปี
+## DeFi Yield Strategy (Conservative)
+Stablecoin USDC:
+- Aave: 4.2% APY (lowest risk)
+- Curve 3pool: 5.8% APY (slight IL risk)
+- Convex: 7.2% APY (locked yield)
 
-## Phase 2: Strategy (Week 4-6)
-Week 4 — Niche Selection
-Week 5 — Portfolio Planning
-Week 6 — Financial Runway Calc
+## Risk Notes
+- Smart contract risk (audit history)
+- Stablecoin depeg (USDC, USDT)
+- Bridging risk (avoid bridges if possible)
 
-## Phase 3: Execution (Week 7-9)
-Week 7 — First Client Outreach
-Week 8 — Pricing & Contracts
-Week 9 — Delivery Systems
+## Position Sizing
+Crypto: max 10% of net worth
+Single coin: max 5% of crypto allocation`,
+    { isNew: true, warning: 'Crypto risk สูงมาก — ลงทุนเฉพาะเงินที่พร้อมเสีย' }),
 
-## Phase 4: Transition (Week 10-12)
-Week 10 — Resignation Plan
-Week 11 — Handoff & Exit
-Week 12 — Launch & Celebrate`
-    }
-  },
-  {
-    id: 'nutritionist-pro', name: 'Nutritionist Pro', category: 'education',
-    desc: 'meal plan 7 วัน + TDEE/macro calculation + grocery list + meal prep schedule',
-    tags: ['nutrition', 'meal-plan', 'calorie', 'thai-food'],
-    useCases: ['ลดน้ำหนัก', 'เพิ่มกล้าม', 'keto', 'vegetarian'],
-    warning: 'ผู้มีโรคประจำตัว/ตั้งครรภ์ ควรปรึกษาแพทย์ก่อน',
-    example: {
-      title: '1,500 kcal/day ลดน้ำหนักหญิงไทย 7 วัน',
-      preview: `# Meal Plan: หญิงไทย 28 ปี 65kg
-Target: ลดน้ำหนัก 5kg ใน 3 เดือน
-TDEE: 1,800 kcal → Target: 1,500 kcal (-300)
+  s('supply-chain-mgr', 'Supply Chain Manager', 'business',
+    'logistics + inventory + demand forecast + supplier mgmt + ABC analysis',
+    ['supply-chain','logistics','inventory'],
+    ['e-commerce fulfillment','manufacturing','retail'],
+    'Inventory ABC + Demand Forecast',
+    `# ABC Analysis: Skincare Brand (50 SKUs)
 
-## Macro Split (1,500 kcal)
-Protein: 120g (32%) - เน้นรักษากล้ามเนื้อ
-Carb: 150g (40%)
-Fat: 50g (28%)
+## Category A (Top 20% items, 70% revenue)
+- 10 SKUs (best sellers)
+- Reorder point: 2 weeks of demand
+- Safety stock: 1 week
 
-## Day 1 (Monday)
-🌅 Breakfast (350 kcal)
-  โจ๊กไก่ข้าวกล้อง + ไข่ต้ม 2 ฟอง + ผักสด
-  (P: 28g, C: 40g, F: 8g)
+## Category B (30% items, 25% revenue)
+- 15 SKUs
+- Reorder: 4 weeks
+- Safety stock: 2 weeks
 
-☀️ Lunch (450 kcal)
-  ข้าวกล้อง 1 ทัพพี + อกไก่ย่าง 120g
-  + สลัดผัก + น้ำพริกกะปิ
-  (P: 42g, C: 45g, F: 10g)
+## Category C (50% items, 5% revenue)
+- 25 SKUs (slow movers)
+- Reorder: 8 weeks or by case
+- Consider discontinuing low performers
 
-🌆 Dinner (400 kcal)
-  แกงเลียงกุ้งสด + ปลาเก๋านึ่งซีอิ๊ว + ข้าวกล้อง 0.5
-  (P: 38g, C: 35g, F: 15g)
+## Demand Forecast (Top SKU)
+Method: Moving Average (3-month)
+Adjusted for: seasonality (Songkran +30%)
 
-🍎 Snacks (300 kcal)
-  กรีกโยเกิร์ต + ถั่วอัลมอนด์ 30g + ส้ม
+## EOQ Calculation
+Annual demand: 12,000 units
+Order cost: 500 บาท
+Holding cost: 50 บาท/unit/year
+EOQ = sqrt(2 × 12000 × 500 / 50) = 490 units`,
+    { isNew: true }),
 
-## Grocery List (Week 1)
-Protein: อกไก่ 1kg, ปลาเก๋า 500g, กุ้ง 300g, ไข่ 14 ฟอง
-...
+  s('procurement-pro', 'Procurement Pro', 'business',
+    'buyer + vendor selection + RFQ template + contract negotiation + TCO',
+    ['procurement','vendor','rfq','negotiation'],
+    ['SaaS purchase','equipment buying','vendor consolidation'],
+    'RFQ: SaaS Helpdesk Tool',
+    `# RFQ: Helpdesk Software (50 agents)
 
-⚠️ ผู้มีโรคประจำตัวควรปรึกษาแพทย์ก่อน`
-    }
-  },
-  {
-    id: 'fitness-trainer-pro', name: 'Fitness Trainer Pro', category: 'education',
-    desc: '4-week periodization + exercise library with form cues + progress tracker',
-    tags: ['fitness', 'workout', 'ppl', 'strength'],
-    useCases: ['gym beginner', 'home workout', 'sport-specific'],
-    warning: 'ผู้มีโรคประจำตัว/ตั้งครรภ์ ควรปรึกษาแพทย์ก่อน',
-    example: {
-      title: 'PPL 6 วัน/สัปดาห์ Beginner ยิม',
-      preview: `# 4-Week Push/Pull/Legs Program
-Level: Beginner (≤ 6 เดือน)
-Frequency: 6 days/week, ~60 min/session
+## Requirements
+- Multi-channel (email, chat, social)
+- Knowledge base
+- AI suggestions
+- Reporting + SLA tracking
+- Thai language support
+- Integrations (LINE, FB, IG)
 
-## Week 1-2: Foundation (Volume)
-### Push Day (Mon, Thu)
-1. Barbell Bench Press: 4×8
-2. Overhead Press: 3×10
-3. Incline DB Press: 3×10
-4. Lateral Raise: 3×12
-5. Tricep Extension: 3×12
+## Vendor Shortlist
+1. Zendesk: $115/agent/month
+2. Freshdesk: $59/agent/month
+3. Intercom: $99/agent/month
+4. HubSpot Service: $90/agent/month
 
-### Pull Day (Tue, Fri)
-1. Deadlift: 4×6
-2. Pull-up (or Lat Pulldown): 3×8
-3. Barbell Row: 3×10
-4. Face Pull: 3×15
-5. Bicep Curl: 3×12
+## Total Cost of Ownership (3-year)
+Zendesk: 50 × $115 × 36 = $207K
+Freshdesk: 50 × $59 × 36 = $106K
+Intercom: 50 × $99 × 36 = $178K
 
-### Leg Day (Wed, Sat)
-1. Back Squat: 4×8
-2. Romanian Deadlift: 3×10
-3. Leg Press: 3×12
-...
+## Decision Framework
+Weight: Cost 30% / Features 30% / Support 20% / Integration 20%
+Winner: Freshdesk (best value)
 
-## Week 3-4: Intensity
-→ เพิ่มน้ำหนัก 5-10%
-→ ลด rep 1-2 ต่อเซ็ท
-→ Rest 2-3 min (compound)
+## Negotiation Levers
+- Annual prepay: -10%
+- Multi-year commitment: additional -5%
+- Reference customer: -5%`,
+    { isNew: true }),
 
-## Form Cues (ตัวอย่าง)
-Squat:
-  ✓ เข่าตามปลายเท้า (ไม่เข้าใน)
-  ✓ ก้นแตะจนต่ำกว่าหัวเข่า
-  ✓ หลังตรง (neutral spine)
+  s('auditor-pro', 'Auditor Pro', 'business',
+    'internal audit + compliance + SOX + ISO 27001 checklist + finding documentation',
+    ['audit','compliance','iso','internal'],
+    ['internal audit','vendor audit','compliance review'],
+    'ISO 27001 Audit Checklist',
+    `# ISO 27001 Audit: Tech Startup
 
-⚠️ ผู้มีอาการบาดเจ็บ/โรคประจำตัว ควรปรึกษาแพทย์`
-    }
-  },
-  {
-    id: 'doctor-helper', name: 'Doctor Helper', category: 'education',
-    desc: 'สรุป research + differential diagnosis list + drug interaction check + clinical pearl',
-    tags: ['medical', 'research', 'reference', 'gate-check'],
-    useCases: ['สรุป guideline', 'differential', 'drug reference'],
-    warning: '⚠️⚠️ สำหรับบุคลากรทางการแพทย์เท่านั้น — ห้ามใช้แทนการวินิจฉัย/รักษา',
-    example: {
-      title: 'ADA T2DM Guideline 2025',
-      preview: `# Summary: ADA Standards of Care 2025 (T2DM)
+## A.5 Information Security Policies
+☐ ISMS policy documented + reviewed annually
+☐ Risk assessment methodology
+☐ Statement of Applicability
 
-## Key Updates vs 2024
-1. GLP-1 RA เป็น first-line ในผู้ป่วย CVD/CKD
-   (เดิม metformin first-line ทุกราย)
-2. CGM แนะนำสำหรับผู้ใช้ insulin ทุกราย
-   (ไม่จำกัด type 1)
-3. Target HbA1c < 6.5% สำหรับ newly diagnosed
-   (เดิม < 7.0%)
+## A.6 Organization
+☐ Roles & responsibilities defined
+☐ Segregation of duties
 
-## Screening Criteria
-Annual screening in adults ≥ 35 years
-High-risk: BMI ≥ 25 + risk factors
-(เทียบสมาคมโรคเบาหวานแห่งประเทศไทย 2564: ≥ 35 + BMI ≥ 23)
+## A.8 Asset Management
+☐ Asset inventory current
+☐ Information classification
+☐ Acceptable use policy
 
-## Pharmacologic Management Ladder
-Step 1: Lifestyle + Metformin
-Step 2: Add GLP-1 RA or SGLT2i
-Step 3: Add basal insulin or DPP-4i
-Step 4: Intensify insulin regimen
+## A.9 Access Control
+☐ User access management
+☐ Privileged access review (quarterly)
+☐ MFA on critical systems
 
-## Drug Interactions (highlighted)
-- Metformin + contrast: hold 48h (renal)
-- SGLT2i + DKA risk (stop in illness)
+## A.12 Operations Security
+☐ Change management process
+☐ Backup procedures + test restore
+☐ Vulnerability management
 
-⚠️⚠️⚠️ Research reference only —
-Clinical decisions must be made by licensed
-practitioner based on individual patient context`
-    }
-  },
-  {
-    id: 'psychologist-helper', name: 'Psychologist Helper', category: 'education',
-    desc: 'SOAP session note + CBT worksheet + case conceptualization (Beck) + crisis hotline',
-    tags: ['psychology', 'cbt', 'therapy', 'soap'],
-    useCases: ['session documentation', 'CBT planning', 'case formulation'],
-    warning: '⚠️⚠️ สำหรับนักจิตวิทยาที่มีใบประกอบวิชาชีพเท่านั้น',
-    example: {
-      title: 'Session 4 — GAD + CBT Thought Record',
-      preview: `# SOAP Note — Session 4
-Client: [ID anonymized]
-Date: 2026-04-16 | Session: 4 of 12
-Diagnosis: Generalized Anxiety Disorder (F41.1)
+## Findings (Sample)
+F-001 [HIGH]: Privileged access review not done
+  Recommendation: Quarterly review process
+F-002 [MEDIUM]: Backup restore not tested
+  Recommendation: Annual disaster recovery test`,
+    { isNew: true, warning: 'Audit จริงต้องดำเนินการโดย CPA/CIA ที่มีใบอนุญาต' }),
 
-## S (Subjective)
-Client reports GAD-7 = 12 (baseline 18)
-Sleep improved (5→6.5 hrs avg)
-Still high anxiety re: work deadlines
+  s('restaurant-mgr', 'Restaurant Manager', 'business',
+    'F&B operations — food cost, labor, menu engineering, staff scheduling',
+    ['restaurant','f&b','cost','staffing'],
+    ['ร้านอาหาร','คาเฟ่','bistro'],
+    'Menu Engineering + Cost Analysis',
+    `# Menu Engineering: Italian Bistro
 
-## O (Objective)
-Affect: constricted but brighter than session 1
-Speech: normal rate, minimal pressure
-Attention: focused, no flight of ideas
+## Star (High Profit + High Sales)
+- Truffle Pasta: cost 85, price 290 (29%)
+  → Promote, train staff to upsell
 
-## A (Assessment)
-Responding to CBT (cognitive restructuring)
-Continued safety behaviors noted
-  (excessive checking at work)
+## Plowhorse (Low Profit + High Sales)
+- Margherita Pizza: cost 95, price 220 (43%)
+  → Reduce portion or raise price 10%
 
-## P (Plan)
-- Continue thought record homework (daily)
-- Introduce behavioral experiment: stop checking
-- Next session: body scan technique
-- If GAD-7 > 15 → consult psychiatrist re: meds
+## Puzzle (High Profit + Low Sales)
+- Risotto: cost 75, price 320 (23%)
+  → Better description, photo, position
 
-# CBT Thought Record (worksheet)
-Situation: Sent proposal to boss
-Automatic Thought: "He'll think it's bad"
-Emotion: Anxiety 8/10
-Evidence For: (client-generated)
-Evidence Against: (client-generated)
-Balanced Thought: ___
+## Dog (Low Profit + Low Sales)
+- Tiramisu: cost 60, price 130 (46%)
+  → Remove or rework recipe
 
-⚠️⚠️⚠️ Tool for licensed clinicians only
-Crisis Hotlines (Thailand):
-  - สายด่วนสุขภาพจิต: 1323 (24/7)
-  - Samaritans: 02-113-6789`
-    }
-  },
-  {
-    id: 'researcher-pro', name: 'Researcher Pro', category: 'education',
-    desc: 'literature review (thematic) + methodology (quant/qual) + IMRaD outline + citation',
-    tags: ['research', 'academic', 'paper', 'apa'],
-    useCases: ['thesis', 'research paper', 'conference', 'lit review'],
-    example: {
-      title: 'Lit Review: "AI in Education" 1,500 คำ',
-      preview: `# Literature Review: AI in Education
+## Cost Targets
+Food cost: 28-32% of revenue
+Labor cost: 25-30%
+Combined prime cost: ≤ 60%
+
+## Staff Schedule (Peak: Fri-Sun)
+Lunch: 4 FOH + 3 BOH
+Dinner: 6 FOH + 4 BOH`,
+    { isNew: true }),
+
+  s('ecommerce-mgr', 'E-commerce Manager', 'business',
+    'online store ops — Shopee/Lazada, fulfillment, returns, conversion optimization',
+    ['ecommerce','shopee','lazada','fulfillment'],
+    ['Shopee seller','own website','marketplace ops'],
+    'Conversion Funnel Optimization',
+    `# E-commerce Funnel Audit
+Site: Beauty brand own website
+
+## Current Funnel
+Visit:        10,000
+Product View: 6,000  (60%)
+Add to Cart:   600  (10% of view)
+Checkout:      300  (50% of cart)
+Purchase:      200  (67% of checkout)
+
+Cart abandonment: 67% (industry avg)
+
+## Optimization Quick Wins
+1. Cart page (33% leak)
+   - Show shipping cost upfront
+   - Trust badges
+   - Free shipping bar (>500)
+
+2. Checkout (33% leak)
+   - One-page checkout (vs 3 pages)
+   - Guest checkout option
+   - Auto-fill from PromptPay
+
+3. Mobile UX
+   - Sticky "Add to Cart" button
+   - Image zoom (pinch)
+   - Reduce form fields
+
+## Return Policy
+30-day no-questions-return
+Free return shipping for damaged/wrong
+Restocking fee 10% if non-defective
+
+## Expected Impact
+Conversion: 2% → 3% = +50% revenue`,
+    { isNew: true }),
+
+  // ===== 📚 Education & Health (15) =====
+  s('teacher-pro', 'Teacher Pro', 'education',
+    'แผนการสอน 5E + ใบงาน + rubric 4 ระดับ + การบ้านสร้างสรรค์',
+    ['teaching','lesson-plan'],
+    ['อนุบาล-มัธยม','มหาวิทยาลัย','ติวเตอร์'],
+    'คณิต ม.2 พีทาโกรัส 50 นาที',
+    `# Lesson Plan: ทฤษฎีบทพีทาโกรัส
+ระดับ: ม.2 | เวลา: 50 นาที
+
+## 5E Flow
+Engage (5min): "เดินเหนือ 3 → ขวา 4 = ?"
+Explore (15): กิจกรรมตัดกระดาษ
+Explain (10): สรุปทฤษฎีบท
+Elaborate (15): 3 โจทย์ประยุกต์
+Evaluate (5): quiz 3 ข้อ`),
+
+  s('coach-pro', 'Coach Pro', 'education',
+    'GROW model + intake form + coaching program + progress tracker',
+    ['coaching','grow-model','session'],
+    ['life coach','business coach','career coach'],
+    'Career Coaching 12 สัปดาห์',
+    `# Program: เปลี่ยนสาย → Freelance (12 weeks)
+Phase 1 (W1-3): Self-Discovery
+Phase 2 (W4-6): Strategy
+Phase 3 (W7-9): Execution
+Phase 4 (W10-12): Transition
+
+W1 Kickoff:
+G: Freelance dev ใน 6 เดือน
+R: Full-time, ไม่มี portfolio
+O: side project / bootcamp / network`),
+
+  s('nutritionist-pro', 'Nutritionist Pro', 'education',
+    'meal plan 7 วัน + TDEE/macro + grocery list + meal prep',
+    ['nutrition','meal-plan','calorie'],
+    ['ลดน้ำหนัก','เพิ่มกล้าม','keto'],
+    '1,500 kcal/day ลดน้ำหนัก 7 วัน',
+    `# Meal Plan: หญิงไทย 28 ปี 65kg
+TDEE: 1,800 → Target: 1,500 (-300)
+
+## Day 1
+🌅 Breakfast (350): โจ๊กไก่ + ไข่ต้ม 2
+☀️ Lunch (450): ข้าวกล้อง + อกไก่ย่าง
+🌆 Dinner (400): แกงเลียง + ปลาเก๋านึ่ง
+🍎 Snack (300): กรีกโยเกิร์ต + อัลมอนด์`,
+    { warning: 'ผู้มีโรคประจำตัว/ตั้งครรภ์ ปรึกษาแพทย์ก่อน' }),
+
+  s('fitness-trainer-pro', 'Fitness Trainer Pro', 'education',
+    '4-week periodization + exercise library + progress tracker',
+    ['fitness','workout','ppl','strength'],
+    ['gym beginner','home workout'],
+    'PPL 6 วัน/สัปดาห์ Beginner',
+    `# 4-Week PPL Program
+
+## Week 1-2: Foundation
+Push: Bench 4×8, OHP 3×10, Incline 3×10
+Pull: Deadlift 4×6, Pull-up 3×8, Row 3×10
+Legs: Squat 4×8, RDL 3×10, Leg Press 3×12
+
+## Form Cues (Squat)
+✓ เข่าตามปลายเท้า
+✓ ก้นแตะต่ำกว่าหัวเข่า
+✓ หลังตรง`,
+    { warning: 'ผู้มีอาการบาดเจ็บ/โรคประจำตัว ปรึกษาแพทย์' }),
+
+  s('doctor-helper', 'Doctor Helper', 'education',
+    'สรุป research + DDx + drug interaction (สำหรับบุคลากรการแพทย์)',
+    ['medical','research','reference'],
+    ['สรุป guideline','differential','drug ref'],
+    'ADA T2DM Guideline 2025',
+    `# Summary: ADA Standards 2025 (T2DM)
+## Key Updates
+1. GLP-1 RA first-line ใน CVD/CKD
+2. CGM แนะนำสำหรับ insulin user ทุกราย
+3. HbA1c < 6.5% สำหรับ newly diagnosed`,
+    { warning: 'สำหรับบุคลากรทางการแพทย์เท่านั้น — ห้ามใช้แทนการวินิจฉัย/รักษา' }),
+
+  s('psychologist-helper', 'Psychologist Helper', 'education',
+    'SOAP session note + CBT worksheet + case conceptualization',
+    ['psychology','cbt','therapy'],
+    ['session documentation','CBT planning'],
+    'Session 4 GAD + CBT',
+    `# SOAP Note — Session 4
+Diagnosis: GAD (F41.1)
+
+S: GAD-7 = 12 (baseline 18) ↓
+O: Affect brighter, focused
+A: Responding to CBT
+P: Continue thought record, behavioral experiment
+
+## CBT Thought Record
+Situation: Sent proposal
+Auto Thought: "He'll think it's bad"
+Emotion: Anxiety 8/10`,
+    { warning: 'สำหรับนักจิตวิทยาที่มีใบประกอบวิชาชีพเท่านั้น' }),
+
+  s('researcher-pro', 'Researcher Pro', 'education',
+    'literature review + methodology + IMRaD outline + APA citation',
+    ['research','academic','paper'],
+    ['thesis','paper','conference'],
+    'Lit Review "AI in Education" 1,500 คำ',
+    `# Literature Review: AI in Education
 
 ## Theme 1: Personalization (5 papers)
-Smith et al. (2023) demonstrated adaptive learning
-systems improved outcomes by 23% in K-12
-(n=1,200, p<.001). Chen & Liu (2024) extended this
-to higher education, finding similar effects in
-STEM subjects but mixed results in humanities...
+Smith et al. (2023) adaptive learning ↑23%
+Chen & Liu (2024) extended to higher ed...
 
 ## Theme 2: Teacher Workload (4 papers)
-Williams (2024) reported 40% reduction in grading
-time using AI assistants, though flagged quality
-concerns in open-ended assessments...
+Williams (2024) 40% reduction in grading time
 
-## Theme 3: Equity & Access (3 papers)
-Rodriguez et al. (2023) found AI tools
-disproportionately benefited students with higher
-baseline digital literacy — raising equity
-concerns in low-income schools...
+## Research Gap
+Longitudinal studies (>2 years) lacking`),
 
-## Research Gap Identified
-Longitudinal studies (> 2 years) are lacking.
-Most research focuses on short-term outcomes.
+  s('tutor-pro', 'Tutor Pro', 'education',
+    '1-on-1 tutoring — diagnostic test, learning style, customized exercise',
+    ['tutoring','1-on-1','personalized'],
+    ['ติว O-NET','SAT prep','การบ้าน'],
+    'ติวคณิต ม.6 SAT Math',
+    `# Personalized Plan: ติว SAT Math
+Student: ม.6 / Goal: 700+
 
-## References (APA 7, partial)
-Chen, L., & Liu, M. (2024). Adaptive learning...
-  Computers & Education, 198, 104852.
-Rodriguez, J., et al. (2023). Equity implications...
-  Journal of Educational Technology, 62(3), 215-234.
-Smith, A., et al. (2023). Effects of AI tutoring...
+## Diagnostic Result (1.5 hrs)
+Strong: Algebra, Functions
+Weak: Geometry, Word problems
+Time mgmt: ผ่านครึ่งเวลา section ไม่ทัน
 
-⚠️ Always verify AI-generated citations —
-hallucinations possible`
-    }
-  }
+## 8-Week Plan
+W1-2: Geometry deep dive
+W3-4: Word problems strategies
+W5-6: Mixed practice + timing
+W7: Full mock test
+W8: Review + final prep
+
+## Per Session (1 hr)
+- Concept review (15 min)
+- 10 problems by topic (30 min)
+- Review mistakes (15 min)
+- Homework: 20 problems`,
+    { isNew: true }),
+
+  s('language-teacher', 'Language Teacher', 'education',
+    'TEFL + ภาษาต่างประเทศ — CEFR-aligned, lesson plan, error correction',
+    ['language','tefl','english','chinese'],
+    ['English','Chinese','Japanese','Korean'],
+    'English Lesson B1 — Job Interview',
+    `# Lesson: Job Interview English
+Level: B1 Intermediate | 60 min
+
+## Objectives
+- Use STAR method to answer behavioral Q
+- Vocabulary: collaboration, achievement, challenge
+- Pronunciation: word stress in compound nouns
+
+## Lesson Flow
+Warmer (5 min): "Best job interview moment?"
+Presentation (15): STAR structure + examples
+Practice (20): pair role-play with prompts
+Production (15): record self answering 3 Q
+Wrap (5): self-eval + homework
+
+## Common Errors (correct gently)
+"I have experiences" → "I have experience"
+"More better" → "much better"
+"Make a question" → "ask a question"`,
+    { isNew: true }),
+
+  s('dentist-helper', 'Dentist Helper', 'education',
+    'dental reference + procedure planning + materia medica (สำหรับทันตแพทย์)',
+    ['dental','medical','reference'],
+    ['differential','treatment plan'],
+    'Endodontic Treatment Plan #16',
+    `# Treatment Plan: Tooth #16
+Diagnosis: Irreversible Pulpitis (K04.0)
+Px: Endodontic Therapy
+
+## Treatment Sequence
+Visit 1 (90 min):
+- Anesthesia: 2% Lidocaine + Epi 1:100K
+- Rubber dam isolation
+- Access cavity preparation
+- Pulpectomy
+- Cleaning & shaping (rotary NiTi)
+- Calcium hydroxide dressing
+- Temporary restoration
+
+Visit 2 (60 min): Obturation (gutta-percha)
+Visit 3 (45 min): Final restoration (crown)
+
+## Materials
+File system: ProTaper Next
+Sealer: AH Plus
+Crown material: Monolithic zirconia`,
+    { isNew: true, warning: 'สำหรับทันตแพทย์ที่มีใบประกอบวิชาชีพเท่านั้น' }),
+
+  s('pharmacist-helper', 'Pharmacist Helper', 'education',
+    'drug reference + interaction matrix + dosing (pediatric/geriatric)',
+    ['pharmacy','drug','interaction'],
+    ['drug counseling','interaction check'],
+    'Drug Interaction: Warfarin Patient',
+    `# Drug Interaction Check
+Patient: 65y female on Warfarin (INR target 2-3)
+
+## New Medication: Amiodarone
+🔴 SEVERE INTERACTION
+Mechanism: CYP2C9 inhibition
+Effect: ↑↑ Warfarin level → bleeding risk
+Recommendation:
+- Reduce warfarin dose by 30-50%
+- Check INR weekly × 4 weeks
+- Monitor for bleeding signs
+
+## Other Considerations
+Antibiotic (if needed):
+✓ Safe: Doxycycline, Cephalexin
+⚠️ Caution: Metronidazole (↑ INR)
+🔴 Avoid: TMP-SMX (↑↑ INR)
+
+## Counseling Points
+- Maintain consistent vitamin K intake
+- No new supplements without checking
+- Watch for: bruising, pink urine, black stool`,
+    { isNew: true, warning: 'สำหรับเภสัชกรที่มีใบประกอบวิชาชีพเท่านั้น' }),
+
+  s('veterinarian-helper', 'Veterinarian Helper', 'education',
+    'สัตวแพทย์ — species-specific, drug dosing weight-based, differential',
+    ['vet','animal','medical'],
+    ['dog','cat','exotic'],
+    'Canine Vaccination Protocol',
+    `# Vaccination Protocol — Adult Dog (>1y)
+
+## Core Vaccines (annual or 3-year)
+DHPP (Distemper, Hepatitis, Parvo, Parainfluenza)
+- 3-year protocol after 1y booster
+- Titer check optional
+
+Rabies (1 or 3-year)
+- Required by Thai law
+
+## Lifestyle Vaccines (assess risk)
+Bordetella (kennel cough)
+- Annual if boarding/grooming/dog park
+Leptospirosis
+- Annual if rural/water exposure
+
+## Doses (weight-based)
+Cefovecin (Convenia) for skin infection:
+8 mg/kg SC q14d
+e.g., 10kg dog = 0.4mL of 80mg/mL injection
+
+## Common Adverse Reactions
+- Local swelling (24-48h, normal)
+- Lethargy 12-24h (normal)
+- Anaphylaxis (rare, <1%) — emergency`,
+    { isNew: true, warning: 'สำหรับสัตวแพทย์ที่มีใบประกอบวิชาชีพเท่านั้น' }),
+
+  s('yoga-instructor', 'Yoga Instructor', 'education',
+    'yoga sequences (Hatha/Vinyasa/Yin) + asana + breathing + modification',
+    ['yoga','asana','breathing'],
+    ['beginner class','vinyasa flow','yin yoga'],
+    'Vinyasa Flow 60 นาที — Beginner',
+    `# Class: Vinyasa Flow 60 min (Beginner)
+
+## Centering (5 min)
+Easy seat / breath awareness
+Set intention
+
+## Warm-up (10 min)
+Cat-cow / Sun salute A × 3 (slow)
+
+## Standing Sequence (25 min)
+Sun salute B × 5
+Warrior I → II → Reverse Warrior
+Triangle / Side angle (both sides)
+Tree pose
+
+## Floor Sequence (15 min)
+Pigeon (5 min each side)
+Seated forward fold
+Bridge / Wheel (option)
+Spinal twist
+
+## Cool Down (5 min)
+Savasana (silent rest)
+
+## Modifications (Beginner)
+- Knees down in chaturanga
+- Block under hand in triangle
+- Keep top knee bent in pigeon`,
+    { isNew: true, warning: 'ผู้มีโรคประจำตัว/ตั้งครรภ์ ปรึกษาแพทย์ก่อน' }),
+
+  s('meditation-coach', 'Meditation Coach', 'education',
+    'mindfulness scripts + breathing technique + guided meditation (5/15/30 min)',
+    ['meditation','mindfulness','breathing'],
+    ['stress relief','sleep','focus'],
+    'Guided Meditation 15 นาที — Anxiety Relief',
+    `# Script: Anxiety Relief Meditation (15 min)
+
+## Settling (2 min)
+"นั่งสบายๆ หลังตรง... หลับตา..."
+"รู้สึกว่าร่างกายของคุณนั่งอยู่..."
+
+## Body Scan (5 min)
+"เริ่มจากปลายเท้า... สังเกตความรู้สึก..."
+"ขึ้นมาที่น่อง... ต้นขา... สะโพก..."
+(progressive ขึ้นไปทีละส่วน)
+
+## Box Breathing (5 min)
+"หายใจเข้า 4 วินาที... กลั้น 4..."
+"ออก 4... กลั้น 4..."
+(วน 5-7 รอบ)
+
+## Loving-Kindness (2 min)
+"ขอให้เรามีความสุข... ปลอดภัย..."
+"ขอให้คนที่เรารักมีความสุข..."
+
+## Closing (1 min)
+"กลับมาที่ลมหายใจ... ค่อยๆ ขยับนิ้วมือ..."
+"เปิดตาเมื่อพร้อม"`,
+    { isNew: true }),
+
+  s('mental-wellness', 'Mental Wellness', 'education',
+    'self-help + journaling prompts + emotional regulation (ทั่วไป ไม่ใช่ clinical)',
+    ['wellness','journaling','self-help'],
+    ['daily journaling','gratitude','self-reflection'],
+    '30-Day Journaling Prompts',
+    `# Daily Journaling Plan (30 days)
+
+## Week 1: Self-Awareness
+Day 1: "What 3 emotions did I feel today?"
+Day 2: "What drained my energy?"
+Day 3: "What gave me energy?"
+Day 4: "When did I feel most like myself?"
+Day 5: "What am I avoiding?"
+Day 6: "What story am I telling myself?"
+Day 7: Weekly review
+
+## Week 2: Values & Goals
+Day 8: "Top 5 values that guide me?"
+Day 9: "What does success look like?"
+...
+
+## Week 3: Relationships
+Day 15: "Who lifts me up?"
+Day 16: "Who drains me?"
+...
+
+## Week 4: Future Self
+Day 22: "What would future me thank me for?"
+Day 23: "What would I regret not doing?"
+...
+
+## Format (5 min/day)
+Morning: 1 prompt + 5 min freewrite
+Evening: 3 things grateful for`,
+    { isNew: true, warning: 'ไม่ใช่ therapy — กรณีรุนแรง ปรึกษานักจิตวิทยา' }),
+
+  // ===== 💰 Lifestyle & Personal (7) NEW =====
+  s('personal-finance', 'Personal Finance', 'lifestyle',
+    'งบส่วนตัว + ลงทุน + วางแผนเกษียณ + ลดหนี้ + emergency fund',
+    ['finance','budget','retirement'],
+    ['ลดหนี้','เก็บเงิน','FIRE','วางแผนซื้อบ้าน'],
+    'วางแผนเก็บล้านแรกใน 5 ปี',
+    `# Plan: First Million in 5 Years
+
+## Current State (Age 28)
+Income: 50K/month
+Expenses: 35K (savings 30%)
+Debt: 0
+Savings: 100K
+
+## Strategy: 50/30/20 Rule
+Needs (50%): 25K
+  - Rent 10K, food 8K, transport 4K, bills 3K
+Wants (30%): 15K
+  - Entertainment, dining out, shopping
+Save+Invest (20%): 10K
+  + Bonus on bonus = 15K/month average
+
+## Allocation (15K/month)
+Emergency fund: 3K → reach 6 months in 1 year
+Stocks (SET): 8K (DCA into SET50)
+Stocks (US): 3K (S&P 500 ETF)
+Cash: 1K (opportunity)
+
+## 5-Year Projection
+At 7% annual return:
+180K/year × 5 = 900K + 250K growth
+= ~1.15M (above goal!)`,
+    { isNew: true, warning: 'ไม่ใช่คำแนะนำลงทุน — ปรึกษาที่ปรึกษาการเงิน' }),
+
+  s('resume-builder', 'Resume Builder', 'lifestyle',
+    'CV/Resume + cover letter (ATS-friendly) + STAR method + LinkedIn optimization',
+    ['resume','cv','cover-letter','ats'],
+    ['สมัครงาน','LinkedIn','career change'],
+    'Senior Marketer Resume (ATS-friendly)',
+    `# Pim Sukjai
+Senior Digital Marketer | Bangkok, Thailand
++66-XX-XXX-XXXX | pim@email.com | LinkedIn
+
+## Summary
+Performance marketer with 6+ years driving
+B2C growth across SEA. Specialized in Meta Ads
+& growth experiments. Generated 50M+ THB
+revenue across 12 brands.
+
+## Experience
+**Marketing Lead** | BrandX (2024-Present)
+- Increased ROAS from 2.3x to 4.8x via creative
+  testing framework, generating 25M THB revenue
+- Built team of 5 marketers from scratch
+- Launched 3 new products with 95% on-budget delivery
+
+**Senior Marketer** | StartupY (2021-2024)
+- Scaled FB Ads from 100K to 2M THB/month
+- Reduced CAC by 35% through audience refinement
+- Implemented MMM framework
+
+## Skills
+Performance Marketing, Meta Ads, GA4, SQL,
+Looker Studio, Brief writing, Team leadership
+
+## Education
+B.A. Communication Arts, Chulalongkorn (2018)`,
+    { isNew: true }),
+
+  s('interview-coach', 'Interview Coach', 'lifestyle',
+    'เตรียมสัมภาษณ์ + behavioral Q&A (STAR) + salary negotiation + 50 common Q',
+    ['interview','behavioral','star'],
+    ['job interview','salary negotiation','culture fit'],
+    'STAR Answer Bank (Behavioral)',
+    `# STAR Method Examples (Common Q)
+
+## Q: "Tell me about a time you led a team"
+S (Situation): "ตอนทำงานที่บริษัท X ทีมขาด lead..."
+T (Task): "ผู้บริหารขอให้ผมรับเป็น acting lead"
+A (Action): "ผมจัดประชุม 1-on-1, ฟัง pain point,
+            แล้วปรับ priority ใหม่..."
+R (Result): "ทีม delivered project ตรงเวลา,
+            morale ขึ้น (eNPS 7 → 9)"
+
+## Q: "Biggest mistake?"
+S: Launched ad campaign โดยไม่ A/B test
+T: Need to fix damage to brand
+A: Stopped immediately, owned the mistake to team,
+   built A/B test framework
+R: Saved 200K from being wasted, framework now
+   used by all team
+
+## Salary Negotiation
+"Based on my research and 6 years experience,
+I'm looking for 80-90K base + benefits.
+What's the budget for this role?"
+
+(Always anchor first if asked,
+let them counter)`,
+    { isNew: true }),
+
+  s('relationship-coach', 'Relationship Coach', 'lifestyle',
+    'communication framework (NVC) + love languages + conflict resolution',
+    ['relationship','couple','communication'],
+    ['couple counseling','dating','family'],
+    'Conflict Resolution Script',
+    `# NVC (Non-Violent Communication) Framework
+
+## 4 Steps
+1. Observation (without judgment)
+2. Feeling (own it, not blame)
+3. Need (what you need)
+4. Request (specific action)
+
+## Example: "You never help with chores"
+❌ Blame: "You're so lazy!"
+✅ NVC:
+"When I see the dishes piled up (Observation),
+I feel overwhelmed (Feeling),
+because I need rest after work (Need),
+Could we do dishes together after dinner? (Request)"
+
+## Love Languages (5)
+1. Words of Affirmation
+2. Acts of Service
+3. Receiving Gifts
+4. Quality Time
+5. Physical Touch
+
+## Diagnostic Questions
+- "What do I do that makes you feel loved most?"
+- "When do you feel most appreciated?"
+→ Reveals their primary love language
+
+## Apology Recipe
+1. Acknowledge specific wrong
+2. Take responsibility (no excuses)
+3. Express remorse
+4. Make amends
+5. Promise change with action plan`,
+    { isNew: true, warning: 'ไม่ใช่ therapy — กรณีรุนแรง ปรึกษานักจิตวิทยา' }),
+
+  s('parenting-pro', 'Parenting Pro', 'lifestyle',
+    'เลี้ยงลูก age-appropriate (0-18) + screen time + discipline + development',
+    ['parenting','kids','development'],
+    ['baby care','toddler','school age','teenager'],
+    'Toddler Development (2-3 years)',
+    `# Age 2-3: Development & Activities
+
+## Milestones (Watch for)
+Motor: jump on 2 feet, kick ball, draw circles
+Language: 200+ words, 3-word sentences
+Social: parallel play, simple sharing, follow rules
+Emotional: name basic emotions, tantrums normal
+
+## Daily Routine (Suggested)
+06:30 Wake up + breakfast
+07:30 Free play
+09:00 Outdoor activity (1 hr)
+10:30 Snack + reading
+11:00 Structured play (puzzle, blocks)
+12:00 Lunch
+13:00 Nap (1.5-2 hrs)
+15:00 Snack
+15:30 Creative (art, music, sand)
+17:00 Family time
+18:00 Dinner
+19:00 Bath + book
+19:30 Sleep
+
+## Screen Time Guidelines (WHO)
+< 1 year: NONE
+1-2 years: AVOID screens
+2-5 years: ≤ 1 hour high-quality content
+With caregiver, not alone
+
+## Discipline (Positive Approach)
+- Time-IN, not time-out (be with them)
+- Validate emotion, redirect behavior
+  "It's OK to be angry, but no hitting"
+- Natural consequences when safe
+- Praise effort, not outcome`,
+    { isNew: true, warning: 'ปัญหาสุขภาพ/พัฒนาการ ปรึกษากุมารแพทย์' }),
+
+  s('wedding-planner', 'Wedding Planner', 'lifestyle',
+    '12-month timeline + budget allocation + vendor checklist + day-of run-of-show',
+    ['wedding','planning','vendor','budget'],
+    ['งานเช้า','garden wedding','grand wedding'],
+    'งานแต่ง 200 คน งบ 1.5M',
+    `# Wedding Plan: 200 guests, 1.5M budget
+
+## Budget Allocation
+Venue + Food: 600K (40%)
+Photo + Video: 180K (12%)
+Decoration: 150K (10%)
+Bride/Groom outfits: 120K (8%)
+Music/MC: 100K (7%)
+Cake + Sweets: 60K (4%)
+Invitations: 30K (2%)
+Misc + Buffer: 260K (17%)
+
+## 12-Month Timeline
+M-12: Set date, budget, guest list
+M-10: Book venue (popular venues book early)
+M-9: Hire planner, photographer
+M-6: Send save-the-date
+M-4: Choose menu (tasting), order outfits
+M-3: Send invitations
+M-2: Hair/makeup trial, finalize seating
+M-1: Final headcount to caterer
+M-0: Wedding!
+
+## Day-of Run-of-Show
+14:00 Setup begin
+16:00 Bride/groom prep + photos
+17:00 Guest arrival
+18:00 Ceremony begin
+18:30 Cocktail hour
+19:30 Dinner reception
+20:30 Speeches + cake cutting
+21:00 First dance + party
+23:00 End
+
+## Vendor Checklist
+☐ Venue contract signed
+☐ Caterer (taste test done)
+☐ Photographer/videographer
+☐ Florist
+☐ MC/band
+☐ Cake
+☐ Hair/makeup`,
+    { isNew: true }),
+
+  s('travel-planner', 'Travel Planner', 'lifestyle',
+    'itinerary + budget + packing list + visa info — ไทย+ต่างประเทศ',
+    ['travel','itinerary','trip','planning'],
+    ['weekend trip','solo travel','family vacation'],
+    'Tokyo 5 วัน 4 คืน — งบ 60K',
+    `# Tokyo Trip: 5D4N (2 ppl, 60K)
+
+## Budget Breakdown
+Flights: 15K (round trip)
+Hotel (4 nights): 16K (4K/night)
+Food (5 days): 12K (1.5K/person/day)
+Transport (Suica + JR): 5K
+Activities + shopping: 12K
+
+## Day 1 (Arrival)
+14:00 Land Narita
+15:30 N'EX to Shinjuku
+17:00 Hotel check-in (Shinjuku)
+18:30 Dinner: Omoide Yokocho (yakitori)
+20:00 Walk Shinjuku, Godzilla view
+
+## Day 2 (Asakusa + Akihabara)
+09:00 Senso-ji Temple
+11:00 Nakamise Street shopping
+13:00 Lunch: tempura
+14:30 Akihabara (electronics, anime)
+17:00 Don Quijote shopping
+19:00 Dinner: ramen alley
+
+## Day 3 (Shibuya + Harajuku)
+... (similar detail)
+
+## Packing List
+Essentials: passport, JR pass, Suica, charger
+Clothing: 3 outfits + 1 dressy
+Outerwear: light jacket (April = 12-18°C)
+Tech: travel adapter (Type A/B)
+Comfort: walking shoes, water bottle
+
+## Visa
+Thai passport: NO visa needed (15 days)
+Bring: hotel booking, return ticket`,
+    { isNew: true }),
+
+  // ===== 🍽️ Hospitality & Service (5) NEW =====
+  s('restaurant-owner', 'Restaurant Owner', 'hospitality',
+    'F&B menu + pricing + marketing + operations (food cost, labor)',
+    ['restaurant','f&b','menu'],
+    ['ร้านอาหารตามสั่ง','คาเฟ่','bistro'],
+    'Menu Design + Pricing 80-seat',
+    `# New Menu: ร้านอาหารตามสั่ง 80 ที่นั่ง
+
+## Menu Strategy
+Total items: 35 (sweet spot, not too many)
+Categories: ผัด/ทอด/ต้ม/แกง/ข้าวต่างๆ/เครื่องดื่ม
+
+## Price Architecture
+Anchor (high price): ก๋วยเตี๋ยวเรือทรงเครื่อง 199
+Decoy (lose): ข้าวผัดกุ้ง 159
+Star item (most profit): ข้าวกะเพราหมูสับ 79
+
+## Cost Targets
+Food cost: 30% of price
+Labor: 25%
+Rent: 15%
+Profit margin: 15-20%
+
+## Menu Engineering Position
+Stars (high profit + high sales):
+- ข้าวกะเพรา 79 (cost 22, margin 72%)
+  → Promote, train staff to suggest
+
+Plowhorses (low profit + high sales):
+- ข้าวผัดกุ้ง 159 (cost 75, margin 53%)
+  → Reduce shrimp 1 piece, save 15
+
+Puzzles (high profit + low sales):
+- ก๋วยเตี๋ยวเรือทรงเครื่อง 199
+  → Better photo, wait staff push
+
+## Marketing
+LINE OA (collect via QR at table)
+- Birthday discount 30%
+- 5-star review = free drink next visit
+FB/IG: 3 posts/week (food porn)
+GrabFood/FoodPanda: optimized listing`,
+    { isNew: true }),
+
+  s('hotel-concierge', 'Hotel Concierge', 'hospitality',
+    'guest service + recommendation matrix + request handling + complaint resolution',
+    ['hotel','concierge','guest-service'],
+    ['boutique hotel','luxury hotel','resort'],
+    '4-star Hotel — แนะนำที่กิน 3 คืน',
+    `# Concierge Recommendation
+Guest: French couple, 50s, 3 nights
+Preference: authentic Thai, mid-budget,
+walking distance from hotel
+
+## Night 1: Comfort Introduction
+Pad Thai Thip Samai (taxi 15 min)
+- Reservation made via Inline
+- Order: pad thai + tom yum kung
+- Note: "First-timer friendly, mild"
+
+## Night 2: Local Experience
+Krua Apsorn (taxi 10 min)
+- No reservation needed
+- Order: ปลาดุกผัดเผ็ด, แกงเขียวหวาน
+- Tip: "Order spice level 3/10"
+
+## Night 3: Special Occasion
+The Local by Oamthong (5 min walk)
+- Reservation for 19:30
+- Tasting menu (1,500 THB pp)
+- Tell waiter: anniversary
+
+## Backup Recommendations
+Lunch: Bo.lan, Nahm
+Quick: Or Tor Kor market
+Dessert: Bake Cheese Tart Siam Paragon
+
+## Other Requests Anticipated
+Spa: Asia Herb Association (book 24h)
+Massage walk-in: Health Land
+Shopping: Iconsiam, Gaysorn
+Day trip: Ayutthaya (book private car)`,
+    { isNew: true }),
+
+  s('tour-guide-pro', 'Tour Guide Pro', 'hospitality',
+    'itinerary + storytelling สถานที่ + group dynamics + safety protocol',
+    ['tour','guide','itinerary'],
+    ['day tour','multi-day','culture tour'],
+    'เชียงใหม่ 3D2N — Culture + Nature',
+    `# Tour: เชียงใหม่ 3 วัน 2 คืน
+Group: 8 ppl mixed (Thai + foreign couple)
+
+## Day 1: Old City + Cultural
+09:00 Pickup hotel
+10:00 Wat Phra Singh
+   (Story: "วัดสร้างปี 1345 สมัยพระเจ้าผายู
+   ที่นี่เคยเก็บ Phra Singh image ที่...")
+12:00 Lunch: Khao Soi Lam Duan (legendary)
+13:30 Wat Chedi Luang
+   (Story: เจดีย์เคย sustained earthquake 1545)
+15:00 Wat Suan Dok (royal tombs)
+17:00 Sunset Doi Suthep
+19:00 Sunday Walking Street
+21:00 Drop hotel
+
+## Day 2: Nature + Adventure
+07:00 Early start (avoid crowds)
+08:30 Elephant Sanctuary (ethical)
+   - No riding, observation + feeding
+12:00 Lunch in jungle (Karen village)
+14:00 Sticky Waterfalls
+17:00 Hot springs (relax)
+19:00 Cooking class + dinner
+
+## Day 3: Coffee + Slow
+09:00 Akha Ama coffee farm tour
+12:00 Lunch (farm-to-table)
+14:00 Bo Sang umbrella village
+16:00 Departure
+
+## Safety Notes
+Emergency: 1669 (Thai)
+Tourist police: 1155
+Hospital: Chiang Mai Ram (best ER)
+Group rules: stay together, water always`,
+    { isNew: true }),
+
+  s('salon-owner', 'Salon Owner', 'hospitality',
+    'beauty salon — service menu, pricing tiers, booking, retention, upsell',
+    ['salon','beauty','booking','retention'],
+    ['hair salon','nail salon','spa'],
+    'Hair Salon Siam — Menu + Pricing',
+    `# Hair Salon Strategy
+
+## Service Menu (3 Tiers)
+
+### Basic
+- Cut: 350 (women), 200 (men)
+- Wash + style: 250
+- Beard trim: 150
+
+### Premium
+- Cut + treatment: 600
+- Color (single tone): 1,500
+- Highlights: 2,500
+- Keratin treatment: 3,500
+
+### VIP (Master Stylist)
+- Cut by senior: 800
+- Color correction: 3,500
+- Bridal package: 5,000
+
+## Booking System (LINE OA)
+- Auto-confirm + reminder 24h
+- Stylist selection
+- Service buffer time
+- Walk-in slots reserved
+
+## Retention Tactics
+1. Loyalty program: 6-visit punch card → 1 free
+2. Birthday: free treatment that month
+3. Referral: both get 200 off
+4. SMS day after: "How was your hair? Photo?"
+5. Personal stylist relationship
+
+## Upsell Script
+"Your hair has [observation],
+which means [explanation]. Our [service]
+can help by [benefit]. Today only,
+add for 30% off — would you like to add?"
+
+## KPIs to Track
+- Average ticket: target 800
+- Retention rate: 70%+
+- Service mix: 30% premium+
+- Referral rate: 15%`,
+    { isNew: true }),
+
+  s('florist-pro', 'Florist Pro', 'hospitality',
+    'flower arrangement + design brief + occasion-based + color theory',
+    ['florist','flower','arrangement'],
+    ['bouquet','wedding','funeral','event'],
+    'ช่อดอกไม้วันเกิด งบ 1,500',
+    `# Birthday Bouquet (1,500 THB)
+For: Boyfriend → Girlfriend, age 28
+Style: Elegant, modern, romantic
+
+## Concept
+"First love" — soft pink, white, touch of blush
+Avoid: red roses (too cliché), funeral flowers
+
+## Flower Mix
+Focal: 5 stem peonies (pink) — 600
+Filler: 3 stem garden roses (white) — 300
+Texture: eucalyptus (silver) — 100
+Accent: 5 stem sweet pea (blush) — 200
+Wrap: kraft paper + ribbon — 100
+Card: handwritten — 0
+Service: 200
+
+## Care Notes (give to recipient)
+- Cut stems 1cm at angle daily
+- Change water every 2 days
+- Add provided flower food
+- Keep cool, away from fruit
+- Lasts 5-7 days
+
+## Occasion-based Quick Reference
+Birthday: peonies, roses, garden flowers
+Anniversary: roses, ranunculus
+Sympathy: white lilies, chrysanthemums
+Get well: bright cheerful (sunflowers, gerbera)
+Avoid: red roses for non-romantic context`,
+    { isNew: true }),
+
+  // ===== ⚙️ Productivity (7) NEW =====
+  s('meeting-notetaker', 'Meeting Notetaker', 'productivity',
+    'สรุป meeting + action items + decision log + follow-up email',
+    ['meeting','notes','action-items'],
+    ['team meeting','client call','board meeting'],
+    'Sprint Planning Meeting Note',
+    `# Meeting: Sprint 24 Planning
+Date: 2026-04-16 14:00-15:30
+Attendees: 6 (PM, 2 dev, 1 design, 1 QA, 1 stakeholder)
+
+## Agenda
+1. Review last sprint (15 min)
+2. Backlog grooming (30 min)
+3. Sprint goal + commit (45 min)
+
+## Discussion Highlights
+- Last sprint: 28/32 points done (87%)
+- Bug velocity acceptable (5 bugs resolved)
+- Stakeholder requested feature X (out of scope)
+
+## Decisions
+✓ Sprint 24 commit: 30 points
+✓ Feature X: defer to sprint 25
+✓ Bug debt: allocate 8 points
+
+## Action Items
+@Pim    | Update Jira board with new tickets | Today
+@Beam   | Spike on payment integration | Wed
+@Mai    | Design review for checkout flow | Thu
+@PM     | Stakeholder sync on Feature X timeline | Fri
+
+## Risks Flagged
+- Payment integration unknown complexity
+- Mai out 2 days next week
+
+## Next Meeting
+Sprint review: 2026-04-30 14:00`,
+    { isNew: true }),
+
+  s('email-manager', 'Email Manager', 'productivity',
+    'inbox zero method + reply template bank + scheduling + signature',
+    ['email','inbox-zero','template'],
+    ['executive email','sales email','customer support'],
+    'Inbox Zero in 2 Hours (200 emails)',
+    `# Inbox Zero Workflow
+
+## Step 1: Bulk Triage (30 min)
+Sort by sender → batch process:
+- Newsletters: unsubscribe or filter folder
+- Notifications: filter to "low priority"
+- Spam: report + delete
+
+## Step 2: 4D Method (90 min)
+For each remaining email:
+
+DELETE — no response needed, no info value
+DELEGATE — forward + brief context
+DEFER — schedule (Boomerang for response)
+DO — if < 2 min, respond now
+
+## Reply Templates
+
+### Decline (gracefully)
+"Thanks for thinking of me! Unfortunately my
+plate is full for the next [timeframe].
+[Suggest alternative person/time].
+Best, [name]"
+
+### Schedule
+"Happy to chat! I have these slots:
+- Tue 2pm
+- Wed 10am
+- Thu 4pm
+[Calendly link as backup]"
+
+### Follow-up (3 days)
+"Just bumping this up in case it got buried.
+[Original ask]
+No worries if timing isn't right!"
+
+## Email Scheduling Best Times
+B2B: Tue-Thu 9-10am or 1-2pm
+B2C: Sat-Sun 10am, weekday 7pm
+
+## Signature Template
+Name | Role
+Company | Calendly
+[Optional: latest project link]`,
+    { isNew: true }),
+
+  s('notion-builder', 'Notion Builder', 'productivity',
+    'workspace design + database schema + linked databases + automation',
+    ['notion','workspace','database'],
+    ['personal PARA','team workspace','project mgmt'],
+    'PARA Workspace for Knowledge Worker',
+    `# Notion Workspace: PARA Method
+
+## Top-Level Pages
+🎯 Projects (active goals)
+🏛️ Areas (ongoing responsibilities)
+📚 Resources (reference material)
+🗄️ Archive (inactive items)
+📝 Inbox (capture, process daily)
+
+## Projects Database
+Properties:
+- Name
+- Status (Not started / Active / Done / Paused)
+- Area (relation → Areas)
+- Due date
+- Priority (P0-P3)
+- Owner
+
+Views:
+- Active board (kanban by status)
+- This week (filter due ≤ 7d)
+- By area (grouped)
+
+## Areas Database
+Properties:
+- Name (e.g., "Health", "Career", "Finance")
+- Vision (3-year)
+- Current focus
+- Linked projects
+
+## Daily Note Template
+🌅 Morning intent
+📋 Today's 3 priorities
+🎯 Active project work
+📝 Inbox capture
+🌙 Evening review
+
+## Linked Database
+"Today" page shows:
+- Tasks due today (from Projects)
+- Calendar events (Google integration)
+- Inbox items to process
+
+## Automation (Notion API)
+- Auto-archive completed projects after 30d
+- Daily note generation at 6am
+- Weekly review reminder Sunday 6pm`,
+    { isNew: true }),
+
+  s('project-manager-pro', 'Project Manager Pro', 'productivity',
+    'WBS + Gantt + sprint plan + retrospective + RAID log + stakeholder comm',
+    ['project','pm','gantt','sprint'],
+    ['SaaS launch','event management','construction'],
+    'Restaurant Launch Project (6 months)',
+    `# Project: Open New Restaurant
+Goal: Open by 2026-10-01
+
+## Phases (Gantt)
+Phase 1: Concept + Location (M1-M2)
+  - Concept finalization
+  - Location scouting
+  - Lease negotiation [Critical Path]
+
+Phase 2: Design + Construction (M2-M5)
+  - Interior design
+  - Permit application [Critical Path, 60d]
+  - Construction
+  - Equipment install
+
+Phase 3: Pre-Launch (M5-M6)
+  - Hire team (10 staff)
+  - Menu testing + finalization
+  - Soft opening (1 week)
+  - Marketing launch
+
+Phase 4: Open (M6+)
+  - Grand opening event
+  - Ongoing operations
+
+## RAID Log
+🔴 Risk: Permit delay (>2 month buffer)
+   Mitigation: Submit M2 not M3
+🟡 Assumption: Lease cost 80K/month
+   Validation: 5 quotes received
+🟠 Issue: Chef candidate declined
+   Action: Re-recruit, headhunter engaged
+✅ Decision: Italian concept (vs French)
+   Date: 2026-04-10
+
+## Sprint Plan (2-week)
+Sprint 1 (Apr 16-30):
+- Permit submission
+- Chef interviews x5
+- Equipment vendor RFQ
+
+## Retrospective Format (Mad/Sad/Glad)
+Mad: What frustrated you?
+Sad: What disappointed you?
+Glad: What went well?
+→ 3 action items for next sprint`,
+    { isNew: true }),
+
+  s('async-communicator', 'Async Communicator', 'productivity',
+    'RFC + doc-first + status update + async-friendly meeting alternative',
+    ['async','rfc','documentation'],
+    ['remote team','distributed company','open source'],
+    'RFC: Database Migration PostgreSQL → MongoDB',
+    `# RFC-024: PostgreSQL → MongoDB Migration
+
+Status: DRAFT
+Author: @backend-lead
+Reviewers: @cto, @platform-team
+Comment by: 2026-04-23
+
+## Context
+Current PostgreSQL database hits limits
+on document-heavy workload (chat messages,
+audit logs). Query performance degrading.
+
+## Proposal
+Migrate chat + audit collections to MongoDB,
+keep transactional data (users, payments,
+orders) in PostgreSQL.
+
+## Why MongoDB
+- Native document model (vs JSONB in PG)
+- Better horizontal scaling
+- Faster reads on document-heavy queries
+
+## Implementation Plan
+Phase 1 (2 weeks): Setup + dual-write
+Phase 2 (2 weeks): Backfill historical
+Phase 3 (1 week): Read switch + monitoring
+Phase 4 (1 week): PG cleanup
+
+## Alternatives Considered
+1. Sharding PostgreSQL (rejected: complex)
+2. ElasticSearch (rejected: not source of truth)
+3. DynamoDB (rejected: vendor lock-in)
+
+## Decision Required By
+2026-04-23 (to start Q2 plan)
+
+## Open Questions
+- Who owns ongoing MongoDB ops?
+- Need DBA hire?
+
+## Status Update Template
+**TLDR:** What changed, what's next
+**Done:** Last week's work
+**Doing:** This week's focus
+**Blocked:** What's blocking, who can help`,
+    { isNew: true }),
+
+  s('executive-assistant', 'Executive Assistant', 'productivity',
+    'EA tasks (scheduling + travel + expense + briefing + gatekeeping)',
+    ['ea','scheduling','briefing'],
+    ['CEO support','executive support','board'],
+    'CEO Tokyo Trip — Brief + Itinerary',
+    `# Brief: CEO Tokyo Trip (May 12-16)
+
+## Purpose
+- Investor meeting (Series B follow-up)
+- Partner negotiation (distribution deal)
+- Industry conference keynote
+
+## Itinerary
+
+### Sun May 12
+17:00 TG677 BKK→NRT
+22:30 Land Narita
+23:30 Limousine bus to Park Hyatt
+00:30 Check-in (Suite 4205)
+
+### Mon May 13
+08:00 Breakfast meeting: SoftBank (Hotel)
+10:00 Sequoia (Roppongi office)
+13:00 Lunch: Yamamoto (booked, Jpy 8K pp)
+15:00 Conference rehearsal (1 hr)
+19:00 Dinner: Sukiyabashi Jiro (private)
+   - 12-piece omakase, JPY 40K pp
+
+### Tue May 14
+09:00 KEYNOTE — Tokyo Tech Conf
+   - Slot: 09:30-10:00 main stage
+   - Slides loaded backstage by 09:15
+11:00 Press interviews (3 outlets)
+14:00 [BUFFER — open]
+18:00 Partner dinner (Mizukaze)
+
+## Expense Pre-approval
+Hotel: 280K (4 nights, suite category)
+Flights: 95K (J class one-way pair)
+Meals: 60K (estimated)
+Ground transport: 25K
+Total est: 460K
+
+## Briefing Documents (in folder)
+1. SoftBank: previous meeting notes + ask
+2. Sequoia: term sheet draft, comparison
+3. Conference deck (final v3)
+4. Partner contract draft
+
+## Emergency Contacts
+EA (you): +66-XX
+Tokyo office: +81-XX
+Hotel concierge: +81-XX
+Health insurance: AXA card in wallet`,
+    { isNew: true }),
+
+  s('presentation-designer', 'Presentation Designer', 'productivity',
+    'slide design + pitch deck + executive summary + speaker notes',
+    ['presentation','slides','pitch-deck'],
+    ['Series A pitch','quarterly review','keynote'],
+    'Series A Pitch Deck (10 slides)',
+    `# Series A Pitch Deck — FoodTech Startup
+
+## Slide 1: Title
+[Big logo] [Tagline] [Date] [Confidential]
+
+## Slide 2: Problem
+"42% of restaurants fail in first year
+because owners can't read their numbers"
+[Stat sources at bottom]
+
+## Slide 3: Solution
+"AI-powered restaurant ops platform"
+[Product screenshot]
+3 bullet points (benefit-focused)
+
+## Slide 4: Market
+TAM: $50B globally
+SAM: $5B (SE Asia)
+SOM: $500M (Thailand year 5)
+[Triangle visual]
+
+## Slide 5: Product
+3 screenshots showing:
+1. Dashboard (food cost tracking)
+2. Mobile (inventory check)
+3. Insights (AI recommendation)
+
+## Slide 6: Traction
+MRR: $50K (15% MoM growth)
+Customers: 200 restaurants
+NRR: 130%
+Churn: 3%/month
+[Hockey stick chart]
+
+## Slide 7: Business Model
+SaaS + Transaction
+SaaS: $99-499/month
+Transaction: 1% of payments processed
+LTV/CAC: 4.2x
+
+## Slide 8: Competition
+Matrix: Easy ←→ Powerful (X-axis)
+        Niche ←→ Comprehensive (Y-axis)
+[Position us in upper-right quadrant]
+
+## Slide 9: Team
+3 founders + key hires (photos + 1-line bg)
+
+## Slide 10: Ask
+Raising: $5M Series A
+Use of funds:
+- Product (40%): AI capabilities
+- Sales (35%): SE Asia expansion
+- Team (25%): hire 15 people
+[Lead investor: Sequoia (committed)]
+
+## Speaker Notes (each slide)
+- Time per slide: 1 min average
+- Main message + 1 supporting story
+- Anticipated Q&A`,
+    { isNew: true })
 ];
 
 // ============ UI LOGIC ============
@@ -1966,67 +3148,45 @@ let activeSearch = '';
 
 function render() {
   const query = activeSearch.toLowerCase().trim();
-
   const filtered = SKILLS.filter(s => {
     if (activeCategory !== 'all' && s.category !== activeCategory) return false;
     if (!query) return true;
-    const haystack = [
-      s.id, s.name, s.desc,
-      ...(s.tags || []),
-      ...(s.useCases || [])
-    ].join(' ').toLowerCase();
+    const haystack = [s.id, s.name, s.desc, ...(s.tags || []), ...(s.useCases || [])].join(' ').toLowerCase();
     return haystack.includes(query);
   });
-
-  if (!filtered.length) {
-    container.innerHTML = '';
-    empty.classList.add('show');
-    return;
-  }
+  if (!filtered.length) { container.innerHTML = ''; empty.classList.add('show'); return; }
   empty.classList.remove('show');
 
-  // Group by category
   const grouped = {};
-  filtered.forEach(s => {
-    if (!grouped[s.category]) grouped[s.category] = [];
-    grouped[s.category].push(s);
-  });
+  filtered.forEach(s => { if (!grouped[s.category]) grouped[s.category] = []; grouped[s.category].push(s); });
 
-  const html = Object.keys(CATEGORIES).map(cat => {
-    const items = grouped[cat];
-    if (!items) return '';
+  container.innerHTML = Object.keys(CATEGORIES).map(cat => {
+    const items = grouped[cat]; if (!items) return '';
     const meta = CATEGORIES[cat];
-    return `
-      <section class="category-section" data-cat-section="${cat}">
-        <div class="category-header">
-          <h2 class="category-title" style="color: ${meta.color}">${meta.name}</h2>
-          <span class="category-count">${items.length} skills</span>
-        </div>
-        <div class="skills-grid">
-          ${items.map(s => renderCard(s, meta.color)).join('')}
-        </div>
-      </section>
-    `;
+    return `<section class="category-section" data-cat-section="${cat}">
+      <div class="category-header">
+        <h2 class="category-title" style="color: ${meta.color}">${meta.name}</h2>
+        <span class="category-count">${items.length} skills</span>
+      </div>
+      <div class="skills-grid">${items.map(s => renderCard(s, meta.color)).join('')}</div>
+    </section>`;
   }).join('');
-
-  container.innerHTML = html;
   bindCards();
 }
 
 function renderCard(s, color) {
   const tags = (s.tags || []).slice(0, 4).map(t => `<span class="skill-tag">${t}</span>`).join('');
   const warn = s.warning ? `<div class="skill-warn">⚠️ ${s.warning}</div>` : '';
-  return `
-    <article class="skill-card" data-id="${s.id}" style="--cat-color: ${color}">
-      <div class="skill-head">
-        <div class="skill-name">${s.name}</div>
-        <code class="skill-cmd">/${s.id}</code>
-      </div>
-      <p class="skill-desc">${escapeHtml(s.desc)}</p>
-      <div class="skill-tags">${tags}</div>
-      ${warn}
-    </article>
-  `;
+  const newBadge = s.isNew ? `<span class="new-badge">NEW</span>` : '';
+  return `<article class="skill-card" data-id="${s.id}" style="--cat-color: ${color}">
+    <div class="skill-head">
+      <div class="skill-name">${s.name}${newBadge}</div>
+      <code class="skill-cmd">/${s.id}</code>
+    </div>
+    <p class="skill-desc">${escapeHtml(s.desc)}</p>
+    <div class="skill-tags">${tags}</div>
+    ${warn}
+  </article>`;
 }
 
 function bindCards() {
@@ -2040,68 +3200,37 @@ function bindCards() {
 
 function openModal(s) {
   const color = CATEGORIES[s.category].color;
-  document.getElementById('modalTitle').textContent = s.name;
+  const newBadge = s.isNew ? `<span class="new-badge">NEW</span>` : '';
+  document.getElementById('modalTitle').innerHTML = s.name + newBadge;
   document.getElementById('modalTitle').style.color = color;
   document.getElementById('modalCmd').textContent = '/' + s.id;
-
   const tagHtml = (s.tags || []).map(t => `<span class="skill-tag">${t}</span>`).join('');
   const useCaseHtml = (s.useCases || []).map(u => `<li>${escapeHtml(u)}</li>`).join('');
-  const warnHtml = s.warning ? `
-    <div class="skill-warn" style="margin-bottom: 20px;">⚠️ ${s.warning}</div>
-  ` : '';
-
+  const warnHtml = s.warning ? `<div class="skill-warn" style="margin-bottom: 20px;">⚠️ ${s.warning}</div>` : '';
   document.getElementById('modalBody').innerHTML = `
     ${warnHtml}
-    <div class="modal-section">
-      <h4>📝 คำอธิบาย</h4>
-      <p>${escapeHtml(s.desc)}</p>
-    </div>
-    <div class="modal-section">
-      <h4>🏷️ Tags</h4>
-      <div class="skill-tags">${tagHtml}</div>
-    </div>
-    <div class="modal-section">
-      <h4>🎯 Use Cases</h4>
-      <ul class="usecase-list">${useCaseHtml}</ul>
-    </div>
-    <div class="modal-section">
-      <h4>💡 ตัวอย่างผลลัพธ์</h4>
+    <div class="modal-section"><h4>📝 คำอธิบาย</h4><p>${escapeHtml(s.desc)}</p></div>
+    <div class="modal-section"><h4>🏷️ Tags</h4><div class="skill-tags">${tagHtml}</div></div>
+    <div class="modal-section"><h4>🎯 Use Cases</h4><ul class="usecase-list">${useCaseHtml}</ul></div>
+    <div class="modal-section"><h4>💡 ตัวอย่างผลลัพธ์</h4>
       <div class="example-box">
         <div class="ex-title">${escapeHtml(s.example.title)}</div>
         <pre>${escapeHtml(s.example.preview)}</pre>
       </div>
     </div>
-    <div class="modal-section">
-      <h4>⚡ วิธีใช้</h4>
-      <div class="example-box">
-        <pre>/${s.id}
-/${s.id} <รายละเอียดที่ต้องการ></pre>
-      </div>
-    </div>
-  `;
+    <div class="modal-section"><h4>⚡ วิธีใช้</h4>
+      <div class="example-box"><pre>/${s.id}\n/${s.id} <รายละเอียดที่ต้องการ></pre></div>
+    </div>`;
   modal.classList.add('open');
   document.body.style.overflow = 'hidden';
 }
 
-function closeModal() {
-  modal.classList.remove('open');
-  document.body.style.overflow = '';
-}
+function closeModal() { modal.classList.remove('open'); document.body.style.overflow = ''; }
 
-// Events
 modalClose.addEventListener('click', closeModal);
-modal.addEventListener('click', e => {
-  if (e.target === modal) closeModal();
-});
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeModal();
-});
-
-searchInput.addEventListener('input', e => {
-  activeSearch = e.target.value;
-  render();
-});
-
+modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+searchInput.addEventListener('input', e => { activeSearch = e.target.value; render(); });
 catFilters.addEventListener('click', e => {
   if (!e.target.classList.contains('cat-chip')) return;
   document.querySelectorAll('.cat-chip').forEach(c => c.classList.remove('active'));
@@ -2110,47 +3239,32 @@ catFilters.addEventListener('click', e => {
   render();
 });
 
-// Theme toggle
 const themeToggle = document.getElementById('themeToggle');
 const themeIcon = document.getElementById('themeIcon');
 const savedTheme = localStorage.getItem('theme') || 'dark';
-if (savedTheme === 'light') {
-  document.documentElement.setAttribute('data-theme', 'light');
-  themeIcon.textContent = '☾';
-}
+if (savedTheme === 'light') { document.documentElement.setAttribute('data-theme', 'light'); themeIcon.textContent = '☾'; }
 themeToggle.addEventListener('click', () => {
   const current = document.documentElement.getAttribute('data-theme');
   if (current === 'light') {
     document.documentElement.removeAttribute('data-theme');
-    themeIcon.textContent = '☀︎';
-    localStorage.setItem('theme', 'dark');
+    themeIcon.textContent = '☀︎'; localStorage.setItem('theme', 'dark');
   } else {
     document.documentElement.setAttribute('data-theme', 'light');
-    themeIcon.textContent = '☾';
-    localStorage.setItem('theme', 'light');
+    themeIcon.textContent = '☾'; localStorage.setItem('theme', 'light');
   }
 });
 
-// Copy install
 document.getElementById('copyInstall').addEventListener('click', e => {
   navigator.clipboard.writeText('git clone https://github.com/aiunlocked1412/claude-skill-unlock && cd claude-skill-unlock && ./install.sh');
-  e.target.textContent = 'Copied ✓';
-  e.target.classList.add('copied');
-  setTimeout(() => {
-    e.target.textContent = 'Copy';
-    e.target.classList.remove('copied');
-  }, 2000);
+  e.target.textContent = 'Copied ✓'; e.target.classList.add('copied');
+  setTimeout(() => { e.target.textContent = 'Copy'; e.target.classList.remove('copied'); }, 2000);
 });
 
 function escapeHtml(str) {
-  return String(str).replace(/[&<>"']/g, c => ({
-    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
-  }[c]));
+  return String(str).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
-// Initial render
 render();
 </script>
-
 </body>
 </html>
