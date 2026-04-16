@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archives (สร้างใหม่ได้)
+*.zip
+*.tar.gz
+*.tgz
+
+# Local test / sandbox
+/tmp/
+test-install/

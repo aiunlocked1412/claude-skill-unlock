@@ -1,0 +1,55 @@
+MIT License
+
+Copyright (c) 2026 aiunlock.co
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+ข้อจำกัดความรับผิดชอบเฉพาะทาง (Domain Disclaimers)
+================================================================================
+
+แม้ว่า Bundle นี้จะแจกฟรีภายใต้ MIT License แต่ผู้ใช้ต้องรับทราบข้อจำกัด
+เฉพาะทางของ skills ต่อไปนี้:
+
+- Skills ในหมวดการแพทย์ (doctor-helper) และจิตวิทยา (psychologist-helper)
+  มีไว้เป็นผู้ช่วยวิจัยเท่านั้น **ห้ามใช้แทนคำวินิจฉัยหรือการรักษาจริง**
+
+- Skills ในหมวดกฎหมาย (lawyer-pro) และการเงิน (accountant-pro,
+  stock-trader-pro) มีไว้เพื่อความสะดวกเท่านั้น **ผู้ใช้ต้องตรวจสอบกับ
+  ผู้เชี่ยวชาญจริงก่อนใช้งาน**
+
+- Skills ในหมวดสุขภาพ (nutritionist-pro, fitness-trainer-pro) ไม่ใช่
+  คำแนะนำทางการแพทย์ — ผู้ที่มีโรคประจำตัวควรปรึกษาแพทย์ก่อน
+
+- Skills เหล่านี้ทำงานผ่าน Claude Code (ผลิตภัณฑ์ของ Anthropic) ผู้ใช้ต้อง
+  ปฏิบัติตาม Anthropic Usage Policies
+  (https://www.anthropic.com/legal/usage-policy)
+
+- AI อาจให้ข้อมูลผิดพลาด — ผู้ใช้ต้องตรวจสอบผลลัพธ์ก่อนนำไปใช้งานจริง
+
+================================================================================
+Credit & Attribution
+================================================================================
+
+โปรเจคนี้สร้างโดย aiunlock.co
+เว็บไซต์: https://aiunlock.co
+
+หากคุณนำไปใช้ หรือ fork ไปพัฒนาต่อ — ยินดีเสมอ ขอแค่เก็บ attribution นี้ไว้
+
+v1.0.0 — 2026-04-16

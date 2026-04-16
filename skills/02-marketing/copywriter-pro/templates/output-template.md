@@ -1,0 +1,371 @@
+---
+type: copy-package
+product: <ชื่อสินค้า>
+persona: <1 ประโยค>
+tone: <fun/premium/warm/direct>
+primary_framework: <AIDA/PAS/BAB/FAB>
+created: YYYY-MM-DD
+status: draft
+---
+
+# ✍️ Copy Package: <ชื่อสินค้า>
+
+## 📊 Brief Summary
+
+| Field | Value |
+|-------|-------|
+| Product | <...> |
+| Price | <...> |
+| Persona | <1 ประโยค> |
+| Core pain | <...> |
+| Desired outcome | <...> |
+| Unique mechanism | <...> |
+| Tone | <...> |
+| Primary framework | <...> |
+
+---
+
+## 🎯 Headlines (10 Variants)
+
+### 💚 Benefit-Driven (2)
+1. **H1:** <headline>
+2. **H2:** <headline>
+
+### 🔥 Pain-Point (2)
+3. **H3:** <headline>
+4. **H4:** <headline>
+
+### 👀 Curiosity (2)
+5. **H5:** <headline>
+6. **H6:** <headline>
+
+### 🏆 Social Proof (2)
+7. **H7:** <headline>
+8. **H8:** <headline>
+
+### ⏰ Urgency/Scarcity (2)
+9. **H9:** <headline>
+10. **H10:** <headline>
+
+**A/B test recommendation:** H<#> vs H<#> (ต่าง angle)
+
+---
+
+## 📣 Ad Copy (5 Variants)
+
+### 🎯 Ad #1 — Pain-First (PAS)
+
+**Headline:** <...>
+
+**Primary text:**
+> <hook>
+>
+> <body 80-120 words>
+
+**CTA:** <action>
+
+**Risk reversal:** <guarantee>
+
+**Best for:** Cold audience FB/IG feed
+
+---
+
+### 🎯 Ad #2 — Benefit-First (AIDA)
+
+**Headline:** <...>
+
+**Primary text:**
+> ...
+
+**CTA:** <...>
+
+---
+
+### 🎯 Ad #3 — Story-Led (BAB)
+
+**Headline:** <...>
+
+**Primary text:**
+> "Before: <pain>..."
+> "After: <outcome>..."
+> "Bridge: <product>..."
+
+**CTA:** <...>
+
+---
+
+### 🎯 Ad #4 — Social Proof (FAB)
+
+**Headline:** <...>
+
+**Primary text:**
+> <testimonial + product>
+
+**CTA:** <...>
+
+---
+
+### 🎯 Ad #5 — Comparison / Anti-competition
+
+**Headline:** <...>
+
+**Primary text:**
+> <why ours > theirs>
+
+**CTA:** <...>
+
+---
+
+## 📧 Email Sequence (5 Emails)
+
+### 📧 Email 1 — Welcome (Day 0)
+
+**From:** <personal name>
+**Subject:** <30-50 char>
+**Preview:** <40-90 char>
+
+**Body:**
+```
+สวัสดี <name>,
+
+<hook — personal touch>
+
+<value + what to expect>
+
+<soft CTA — small win>
+
+P.S. <reminder or story tease>
+```
+
+---
+
+### 📧 Email 2 — Story (Day 2)
+
+**Subject:** <...>
+**Preview:** <...>
+
+**Body:**
+```
+<hero's journey story — personal failure → discovery → result>
+
+<connection to reader>
+
+<teaser for email 3>
+
+P.S.
+```
+
+---
+
+### 📧 Email 3 — Teach (Day 4)
+
+**Subject:** <...>
+**Preview:** <...>
+
+**Body:**
+```
+<pure value — actionable tip>
+
+<quick implementation>
+
+<hint that more is coming>
+
+P.S.
+```
+
+---
+
+### 📧 Email 4 — Sell (Day 6)
+
+**Subject:** <...>
+
+**Body:**
+```
+<transition from value to offer>
+
+<the offer + stack>
+
+<why now>
+
+<CTA>
+
+P.S. <social proof or guarantee>
+```
+
+---
+
+### 📧 Email 5 — Last Call (Day 8)
+
+**Subject:** <...>
+
+**Body:**
+```
+<urgency: door closing>
+
+<recap benefit>
+
+<handle last objection>
+
+<CTA>
+
+P.S. <final push>
+```
+
+---
+
+## 🏠 Landing Page Copy
+
+### 🎯 Hero Section
+
+**Headline (H1):**
+> <primary promise — benefit + specific>
+
+**Subheadline:**
+> <expand promise + who it's for>
+
+**Hero Bullets (3-5):**
+- ✓ <benefit 1 — specific>
+- ✓ <benefit 2>
+- ✓ <benefit 3>
+- ✓ <benefit 4>
+
+**Primary CTA:** <action button text>
+
+**Trust badge:** <as seen on / rating / count>
+
+---
+
+### 😰 Problem Section
+
+**Sub-headline:** "ถ้าคุณเคย..."
+
+- 😓 <pain 1>
+- 😓 <pain 2>
+- 😓 <pain 3>
+
+**Agitation paragraph:**
+> <why this problem is worse than you think + cost of inaction>
+
+---
+
+### 💡 Solution Section
+
+**Sub-headline:** <introducing product>
+
+**Paragraph:**
+> <unique mechanism — why ours is different>
+
+**Visual:** <product shot / demo>
+
+---
+
+### 🔧 How It Works
+
+**Step 1:** <action>
+**Step 2:** <action>
+**Step 3:** <result>
+
+---
+
+### 💬 Testimonials
+
+> "<quote>" — <name, role>
+
+> "<quote>" — <name, role>
+
+> "<quote>" — <name, role>
+
+---
+
+### 📦 Offer Stack
+
+**ในแพ็กเกจ คุณจะได้:**
+- ✅ <core item> — มูลค่า X บาท
+- ✅ <bonus 1> — มูลค่า X บาท
+- ✅ <bonus 2> — มูลค่า X บาท
+- ✅ <bonus 3> — มูลค่า X บาท
+
+**รวมมูลค่า:** X บาท
+**วันนี้เพียง:** X บาท
+
+---
+
+### 🛡️ Guarantee
+
+> <30-day money back / result guarantee>
+
+---
+
+### ❓ FAQ
+
+**Q: <objection 1>?**
+A: <...>
+
+**Q: <objection 2>?**
+A: <...>
+
+...
+
+---
+
+### 🚀 Final CTA
+
+**Headline:** <...>
+**Button:** <...>
+**Urgency:** "<deadline or quantity>"
+
+---
+
+## 📦 Product Description (Short + Long)
+
+### Short (100 คำ — e-commerce list)
+```
+<1 line benefit>
+
+<3 bullet features>
+
+ราคา: X บาท
+[CTA]
+```
+
+### Long (300-400 คำ — product page)
+```
+<headline>
+
+<subhead>
+
+<5 bullets>
+
+<problem/solution paragraph>
+
+วิธีใช้:
+1. ...
+2. ...
+3. ...
+
+ในกล่องมี:
+- ...
+
+FAQ:
+- ...
+
+รับประกัน: ...
+
+[CTA]
+```
+
+---
+
+## 📋 Writer's Checklist
+
+- [ ] Headline มี number / specific / benefit
+- [ ] ทุก ad มี hook + body + CTA
+- [ ] ไม่มี buzzword ที่หมดอายุ
+- [ ] Social proof มีจริง (ไม่แต่ง)
+- [ ] Guarantee ระบุ term ชัด
+- [ ] CTA ใช้ action verb
+- [ ] PII / sensitive claim: ผ่าน legal review
+
+---
+
+*Generated by /copywriter-pro — Claude Skill Unlock v1.0*
