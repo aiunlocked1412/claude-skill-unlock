@@ -1,0 +1,2156 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude Skill Unlock — 37 AI Career Skills แจกฟรี | aiunlock.co</title>
+<meta name="description" content="37 Claude Code skills ภาษาไทย แจกฟรี ครอบคลุม 6 หมวดอาชีพ — ปลดล็อกการใช้ AI ในทุกอาชีพ">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --bg-elevated: #14141c;
+    --bg-card: #1a1a24;
+    --bg-hover: #22222e;
+    --border: #2a2a38;
+    --text: #e8e8f0;
+    --text-dim: #9a9aaa;
+    --text-muted: #6a6a7a;
+    --accent: #a78bfa;
+    --accent-2: #f472b6;
+    --accent-glow: rgba(167, 139, 250, 0.15);
+    --success: #34d399;
+    --warn: #fbbf24;
+    --danger: #f87171;
+    --cat-1: #f472b6;
+    --cat-2: #60a5fa;
+    --cat-3: #34d399;
+    --cat-4: #fbbf24;
+    --cat-5: #a78bfa;
+    --cat-6: #f97316;
+  }
+
+  [data-theme="light"] {
+    --bg: #fafaff;
+    --bg-elevated: #ffffff;
+    --bg-card: #ffffff;
+    --bg-hover: #f5f5fa;
+    --border: #e4e4ec;
+    --text: #1a1a2a;
+    --text-dim: #5a5a6a;
+    --text-muted: #8a8a9a;
+    --accent-glow: rgba(167, 139, 250, 0.08);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'IBM Plex Sans Thai', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+
+  /* Background effect */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at top, var(--accent-glow), transparent 60%),
+      radial-gradient(ellipse at bottom right, rgba(244, 114, 182, 0.08), transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Header */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: color-mix(in srgb, var(--bg) 85%, transparent);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    gap: 16px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .logo-icon {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    display: grid; place-items: center;
+    color: white;
+    font-size: 18px;
+  }
+  .header-actions {
+    display: flex; gap: 12px; align-items: center;
+  }
+  .btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.15s ease;
+    font-family: inherit;
+  }
+  .btn:hover {
+    background: var(--bg-hover);
+    border-color: var(--accent);
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    color: white;
+    border: none;
+  }
+  .btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px var(--accent-glow);
+  }
+
+  /* Hero */
+  .hero {
+    padding: 80px 0 60px;
+    text-align: center;
+  }
+  .badge-free {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    border-radius: 100px;
+    background: linear-gradient(135deg, var(--accent-glow), rgba(244, 114, 182, 0.15));
+    border: 1px solid var(--border);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--accent);
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-family: 'Space Grotesk', 'IBM Plex Sans Thai', sans-serif;
+    font-size: clamp(32px, 6vw, 56px);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .gradient-text {
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero p {
+    font-size: clamp(16px, 2vw, 19px);
+    color: var(--text-dim);
+    max-width: 640px;
+    margin: 0 auto 40px;
+  }
+  .hero-stats {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .stat-item .num {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .stat-item .lbl {
+    font-size: 13px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .hero-cta {
+    display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+  }
+
+  /* Install snippet */
+  .install-snippet {
+    max-width: 560px;
+    margin: 32px auto 0;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    color: var(--text-dim);
+  }
+  .install-snippet code {
+    color: var(--text);
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  .copy-btn {
+    padding: 4px 10px;
+    border-radius: 6px;
+    background: var(--bg-hover);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.15s;
+  }
+  .copy-btn:hover {
+    color: var(--text);
+    border-color: var(--accent);
+  }
+  .copy-btn.copied {
+    color: var(--success);
+    border-color: var(--success);
+  }
+
+  /* Controls */
+  .controls {
+    position: sticky;
+    top: 70px;
+    z-index: 50;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(12px);
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+  .controls-inner {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .search-box {
+    position: relative;
+    flex: 1;
+    min-width: 240px;
+    max-width: 360px;
+  }
+  .search-box input {
+    width: 100%;
+    padding: 10px 16px 10px 40px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    color: var(--text);
+    font-size: 14px;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  .search-box input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+  }
+  .search-box::before {
+    content: '⌕';
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    font-size: 18px;
+  }
+  .category-filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    overflow-x: auto;
+  }
+  .cat-chip {
+    padding: 8px 14px;
+    border-radius: 100px;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    color: var(--text-dim);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .cat-chip:hover {
+    border-color: var(--accent);
+    color: var(--text);
+  }
+  .cat-chip.active {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+    font-weight: 600;
+  }
+
+  /* Category sections */
+  .category-section {
+    margin-bottom: 56px;
+  }
+  .category-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .category-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .category-count {
+    font-size: 13px;
+    color: var(--text-muted);
+    padding: 3px 10px;
+    border-radius: 100px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+  }
+
+  /* Skill grid */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+
+  /* Skill card */
+  .skill-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .skill-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--cat-color, var(--accent));
+    opacity: 0.6;
+  }
+  .skill-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--cat-color, var(--accent));
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+  .skill-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .skill-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .skill-cmd {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-dim);
+    padding: 3px 8px;
+    border-radius: 6px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .skill-desc {
+    color: var(--text-dim);
+    font-size: 14px;
+    line-height: 1.55;
+    margin-bottom: 14px;
+  }
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .skill-tag {
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: var(--bg-hover);
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+  .skill-warn {
+    margin-top: 12px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: rgba(251, 191, 36, 0.08);
+    border: 1px solid rgba(251, 191, 36, 0.2);
+    font-size: 12px;
+    color: var(--warn);
+  }
+
+  /* Modal */
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    animation: fadeIn 0.2s ease;
+  }
+  .modal-backdrop.open { display: flex; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  .modal {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    max-width: 720px;
+    width: 100%;
+    max-height: 88vh;
+    overflow-y: auto;
+    animation: slideUp 0.25s ease;
+    position: relative;
+  }
+  .modal-head {
+    padding: 24px 28px 20px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: var(--bg-elevated);
+    z-index: 1;
+  }
+  .modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    color: var(--text-dim);
+    font-size: 20px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    transition: all 0.15s;
+    line-height: 1;
+  }
+  .modal-close:hover {
+    color: var(--danger);
+    border-color: var(--danger);
+  }
+  .modal-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .modal-cmd {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    color: var(--accent);
+  }
+  .modal-body {
+    padding: 24px 28px 28px;
+  }
+  .modal-section {
+    margin-bottom: 24px;
+  }
+  .modal-section h4 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .modal-section p {
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .usecase-list { list-style: none; }
+  .usecase-list li {
+    padding: 8px 12px;
+    background: var(--bg-card);
+    border-radius: 8px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    display: flex;
+    gap: 8px;
+  }
+  .usecase-list li::before {
+    content: '→';
+    color: var(--accent);
+    font-weight: bold;
+    flex-shrink: 0;
+  }
+  .example-box {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-top: 8px;
+  }
+  .example-box .ex-title {
+    font-size: 13px;
+    color: var(--accent);
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  .example-box pre {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-dim);
+    white-space: pre-wrap;
+    line-height: 1.6;
+    max-height: 280px;
+    overflow-y: auto;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 80px;
+    padding: 40px 0 32px;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  footer .links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+
+  /* Empty state */
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-muted);
+    display: none;
+  }
+  .empty-state.show { display: block; }
+
+  /* Responsive */
+  @media (max-width: 640px) {
+    .hero-stats { gap: 24px; }
+    .stat-item .num { font-size: 28px; }
+    .controls { top: 64px; }
+    .controls-inner { flex-direction: column; align-items: stretch; }
+    .search-box { max-width: 100%; }
+    .modal { max-height: 95vh; border-radius: 16px; }
+    .modal-head { padding: 20px; }
+    .modal-body { padding: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="#top" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>Claude Skill Unlock</span>
+      </a>
+      <div class="header-actions">
+        <button class="btn" id="themeToggle" title="Toggle theme">
+          <span id="themeIcon">☀︎</span>
+        </button>
+        <a href="https://github.com/aiunlocked1412/claude-skill-unlock" class="btn" target="_blank" rel="noopener">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="top">
+    <div class="container">
+      <span class="badge-free">🎁 แจกฟรี · MIT License</span>
+      <h1>ปลดล็อก AI ช่วยทำงาน<br><span class="gradient-text">ทุกอาชีพ</span> ภายใน 5 นาที</h1>
+      <p>37 Claude Code skills ภาษาไทย ครอบคลุม 6 หมวดอาชีพ — ตั้งแต่ครีเอเตอร์ นักการตลาด โปรแกรมเมอร์ ไปจนถึงนักจิตวิทยา พร้อมใช้งานทันที</p>
+
+      <div class="hero-stats">
+        <div class="stat-item"><div class="num">37</div><div class="lbl">Skills</div></div>
+        <div class="stat-item"><div class="num">6</div><div class="lbl">หมวดอาชีพ</div></div>
+        <div class="stat-item"><div class="num">192</div><div class="lbl">ไฟล์</div></div>
+        <div class="stat-item"><div class="num">100%</div><div class="lbl">ฟรี</div></div>
+      </div>
+
+      <div class="hero-cta">
+        <a href="#categories" class="btn btn-primary">สำรวจ Skills →</a>
+        <a href="https://github.com/aiunlocked1412/claude-skill-unlock" class="btn" target="_blank" rel="noopener">ดูบน GitHub</a>
+      </div>
+
+      <div class="install-snippet">
+        <code>git clone &amp;&amp; cd claude-skill-unlock &amp;&amp; ./install.sh</code>
+        <button class="copy-btn" id="copyInstall">Copy</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="controls" id="categories">
+    <div class="container">
+      <div class="controls-inner">
+        <div class="search-box">
+          <input type="text" id="searchInput" placeholder="ค้นหา skill, tag, use case...">
+        </div>
+        <div class="category-filters" id="catFilters">
+          <button class="cat-chip active" data-cat="all">ทั้งหมด</button>
+          <button class="cat-chip" data-cat="content">🎬 Content</button>
+          <button class="cat-chip" data-cat="marketing">📣 Marketing</button>
+          <button class="cat-chip" data-cat="tech">💻 Tech</button>
+          <button class="cat-chip" data-cat="design">🎨 Design</button>
+          <button class="cat-chip" data-cat="business">💼 Business</button>
+          <button class="cat-chip" data-cat="education">📚 Education & Health</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="empty" class="empty-state">
+      <p style="font-size: 18px; margin-bottom: 8px;">🔍 ไม่พบ skill ที่ตรงกับคำค้นหา</p>
+      <p>ลองเปลี่ยนคำค้น หรือกดปุ่ม "ทั้งหมด"</p>
+    </div>
+    <div id="skillsContainer"></div>
+  </div>
+</main>
+
+<div class="modal-backdrop" id="modal">
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <div class="modal-head">
+      <h3 class="modal-title" id="modalTitle"></h3>
+      <div class="modal-cmd" id="modalCmd"></div>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="links">
+      <a href="https://aiunlock.co" target="_blank" rel="noopener">aiunlock.co</a>
+      <a href="https://github.com/aiunlocked1412/claude-skill-unlock" target="_blank" rel="noopener">GitHub Repo</a>
+      <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude Code</a>
+    </div>
+    <div>Made with ❤️ by <a href="https://aiunlock.co" target="_blank" rel="noopener">aiunlock.co</a> · v1.0.0 · MIT License</div>
+  </div>
+</footer>
+
+<script>
+const CATEGORIES = {
+  content:    { name: '🎬 Content Creator', color: '#f472b6' },
+  marketing:  { name: '📣 Marketing & Sales', color: '#60a5fa' },
+  tech:       { name: '💻 Tech & Development', color: '#34d399' },
+  design:     { name: '🎨 Design & Creative', color: '#fbbf24' },
+  business:   { name: '💼 Business & Service', color: '#a78bfa' },
+  education:  { name: '📚 Education & Health', color: '#f97316' }
+};
+
+const SKILLS = [
+  // 🎬 Content Creator
+  {
+    id: 'youtuber-pro', name: 'YouTuber Pro', category: 'content',
+    desc: 'สคริปต์ YouTube/Shorts/Reels/TikTok พร้อม hook 3 วิ, thumbnail prompt, title ตัวเลือก และ SEO metadata',
+    tags: ['video', 'youtube', 'reels', 'tiktok', 'script'],
+    useCases: ['รีวิวสินค้า', 'สอน/tutorial', 'vlog/lifestyle', 'storytelling'],
+    example: {
+      title: 'รีวิวกล้อง Canon AE-1 8 นาที',
+      preview: `# 🎬 รีวิวกล้อง Canon AE-1 ใช้ 3 ปี — ยังคุ้มในปี 2026 หรือไม่?
+
+## 🎯 Hook (0:00 - 0:10)
+"ผมใช้กล้องฟิล์มตัวนี้มา 3 ปี ถ่ายไปแล้ว 80 ม้วน...
+...และวันนี้ผมจะบอกสิ่งที่ไม่มีคนไหนยอมบอกคุณเกี่ยวกับมัน"
+
+## 📣 Promise (0:10 - 0:30)
+✅ ข้อดี 3 อย่างที่ทำให้ผมยังใช้อยู่
+❌ ข้อเสีย 2 อย่างที่เกือบทำให้เลิกใช้
+💰 งบประมาณจริง (ไม่ใช่แค่ค่ากล้อง)
+
+## 🏷️ Title Options
+1. "ผมใช้กล้องฟิล์มตัวนี้ 3 ปี แล้วค้นพบสิ่งที่ไม่มีคนบอก"
+2. "ห้ามซื้อ Canon AE-1 ถ้าคุณยังไม่ดูคลิปนี้"`
+    }
+  },
+  {
+    id: 'blogger-pro', name: 'Blogger Pro', category: 'content',
+    desc: 'เขียนบทความ blog พร้อม SEO, outline H1-H3, meta description, internal linking plan',
+    tags: ['blog', 'seo', 'writing', 'article'],
+    useCases: ['บทความยาว', 'รีวิวสินค้า', 'how-to', 'listicle', 'บทวิเคราะห์'],
+    example: {
+      title: 'วิธีลดหย่อนภาษีสำหรับฟรีแลนซ์ 2026',
+      preview: `---
+title: วิธีลดหย่อนภาษีสำหรับฟรีแลนซ์ 2026 — ครบทุกรายการที่คนส่วนใหญ่พลาด
+meta_description: รวมรายการลดหย่อนภาษี 2026 สำหรับฟรีแลนซ์ ทั้ง RMF SSF ประกัน...
+keywords: [ลดหย่อนภาษีฟรีแลนซ์, ภาษีฟรีแลนซ์ 2026, ภ.ง.ด.90]
+---
+
+# วิธีลดหย่อนภาษีสำหรับฟรีแลนซ์ 2026
+
+ฟรีแลนซ์หลายคนจ่ายภาษีเกินจำเป็น เพราะไม่รู้ว่า...
+
+## 1. ลดหย่อนหลักที่ทุกคนใช้ได้
+## 2. ลดหย่อนเฉพาะทางสำหรับฟรีแลนซ์
+## 3. การวางแผนภาษีตลอดปี`
+    }
+  },
+  {
+    id: 'translator-pro', name: 'Translator Pro', category: 'content',
+    desc: 'แปลไทย-อังกฤษที่ได้ใจความ ปรับ tone ท้องถิ่น ไม่ใช่แปลคำต่อคำ + subtitle + localization',
+    tags: ['translation', 'subtitle', 'localization', 'srt'],
+    useCases: ['แปลเอกสาร', 'subtitle (.srt)', 'email ธุรกิจ', 'landing page', 'transcreation'],
+    example: {
+      title: 'แปล Landing Page SaaS EN→TH',
+      preview: `EN: "Stop wasting hours on repetitive tasks"
+
+❌ แปลตรง: "หยุดเสียเวลาชั่วโมงกับงานซ้ำๆ"
+✅ Transcreation: "ลืมงานน่าเบื่อไปได้เลย — เรามี AI ให้"
+
+📌 Notes:
+- "Stop wasting" ในไทยฟังดูขึ้งเคียด → เปลี่ยนเป็น positive framing
+- เพิ่มคำว่า "AI" เพื่อ clarify context (ลูกค้าไทยเข้าใจง่ายขึ้น)
+
+🔤 Glossary (คำศัพท์เทคนิค):
+- "onboarding" → "การเริ่มต้นใช้งาน"
+- "workflow" → "ขั้นตอนการทำงาน"`
+    }
+  },
+  {
+    id: 'podcaster-pro', name: 'Podcaster Pro', category: 'content',
+    desc: 'สคริปต์ podcast ที่ฟังแล้วไม่เบื่อ + show notes + clip timestamps + teaser สำหรับ social',
+    tags: ['podcast', 'audio', 'script', 'show-notes'],
+    useCases: ['solo podcast', 'สัมภาษณ์', 'narrative story', 'audio brand'],
+    example: {
+      title: 'EP12: เทคนิคอ่านหนังสือเร็ว (25 นาที)',
+      preview: `# EP12 — เทคนิคอ่านหนังสือเร็ว 3 เท่า
+
+## 🎙️ Cold Open (0:00-0:30)
+"คุณเคยซื้อหนังสือมา 10 เล่ม อ่านจบแค่ 2 เล่ม
+แล้ว 8 เล่มที่เหลือยังอยู่บนชั้น?
+ผมเข้าใจ — และวันนี้ผมจะแก้ปัญหานี้ให้คุณ"
+
+## 📖 Segments
+0:30 — เรื่องที่คนสอนผิด: "อ่านให้ครบทุกบรรทัด"
+4:00 — เทคนิค 1: Skimming แบบมีระบบ
+9:00 — เทคนิค 2: Question-Based Reading
+...
+
+## ✂️ Teaser Clips (สำหรับ social)
+Clip A (45 วิ): 4:12-4:57 — "ทำไมอ่านช้าถึงดีบางครั้ง"
+Clip B (30 วิ): 12:03-12:33 — "สูตรเลิกอ่าน 50 หน้าแรก"`
+    }
+  },
+  {
+    id: 'storyteller-pro', name: 'Storyteller Pro', category: 'content',
+    desc: 'plot outline (3-act) + character profile + dialogue ที่สมจริง — สำหรับนิยาย บทหนัง เกม',
+    tags: ['fiction', 'screenplay', 'character', 'plot'],
+    useCases: ['short story', 'นิยายตอน', 'บทหนังสั้น', 'เกม narrative', 'การ์ตูน'],
+    example: {
+      title: 'เรื่องสั้น mystery: ร้านกาแฟริมน้ำ',
+      preview: `# ร้านกาแฟริมน้ำ (~1,520 คำ)
+
+## 3-Act Structure
+ACT I: ภีมย้ายมาอยู่บ้านยายที่เพิ่งเสีย — พบร้านกาแฟที่...
+  ไม่มีในแผนที่ Google
+ACT II: กลับมาทุกเช้า เจอเจ้าของร้านพูดถึงคนที่...
+  ตายไปแล้ว 30 ปี
+ACT III: ค้นพบว่าร้านเป็น memorial ของคู่รักที่...
+
+## Character Profiles
+ภีม, 28 — สถาปนิกที่เพิ่งเลิกกับแฟน
+  Flaw: หลีกเลี่ยงการเผชิญอดีต
+  Want: หาที่อยู่เงียบ ๆ / Need: ยอมรับการสูญเสีย
+
+ป้าดวง, ?? — เจ้าของร้านกาแฟ
+  เก็บความลับที่ผูกกับบ้านยายของภีม`
+    }
+  },
+
+  // 📣 Marketing & Sales
+  {
+    id: 'digital-marketer', name: 'Digital Marketer', category: 'marketing',
+    desc: 'วางแผน campaign ตั้งแต่ budget allocation, KPI, timeline ถึง Gantt chart',
+    tags: ['campaign', 'strategy', 'kpi', 'budget'],
+    useCases: ['launch product', 'promotion', 'rebrand', 'lead gen'],
+    example: {
+      title: 'Campaign คอร์ส Excel งบ 50,000 / 30 วัน',
+      preview: `# Campaign: "Master Excel in 30 Days"
+Goal: ขายคอร์ส 50 ที่นั่ง × 1,990 บาท = 99,500 บาท
+ROAS Target: 4.0× (≥ 2.0× break even)
+
+## Budget Allocation (50,000)
+- Meta Ads (FB/IG):  24,000 (48%)
+- Google Search:      12,000 (24%)
+- TikTok Ads:         8,000 (16%)
+- Influencer:         6,000 (12%)
+
+## KPI Dashboard
+Week 1: 250 คลิก, CPL ≤ 50, CTR > 1.5%
+Week 2: 20 leads/day, Landing conversion 8%
+Week 4: ≥ 50 paid enrollments, ROAS ≥ 4.0×`
+    }
+  },
+  {
+    id: 'social-media-admin', name: 'Social Media Admin', category: 'marketing',
+    desc: 'ปฏิทินโพส 30 วัน + caption 3 variants + reply template + hashtag bank',
+    tags: ['facebook', 'instagram', 'calendar', 'hashtag'],
+    useCases: ['brand social', 'community management', 'customer engagement'],
+    example: {
+      title: 'ปฏิทินเดือน เม.ย. — บ้านขนมป้าวรรณ',
+      preview: `# Social Calendar — April 2026 (Songkran)
+
+Mon 1 Apr | FB+IG | 09:00 | Engagement
+  Caption: "เมษายนมาแล้ว! ป้าวรรณเปิดตัว..."
+
+Wed 3 Apr | IG Story | 15:00 | Behind-the-scenes
+  Caption: "หลังร้านป้าวรรณวันนี้..."
+
+Fri 5 Apr | FB+IG | 19:00 | Product launch
+  Caption (3 variants):
+  A: "ใหม่! ขนมช่อม่วง — สีสวยเหมือนสงกรานต์..."
+  B: "ทุกคนถามมา — เมื่อไหร่มีช่อม่วง? วันนี้เลย..."
+  C: "POV: คุณเดินผ่านหน้าร้าน แล้วเห็นสีม่วง..."
+
+# Reply Templates
+DM "สั่งกี่ชิ้นคะ?" → "สวัสดีค่ะ 😊 สั่งได้..."
+DM "ส่งต่างจังหวัด?" → "ส่งได้ค่ะ ค่าส่ง..."`
+    }
+  },
+  {
+    id: 'seo-specialist', name: 'SEO Specialist', category: 'marketing',
+    desc: 'keyword research + content outline with H-structure + on-page audit + JSON-LD schema',
+    tags: ['seo', 'keyword', 'ranking', 'on-page'],
+    useCases: ['บทความ blog', 'landing page', 'e-commerce', 'local SEO'],
+    example: {
+      title: 'บทความรีวิว Sony A7IV ภาษาไทย',
+      preview: `## Primary Keyword: "รีวิว Sony A7IV"
+Volume: 1,300/mo | KD: 32 | CPC: 12 บาท
+
+## LSI Keywords
+- sony a7iv ราคา (880/mo)
+- sony a7iv เทียบ a7iii (590/mo)
+- sony a7iv สเปค (430/mo)
+- sony a7iv ภาษาไทย (320/mo)
+
+## Content Outline (H-structure)
+H1: รีวิว Sony A7IV — กล้อง 33MP คุ้มไหมในปี 2026?
+  H2: สเปคที่สำคัญ (ย่อ)
+  H2: ทดลองใช้จริง 2 เดือน
+    H3: ถ่ายภาพนิ่ง
+    H3: ถ่ายวิดีโอ 4K60
+    H3: Autofocus สำหรับเด็ก/สัตว์เลี้ยง
+  H2: เปรียบเทียบกับ A7III (ตาราง)
+  H2: สรุป — เหมาะกับใคร?`
+    }
+  },
+  {
+    id: 'copywriter-pro', name: 'Copywriter Pro', category: 'marketing',
+    desc: 'headline 10 variants + FB/Google ad copy + email sequence 5 emails ที่ conversion สูง',
+    tags: ['copy', 'ads', 'email', 'headline'],
+    useCases: ['Facebook Ads', 'Google Ads', 'email marketing', 'landing page'],
+    example: {
+      title: 'ครีมกันแดด SunShield SPF50+',
+      preview: `# Headlines (10 variants)
+1. "เลิกเป็นฝ้าในปีหน้า — เริ่มวันนี้"
+2. "SPF50+ ที่ไม่เหนียว ไม่ขาววอก"
+3. "ครีมกันแดดที่สาวออฟฟิศใช้กัน"
+
+## FB Ad Copy (Short)
+ฉากที่ 1 (Awareness):
+"UV ในกรุงเทพ = 9-11 ทุกวัน
+แต่ 80% ของคนไม่ได้ใช้กันแดด
+เพราะมันเหนียว ขาววอก หรือแพ้ง่าย
+SunShield SPF50+ — แก้ทั้ง 3 ปัญหา"
+
+## Email Sequence (5 emails)
+Day 0: Welcome (ทำความรู้จัก)
+Day 2: Education (UV index 101)
+Day 4: Social proof (รีวิว 500+)
+Day 6: Offer (ส่วนลด 30%)
+Day 8: Last chance (FOMO close)`
+    }
+  },
+  {
+    id: 'online-seller', name: 'Online Seller', category: 'marketing',
+    desc: 'live script 30 นาที + product caption + FAQ 20 ข้อ + pricing psychology',
+    tags: ['live', 'ecommerce', 'caption', 'pricing'],
+    useCases: ['Facebook Live', 'Shopee/Lazada', 'TikTok Shop', 'Line Shop'],
+    example: {
+      title: 'ขาย Moka Pot 790 บาท ใน FB Live',
+      preview: `# Live Script (5 Acts, 30 นาที)
+
+## Act 1: Hook (0-3 min)
+"สวัสดีค่าทุกคน วันนี้มีของดีมาฝาก
+วันนี้คนเดียวเท่านั้น — ราคา Moka Pot แบบ...
+(ชงกาแฟโชว์ + พูดถึงปัญหาคนที่ใช้เครื่องแพงๆ)"
+
+## Act 3: Demo (10-20 min)
+- ชงกาแฟจริง 3 ครั้ง
+- เปรียบเทียบกับเครื่อง espresso 5,000 บาท
+- ให้ผู้ดูชิมทางใจ (describe taste)
+
+## Act 5: Close (25-30 min)
+- Urgency: "Live นี้จบใน 5 นาที"
+- Scarcity: "เหลือแค่ 12 ตัวนะคะ"
+- Bonus: "+ ถ้วยกาแฟฟรี 2 ใบ"
+- CTA: "พิมพ์ CF ในคอมเมนต์เลยค่ะ"`
+    }
+  },
+  {
+    id: 'influencer-marketing', name: 'Influencer Marketing', category: 'marketing',
+    desc: 'influencer brief + pitch email + rate card evaluation + performance review ที่ data-driven',
+    tags: ['influencer', 'kol', 'negotiation', 'review'],
+    useCases: ['จ้าง influencer', 'micro/macro KOL', 'affiliate', 'UGC'],
+    example: {
+      title: 'หา beauty KOL 5 คน — งบ 100,000',
+      preview: `# Campaign: GlowUp Essence Launch
+Target KOL: 5 คน | Budget: 100,000 บาท
+Breakdown: 1 macro (50K) + 4 micro (12.5K ต่อคน)
+
+## Tier Strategy
+Macro (100K+ followers): 1 คน → awareness
+Micro (10-50K): 4 คน → conversion
+
+## KOL Vetting Checklist
+✓ Engagement Rate ≥ 3% (ไม่ใช่แค่ followers)
+✓ Audience โปรไฟล์ตรงกลุ่มเป้าหมาย (ใช้ HypeAuditor)
+✓ ความถี่โพสสม่ำเสมอ
+✓ ไม่มี fake followers (ตรวจด้วย SocialBlade)
+
+## Pitch Email Template
+Subject: "Collab SunShield x [ชื่อ KOL] — Skincare Launch"
+Body: ...`
+    }
+  },
+
+  // 💻 Tech
+  {
+    id: 'programmer-pro', name: 'Programmer Pro', category: 'tech',
+    desc: 'review โค้ดแบบ senior — bug, performance, security, architecture รองรับทุกภาษา',
+    tags: ['code-review', 'debug', 'refactor', 'typescript', 'python'],
+    useCases: ['review PR', 'หา bug', 'refactor legacy', 'explain code'],
+    example: {
+      title: 'Review React useEffect infinite loop',
+      preview: `# Review: UserProfile.tsx
+
+## 🔴 Critical Issues (1)
+### L23: Infinite re-render
+\`\`\`tsx
+useEffect(() => {
+  fetchUser(userId).then(setUser)
+}, [user])  // ❌ setUser triggers re-run
+\`\`\`
+**Fix:** dependency ควรเป็น \`[userId]\`
+
+## 🟡 Warnings (2)
+### L45: Missing cleanup in useEffect
+\`\`\`tsx
+useEffect(() => {
+  const sub = api.subscribe(handler)
+  // missing: return () => sub.unsubscribe()
+}, [])
+\`\`\`
+
+### L67: any type
+\`\`\`tsx
+const data: any = await response.json()
+// Better: define interface User { ... }
+\`\`\`
+
+## ✅ Positives
+- Good separation of concerns (hooks in separate file)
+- Consistent naming convention`
+    }
+  },
+  {
+    id: 'data-analyst-pro', name: 'Data Analyst Pro', category: 'tech',
+    desc: 'SQL optimized + insight extraction + dashboard spec รองรับ Postgres/MySQL/BigQuery',
+    tags: ['sql', 'analytics', 'dashboard', 'insight'],
+    useCases: ['วิเคราะห์ยอดขาย', 'churn analysis', 'funnel', 'cohort'],
+    example: {
+      title: 'E-commerce 6 เดือน — churn + funnel',
+      preview: `-- Finding 1: Churn rate เพิ่ม 8% ใน Q2
+WITH monthly_active AS (
+  SELECT
+    DATE_TRUNC('month', order_date) AS month,
+    COUNT(DISTINCT user_id) AS active_users
+  FROM orders
+  WHERE order_date >= '2025-10-01'
+  GROUP BY 1
+),
+churn AS (
+  SELECT
+    month,
+    LAG(active_users) OVER (ORDER BY month) - active_users AS churned
+  FROM monthly_active
+)
+SELECT * FROM churn ORDER BY month;
+
+## Insights (3)
+Finding 1: Churn rate Q2 = 23% (Q1 = 15%) ↑ 8pp
+  So what: กลุ่มใหม่หลัง campaign Q1 ไม่ retain
+  Action: wining-back email sequence day 30
+
+Finding 2: Cart → Checkout drop = 62% (benchmark 45%)
+  So what: Checkout UX มีปัญหา
+  Action: A/B test one-page checkout`
+    }
+  },
+  {
+    id: 'web-designer-pro', name: 'Web Designer Pro', category: 'tech',
+    desc: 'wireframe + component spec + style guide + responsive breakpoint พร้อม developer handoff',
+    tags: ['wireframe', 'ui', 'components', 'responsive'],
+    useCases: ['landing page', 'SaaS', 'e-commerce', 'dashboard'],
+    example: {
+      title: 'SaaS Landing Page (Mobile-first)',
+      preview: `# Wireframe: ProjectFlow Landing
+
+## Mobile (375px)
+┌──────────────────────┐
+│ [Logo]    [Menu ≡]  │
+├──────────────────────┤
+│                      │
+│   ProjectFlow         │
+│   จัดการโปรเจคง่าย    │
+│                      │
+│  [ลองฟรี 14 วัน]     │
+│  [ดู Demo]           │
+│                      │
+│  [Product Screenshot] │
+│                      │
+└──────────────────────┘
+
+## Design Tokens
+Color:
+  --primary-500: #6366f1
+  --primary-600: #4f46e5
+  --gray-900: #18181b
+Typography:
+  --font-display: 'Space Grotesk'
+  --font-body: 'Inter'
+Breakpoints:
+  mobile: 375px  |  tablet: 768px  |  desktop: 1280px`
+    }
+  },
+  {
+    id: 'qa-tester-pro', name: 'QA Tester Pro', category: 'tech',
+    desc: 'test case matrix (unit/integration/e2e) + bug report template + regression checklist',
+    tags: ['testing', 'qa', 'regression', 'edge-cases'],
+    useCases: ['feature testing', 'bug triage', 'release QA', 'automation'],
+    example: {
+      title: 'Login Feature — 22 Test Cases',
+      preview: `# Test Matrix: Login Feature
+
+## Happy Path (4 cases)
+TC-001: Login ด้วย email+password ถูกต้อง
+  Pre: มี user registered
+  Steps: กรอก → Submit
+  Expected: redirect ไป /dashboard
+
+## Sad Path (8 cases)
+TC-005: Password ผิด 3 ครั้ง
+  Expected: lock account 15 min + email warning
+TC-006: Email ไม่มีในระบบ
+  Expected: "Email or password incorrect" (generic)
+
+## Edge Cases (6 cases)
+TC-013: Password มี 500 ตัวอักษร
+TC-014: SQL injection in email field
+TC-015: Emoji ใน password
+TC-016: Session expire ขณะ login
+
+## Non-functional (4 cases)
+TC-019: Response time < 500ms (95th percentile)
+TC-020: Rate limit: 10 attempts/min`
+    }
+  },
+  {
+    id: 'no-code-builder', name: 'No-Code Builder', category: 'tech',
+    desc: 'tool recommendation (Airtable/Zapier/Make/Bubble) + schema design + automation flow',
+    tags: ['nocode', 'automation', 'airtable', 'zapier'],
+    useCases: ['internal tool', 'MVP', 'CRM', 'automation workflow'],
+    example: {
+      title: 'CRM ร้านนวด — รับ booking + reminder',
+      preview: `# Solution Stack (3 tools)
+- Airtable: Database (customer, booking)
+- Zapier: Automation (SMS, email)
+- Softr: Customer-facing booking page
+
+## Schema (Airtable)
+Table: Customers
+  - Name (text)
+  - Phone (phone)
+  - Last Visit (date)
+  - Total Spent (currency, formula)
+  - Preferred Therapist (link)
+  - Notes (long text)
+
+Table: Bookings
+  - Customer (link → Customers)
+  - Date/Time (datetime)
+  - Service (select: นวดไทย/อโรม่า/...)
+  - Therapist (link)
+  - Status (select: Booked/Done/No-show)
+
+## Automation (Zapier)
+Trigger: Booking created (Airtable)
+  → Send SMS confirmation (Twilio)
+  → Send calendar invite (Google Calendar)
+
+24h Before Booking
+  → Send reminder SMS`
+    }
+  },
+  {
+    id: 'devops-helper', name: 'DevOps Helper', category: 'tech',
+    desc: 'Dockerfile optimized + docker-compose + GitHub Actions + Prometheus/Grafana alert',
+    tags: ['docker', 'ci-cd', 'deploy', 'monitoring'],
+    useCases: ['Docker setup', 'GitHub Actions', 'monitoring alert', 'VPS deploy'],
+    example: {
+      title: 'Next.js → Docker + CI/CD + VPS',
+      preview: `# Multi-stage Dockerfile
+FROM node:20-alpine AS builder
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
+
+FROM node:20-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+USER node
+EXPOSE 3000
+CMD ["node", "server.js"]
+
+# .github/workflows/deploy.yml
+name: Deploy
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Docker image
+      - name: SSH to VPS and restart`
+    }
+  },
+
+  // 🎨 Design
+  {
+    id: 'graphic-designer-pro', name: 'Graphic Designer Pro', category: 'design',
+    desc: 'Midjourney/DALL-E prompt คุณภาพสูง + design brief + mood board + color palette',
+    tags: ['midjourney', 'dalle', 'logo', 'poster'],
+    useCases: ['logo', 'poster', 'infographic', 'social media post'],
+    example: {
+      title: 'โลโก้ร้านกาแฟ "Kaffa Origin"',
+      preview: `# Design Brief — Kaffa Origin
+Brand: ร้านกาแฟ specialty จาก Ethiopia
+Tone: Minimal + warm + craft
+Target: Coffee enthusiast 25-40 ปี
+
+# Color Palette
+- Primary: #2C1810 (Dark roast)
+- Accent:  #D4A574 (Golden crema)
+- Neutral: #F5F0E8 (Paper white)
+
+# Midjourney Prompt (Variant A)
+minimalist coffee shop logo, letter "K" with coffee bean
+inside the counter, Japandi aesthetic, warm brown and
+cream tones, subtle gradient, clean vector lines,
+professional brand identity design, centered composition,
+white background --ar 1:1 --v 6 --style raw
+
+# Mood Board Keywords
+"wabi-sabi", "single-origin coffee", "minimal Nordic",
+"hand-lettered", "warm minimalism"`
+    }
+  },
+  {
+    id: 'photographer-pro', name: 'Photographer Pro', category: 'design',
+    desc: 'shot list + mood board + Lightroom preset + retouching checklist',
+    tags: ['photography', 'shot-list', 'lightroom', 'retouching'],
+    useCases: ['portrait', 'product', 'event', 'wedding', 'family'],
+    example: {
+      title: 'ครอบครัว outdoor 1 ชั่วโมง 15 shots',
+      preview: `# Session: ครอบครัว Pattanawit
+Location: สวนรถไฟ
+Time: 16:30-17:30 (golden hour)
+Duration: 60 min | Shots: 15
+
+# Shot List
+## Warm-up (5 shots, 15 min)
+1. Wide: ครอบครัวเดินเข้ากล้อง (full body)
+2. Medium: พ่อแม่ moment — คุยกัน (bokeh)
+3. Close-up: ลูก 2 คนเล่น (candid)
+
+## Formal (5 shots, 20 min)
+6. Full family looking at camera
+7. Parents only (romantic)
+
+## Candid Story (5 shots, 25 min)
+11. Running together (motion blur)
+13. Ice cream moment (reactions)
+
+# Lightroom Preset "Warm Family"
+Temp: +8  |  Tint: +3
+Highlights: -30  |  Shadows: +25
+HSL: Orange saturation +10, Yellow +5`
+    }
+  },
+  {
+    id: 'video-editor-pro', name: 'Video Editor Pro', category: 'design',
+    desc: 'storyboard + edit timeline + music cue + color grading plan',
+    tags: ['video', 'editing', 'storyboard', 'color-grade'],
+    useCases: ['YouTube', 'Reels', 'wedding highlight', 'commercial'],
+    example: {
+      title: 'Wedding Highlight "ภีม & พราว" 3 นาที',
+      preview: `# Edit Plan: ภีม & พราว Wedding Highlight (3:00)
+
+## Act 1: Prep (0:00-0:45)
+Music: soft piano (low energy)
+Clips:
+  0:00-0:08 | เสื้อผ้าแขวน, ดอกไม้ close-up
+  0:08-0:20 | แต่งหน้าพราว (handheld)
+  0:20-0:35 | ภีมผูกเน็กไท + พ่อช่วย
+  0:35-0:45 | First look — slow-mo 50%
+
+## Act 2: Ceremony (0:45-1:45)
+Music: rises to emotional peak
+Clips:
+  0:45-1:00 | Walking down aisle (dolly)
+  1:00-1:20 | Vows — interview cut-in
+  1:20-1:40 | First kiss (2 angles)
+  1:40-1:45 | Rings close-up
+
+## Color Grade
+Film emulation: Kodak Portra 400
+Highlights: +lift warm
+Shadows: +crushed teal`
+    }
+  },
+  {
+    id: 'architect-pro', name: 'Architect Pro', category: 'design',
+    desc: 'concept narrative + site analysis + material spec + Midjourney render prompt',
+    tags: ['architecture', 'render', 'concept', 'material'],
+    useCases: ['residential', 'commercial', 'interior', 'landscape'],
+    example: {
+      title: '"House of Silence" Japandi tropical 250 ตร.ม.',
+      preview: `# Concept: House of Silence
+Site: ภูเก็ต, 450 ตร.ม. plot
+Building: 250 ตร.ม. 2-story
+Style: Japandi + Tropical
+
+## Concept Narrative
+"บ้านที่ฟังเสียงตัวเองได้" — design รอบ courtyard
+เพื่อบล็อก noise จากถนน + create internal garden
+ที่เป็นหัวใจของบ้าน
+
+## Functional Zones
+Ground: Living + Dining + Kitchen (open-plan)
+         + 1 BR (guest) + Japanese garden
+2nd:     Master BR + 2 BR kids + Study + Balcony
+
+## Material Palette
+- Teak wood (สยาม, reclaimed)
+- Travertine (warm beige)
+- Textured white render
+- Black steel (slim profile)
+
+## Render Prompt (Midjourney)
+"Japandi tropical villa with internal courtyard,
+teak wood facade, white textured walls, black steel
+roof, bamboo garden visible through large openings,
+golden hour lighting, architectural photography,
+ultra detailed, --ar 16:9 --v 6"`
+    }
+  },
+  {
+    id: 'fashion-designer-pro', name: 'Fashion Designer Pro', category: 'design',
+    desc: 'collection plan + color story + silhouette + fabric recommendation + pattern brief',
+    tags: ['fashion', 'collection', 'pattern', 'lookbook'],
+    useCases: ['streetwear', 'ready-to-wear', 'capsule collection', 'luxury'],
+    example: {
+      title: 'Capsule "Bangkok Monsoon" SS26',
+      preview: `# Collection: Bangkok Monsoon SS26
+Brand: GREYHOUR
+Pieces: 10 (4 tops, 4 bottoms, 2 layers)
+Season: Spring/Summer 2026
+
+## Theme
+"เสื้อผ้าสำหรับฝนตกกลางกรุง"
+— functional + poetic + urban monsoon
+
+## Color Story
+- Charcoal grey (ท้องฟ้าก่อนฝน)
+- Deep olive (ใบไม้เปียก)
+- Cream off-white (พื้นตึกในสายหมอก)
+- Rust red (1 accent piece)
+
+## Silhouettes (ย่อ)
+Look 1: Oversized trench + tapered pants
+Look 2: Cropped windbreaker + wide-leg shorts
+Look 3: Gilet layer + midi skirt
+
+## Fabric Recommendation
+- Technical cotton (WR coating, breathable)
+- Heavyweight linen (wrinkle-resistant)
+- Recycled polyester (weather layer)`
+    }
+  },
+  {
+    id: 'product-designer-pro', name: 'Product Designer Pro', category: 'design',
+    desc: 'product brief + packaging design + mockup prompt + shelf appeal analysis',
+    tags: ['product', 'packaging', 'mockup', 'retail'],
+    useCases: ['สินค้าใหม่', 'rebrand', 'e-commerce', 'shelf design'],
+    example: {
+      title: 'Drip Coffee 15g — Ethiopian Yirgacheffe',
+      preview: `# Product Brief
+Product: Single-serve drip coffee bag
+Weight: 15g (ground coffee)
+Brand: Kaffa Origin
+Channel: E-commerce + specialty shops
+
+## Packaging Spec
+Primary: Foil-lined paper bag (barrier)
+  Size: 100 × 130 mm
+  Material: Kraft paper + aluminum foil
+  Closure: Heat-seal + tear notch
+
+Secondary: Box of 10
+  Size: 150 × 130 × 50 mm
+  Material: Matt laminate cardboard
+
+## Design Direction
+- Color: Cream #F5F0E8 / Dark roast #2C1810
+- Typography: Serif (editorial) + Mono (info)
+- Visual: Minimal illustration of origin (Ethiopia map)
+- Info hierarchy: Origin > Tasting notes > Brew guide
+
+## Mockup Prompt (Midjourney)
+"minimalist drip coffee bag packaging, cream paper
+with dark brown accents, hand-drawn illustration of
+Ethiopian landscape, modern typography, standing on
+wood surface, soft natural light, product photography,
+--ar 3:4 --v 6 --style raw"`
+    }
+  },
+
+  // 💼 Business
+  {
+    id: 'business-consultant', name: 'Business Consultant', category: 'business',
+    desc: 'SWOT + Business Canvas + Porter 5 Forces + pitch deck outline + 3-year forecast',
+    tags: ['strategy', 'swot', 'canvas', 'pitch'],
+    useCases: ['startup pitch', 'SME expansion', 'pivot', 'M&A'],
+    example: {
+      title: 'ร้านขนมไทยเปิดสาขา 2',
+      preview: `# Expansion Analysis: ร้านขนมไทย "แม่ทอง"
+
+## SWOT
+Strengths
+- Brand 15 ปี (loyal customer base 2,000+)
+- Signature recipe (ข้าวเหนียวมะม่วงจัดเซ็ตพรีเมียม)
+- ทำเลเดิมทราฟฟิกดี
+
+Weaknesses
+- ขึ้นกับเจ้าของทำเอง (no process)
+- ไม่มี online presence
+
+## Business Canvas (เลือก key blocks)
+Value Proposition: "ขนมไทยโบราณระดับพรีเมียม
+  ที่หาไม่ได้ในห้าง"
+Channels: Walk-in (80%) + LINE Order (20%)
+Revenue: 450K/month avg
+
+## Recommendation — 3 ตัวเลือก
+A) เปิดสาขา 2 ใน community mall (Investment 800K)
+B) เน้น delivery 50km radius (Investment 150K)
+C) Franchise model (Investment 200K, 2-year)
+
+Recommended: เริ่ม B, เตรียม A ปีถัดไป`
+    }
+  },
+  {
+    id: 'accountant-pro', name: 'Accountant Pro', category: 'business',
+    desc: 'จัดบัญชี + วิเคราะห์งบ + ภาษีไทย (ภ.ง.ด./ภ.พ.30) + cash flow analysis',
+    tags: ['accounting', 'tax', 'thailand', 'cash-flow'],
+    useCases: ['SME บัญชี', 'ภาษี', 'วางแผนกระแสเงินสด', 'ปิดงบ'],
+    warning: 'ต้องให้นักบัญชีตรวจก่อนยื่นภาษีจริง',
+    example: {
+      title: 'SME ออนไลน์ 2 ลบ./ปี — วิเคราะห์ภาษี',
+      preview: `# Tax Planning: SME ขายของออนไลน์
+Revenue 2026: 2,000,000 บาท
+Business type: บุคคลธรรมดา
+
+## ภ.ง.ด.90 Calculation
+เงินได้: 2,000,000
+หัก ค่าใช้จ่ายเหมาจ่าย 60% = 1,200,000
+หัก ค่าลดหย่อน (ส่วนตัว 60K + ประกัน 100K
+    + RMF 200K + SSF 200K) = 560,000
+เงินได้สุทธิ: 240,000
+ภาษี: ~7,500 บาท
+
+## ภ.พ.30 (VAT)
+หากรายได้ ≥ 1,800,000 → ต้องจด VAT
+VAT รายเดือน: Output VAT − Input VAT
+ยื่นภายในวันที่ 15 ของเดือนถัดไป
+
+## Recommendations
+1. พิจารณาจดบริษัทเมื่อรายได้ > 3M
+   (ภาษี 20% flat + หักค่าใช้จ่ายจริง)
+2. RMF/SSF เต็ม max (500K limit)
+3. เก็บใบเสร็จทุกครั้ง (claim input VAT)
+
+⚠️ ให้นักบัญชีที่มีใบอนุญาตตรวจก่อนยื่นจริง`
+    }
+  },
+  {
+    id: 'hr-officer-pro', name: 'HR Officer Pro', category: 'business',
+    desc: 'JD + interview script (behavioral) + resume scoring matrix + onboarding 90 วัน',
+    tags: ['hr', 'recruiting', 'interview', 'onboarding'],
+    useCases: ['recruit', 'JD writing', 'performance review', 'onboarding'],
+    example: {
+      title: 'Digital Marketer 25-35K',
+      preview: `# JD: Digital Marketer
+Location: กรุงเทพ (Hybrid 3 days)
+Salary: 25,000-35,000
+Level: 2-4 ปี ประสบการณ์
+
+## Must Have
+- FB Ads Manager + Google Ads (lv. intermediate)
+- GA4 + basic SQL
+- Copywriting (TH native)
+- ROAS tracking mindset
+
+## Nice to Have
+- TikTok Ads
+- SEO basics
+- HubSpot/ActiveCampaign
+
+## Interview Script (Behavioral)
+Q1: "เล่า campaign ที่คุณภูมิใจที่สุด — KPI เท่าไหร่?"
+  → Listen for: specific numbers, owned responsibility
+Q2: "Campaign ที่พังล่าสุด — เกิดอะไร แก้ยังไง?"
+  → Listen for: ownership, learning
+Q3: "ถ้าต้องเลือก budget 50K แต่ CPL แพงสุด
+     คุณทำอะไรก่อน?"
+  → Listen for: structured thinking, metrics-first
+
+## Resume Scoring Matrix (100 pts)
+Experience: 30 | Skills: 25 | Portfolio: 25
+Culture fit: 10 | Education: 10`
+    }
+  },
+  {
+    id: 'customer-service-pro', name: 'Customer Service Pro', category: 'business',
+    desc: 'chatbot flow + FAQ 20+ ข้อ + escalation rule + reply template (inbox/DM/email)',
+    tags: ['cs', 'chatbot', 'faq', 'support'],
+    useCases: ['Line OA', 'Facebook Inbox', 'IG DM', 'email support'],
+    example: {
+      title: 'GlowUp Cosmetics — 120 inbox/วัน',
+      preview: `# Chatbot Flow (Line OA)
+
+## Welcome
+"สวัสดีค่า 😊 ฉันช่วยอะไรได้บ้าง?"
+[1] ดูสินค้า [2] สั่งซื้อ [3] ติดตามพัสดุ [4] อื่นๆ
+
+## Branch: ดูสินค้า
+→ แสดง catalog (8 products card)
+→ "สนใจสินค้าไหนคะ?"
+→ ถ้าเลือก → Product detail + CTA "สั่งซื้อ"
+
+## FAQ (ตัวอย่าง 5/20)
+Q: ส่งต่างจังหวัดไหม?
+A: ส่งทั่วไทยค่ะ ค่าส่ง 50 บาท (ฟรีเมื่อ ≥ 500)
+
+Q: ใช้ติดผิวแพ้ได้ไหม?
+A: สูตรอ่อนโยน ไม่มี paraben/แอลกอฮอล์
+   แต่แนะนำ patch test ก่อนใช้
+
+## Escalation Rule
+หาก user พิมพ์: "คืนเงิน", "ไม่พอใจ", "แพ้"
+  → escalate to human agent (within 10 min)
+  → tag conversation: "urgent"`
+    }
+  },
+  {
+    id: 'stock-trader-pro', name: 'Stock Trader Pro', category: 'business',
+    desc: 'technical analysis + R/R calculation + position sizing + news impact summary',
+    tags: ['trading', 'technical', 'risk-management', 'SET'],
+    useCases: ['day trader', 'swing', 'long-term investor'],
+    warning: 'ไม่ใช่คำแนะนำลงทุน — ผู้ใช้ตัดสินใจเอง',
+    example: {
+      title: 'CPALL Swing Trade Plan',
+      preview: `# Technical Analysis: CPALL
+Current Price: 62.50 (2026-04-16)
+Trend: Sideways accumulation
+
+## Indicators
+RSI(14): 48 → neutral zone
+MACD: Bullish crossover pending
+EMA(20) > EMA(50): Golden cross 3 วันก่อน
+Volume: ↑ 35% above 20-day avg
+
+## Support & Resistance
+S1: 61.00 (strong, tested 3x)
+S2: 58.50 (50% Fibonacci)
+R1: 65.00 (recent high)
+R2: 68.00 (analyst target)
+
+## Trade Plan (Swing, 2-4 weeks)
+Entry: 62.50-63.00
+Stop Loss: 60.50 (-3.2%)
+Take Profit 1: 65.00 (+4.0%)
+Take Profit 2: 67.50 (+8.0%)
+R/R: 1:2.5 (good)
+
+## Position Sizing
+Portfolio: 1M
+Risk per trade: 1% = 10,000
+Max loss: (63 - 60.50) / 63 = 4%
+Position size: 10,000 / 4% = 250,000 = 3,968 หุ้น
+
+⚠️ ข้อมูลนี้เพื่อการศึกษาเท่านั้น ไม่ใช่คำแนะนำลงทุน`
+    }
+  },
+  {
+    id: 'lawyer-pro', name: 'Lawyer Pro', category: 'business',
+    desc: 'ร่างสัญญา (จ้าง/เช่า/NDA) + สรุปคดี + legal memo + research กฎหมายไทย',
+    tags: ['legal', 'contract', 'thailand', 'research'],
+    useCases: ['สัญญาจ้าง', 'สัญญาเช่า', 'NDA', 'legal memo'],
+    warning: 'ต้องให้ทนายตรวจก่อนใช้เอกสารจริง',
+    example: {
+      title: 'สัญญาจ้าง Freelance Dev 3 เดือน 150K',
+      preview: `สัญญาจ้างทำงานอิสระ
+========================
+
+สัญญานี้ทำขึ้นเมื่อวันที่ 16 เมษายน 2569
+ระหว่าง
+  "ผู้ว่าจ้าง"  บริษัท ABC จำกัด
+  "ผู้รับจ้าง"  นาย/น.ส. [ชื่อ]
+
+## มาตรา 1: ขอบเขตงาน
+ผู้รับจ้างตกลงพัฒนา web application ตามสเปก
+ที่ระบุในเอกสารแนบ (Scope of Work)
+
+## มาตรา 2: ค่าตอบแทนและการชำระเงิน
+2.1 ค่าจ้างรวม 150,000 บาท (ไม่รวม VAT)
+2.2 ชำระแบ่ง 3 งวด:
+    งวด 1: 30% เมื่อลงนาม = 45,000
+    งวด 2: 40% เมื่อ MVP = 60,000
+    งวด 3: 30% เมื่อ handoff = 45,000
+2.3 หัก withholding tax 3% ตามกฎหมายไทย
+
+## มาตรา 3: กรรมสิทธิ์ในทรัพย์สินทางปัญญา
+โค้ดและผลงานทั้งหมดตกเป็นของผู้ว่าจ้าง
+เมื่อชำระครบถ้วน (ตาม พรบ.ลิขสิทธิ์ ม.14)
+
+## มาตรา 4: การบอกเลิกสัญญา
+...
+
+⚠️ ร่างนี้เพื่อเริ่มต้น — ให้ทนายตรวจก่อนใช้`
+    }
+  },
+  {
+    id: 'real-estate-pro', name: 'Real Estate Pro', category: 'business',
+    desc: 'listing copy (3 versions) + virtual tour script + CMA + neighborhood analysis',
+    tags: ['real-estate', 'listing', 'condo', 'market'],
+    useCases: ['ขาย/เช่า condo', 'บ้านเดี่ยว', 'broker', 'investment'],
+    example: {
+      title: 'Condo Charoennakhon 45 ตร.ม. 6.5 ลบ.',
+      preview: `# Listing Copy (3 versions)
+
+## Version A: Lifestyle
+"ตื่นเช้ามาเปิดประตูระเบียง เห็นแม่น้ำเจ้าพระยา
+ทอดตัวไปไกลสุดสายตา นี่คือชีวิตประจำวัน
+ที่คอนโดริมน้ำ Charoennakhon 42 ชั้น 28"
+
+## Version B: Investment
+"ROI 4.8%/ปี (yield จากตลาด) พื้นที่ริมแม่น้ำ
+เจริญทุกปี 8-12% ระยะ 5 ปี ใกล้ BTS ตากสิน
+2 นาที ICONSIAM 3 นาที"
+
+## Version C: Concise
+"45 ตร.ม. | 1 นอน 1 น้ำ | ริมน้ำ | ชั้น 28
+สระว่ายน้ำ infinity pool + ฟิตเนส 24 ชม.
+ฟรี ที่จอดรถ 1 คัน + Super Internet"
+
+# CMA — คอนโดเทียบ (3 units)
+Unit A (ชั้น 15, 40 ตร.ม.): 5.8M → ต่ำกว่า
+Unit B (ชั้น 30, 48 ตร.ม.): 7.2M → สูงกว่าเล็กน้อย
+Unit C (ชั้น 25, 45 ตร.ม.): 6.3M → ใกล้เคียง
+
+Our unit (ชั้น 28, 45 ตร.ม.): 6.5M
+→ ราคาเหมาะสม (upper mid-range)`
+    }
+  },
+
+  // 📚 Education & Health
+  {
+    id: 'teacher-pro', name: 'Teacher Pro', category: 'education',
+    desc: 'แผนการสอน 5E + ใบงาน + rubric 4 ระดับ + การบ้านสร้างสรรค์',
+    tags: ['teaching', 'lesson-plan', 'worksheet', 'rubric'],
+    useCases: ['อนุบาล', 'ประถม-มัธยม', 'มหาวิทยาลัย', 'ติวเตอร์'],
+    example: {
+      title: 'คณิต ม.2 — พีทาโกรัส 50 นาที',
+      preview: `# Lesson Plan: ทฤษฎีบทพีทาโกรัส
+ระดับ: ม.2 | เวลา: 50 นาที | ขนาดห้อง: 30 คน
+
+## Learning Objectives
+1. เขียนทฤษฎีบทพีทาโกรัสได้ (a² + b² = c²)
+2. นำทฤษฎีบทไปใช้แก้ปัญหาได้
+3. พิสูจน์ทฤษฎีบทด้วยวิธีตัดกระดาษได้
+
+## 5E Lesson Flow
+### Engage (5 min)
+ถาม: "ถ้าคุณเดินไปทางเหนือ 3 ก้าว
+      แล้วเลี้ยวขวาเดิน 4 ก้าว
+      คุณห่างจากจุดเริ่มต้นกี่ก้าว?"
+  → ให้เดาก่อน → วาดรูป → สัญญาว่าสอนวิธีคำนวณ
+
+### Explore (15 min)
+กิจกรรมตัดกระดาษ: สามเหลี่ยมมุมฉาก
+→ วัดพื้นที่กำลังสองบนแต่ละด้าน
+→ พบความสัมพันธ์ด้วยตัวเอง
+
+### Explain (10 min): สรุปทฤษฎีบท
+### Elaborate (15 min): 3 โจทย์ประยุกต์
+### Evaluate (5 min): quiz 3 ข้อ
+
+## Rubric (4 ระดับ)
+4 (ดีเยี่ยม): ใช้สูตรถูก + อธิบายเหตุผลได้ชัด
+3 (ดี):      ใช้สูตรถูก + คำตอบถูก
+2 (ผ่าน):    ใช้สูตรถูก + คำตอบอาจผิดจากการคำนวณ
+1 (ต้องเพิ่มเติม): ยังไม่เข้าใจทฤษฎีบท`
+    }
+  },
+  {
+    id: 'coach-pro', name: 'Coach Pro', category: 'education',
+    desc: 'coaching program ด้วย GROW model + intake form + session plan + progress tracker',
+    tags: ['coaching', 'grow-model', 'session', 'career'],
+    useCases: ['life coach', 'business coach', 'career coach', 'health coach'],
+    example: {
+      title: 'Career Coaching 12 สัปดาห์ (freelance)',
+      preview: `# Program: เปลี่ยนสายงาน → Freelance (12 weeks)
+
+## Phase 1: Self-Discovery (Week 1-3)
+Week 1 — Kickoff
+  Session: GROW model
+    G (Goal): อยากเป็น freelance developer ภายใน 6 เดือน
+    R (Reality): ปัจจุบัน full-time, ไม่มี portfolio
+    O (Options): side project / bootcamp / network
+    W (Will): เริ่ม side project week หน้า
+
+Week 2 — Strengths Audit
+  Homework: StrengthsFinder + เขียน 10 งานที่ภูมิใจ
+
+Week 3 — Values & Vision
+  Session: ค่านิยม 5 อันดับ + vision 3 ปี
+
+## Phase 2: Strategy (Week 4-6)
+Week 4 — Niche Selection
+Week 5 — Portfolio Planning
+Week 6 — Financial Runway Calc
+
+## Phase 3: Execution (Week 7-9)
+Week 7 — First Client Outreach
+Week 8 — Pricing & Contracts
+Week 9 — Delivery Systems
+
+## Phase 4: Transition (Week 10-12)
+Week 10 — Resignation Plan
+Week 11 — Handoff & Exit
+Week 12 — Launch & Celebrate`
+    }
+  },
+  {
+    id: 'nutritionist-pro', name: 'Nutritionist Pro', category: 'education',
+    desc: 'meal plan 7 วัน + TDEE/macro calculation + grocery list + meal prep schedule',
+    tags: ['nutrition', 'meal-plan', 'calorie', 'thai-food'],
+    useCases: ['ลดน้ำหนัก', 'เพิ่มกล้าม', 'keto', 'vegetarian'],
+    warning: 'ผู้มีโรคประจำตัว/ตั้งครรภ์ ควรปรึกษาแพทย์ก่อน',
+    example: {
+      title: '1,500 kcal/day ลดน้ำหนักหญิงไทย 7 วัน',
+      preview: `# Meal Plan: หญิงไทย 28 ปี 65kg
+Target: ลดน้ำหนัก 5kg ใน 3 เดือน
+TDEE: 1,800 kcal → Target: 1,500 kcal (-300)
+
+## Macro Split (1,500 kcal)
+Protein: 120g (32%) - เน้นรักษากล้ามเนื้อ
+Carb: 150g (40%)
+Fat: 50g (28%)
+
+## Day 1 (Monday)
+🌅 Breakfast (350 kcal)
+  โจ๊กไก่ข้าวกล้อง + ไข่ต้ม 2 ฟอง + ผักสด
+  (P: 28g, C: 40g, F: 8g)
+
+☀️ Lunch (450 kcal)
+  ข้าวกล้อง 1 ทัพพี + อกไก่ย่าง 120g
+  + สลัดผัก + น้ำพริกกะปิ
+  (P: 42g, C: 45g, F: 10g)
+
+🌆 Dinner (400 kcal)
+  แกงเลียงกุ้งสด + ปลาเก๋านึ่งซีอิ๊ว + ข้าวกล้อง 0.5
+  (P: 38g, C: 35g, F: 15g)
+
+🍎 Snacks (300 kcal)
+  กรีกโยเกิร์ต + ถั่วอัลมอนด์ 30g + ส้ม
+
+## Grocery List (Week 1)
+Protein: อกไก่ 1kg, ปลาเก๋า 500g, กุ้ง 300g, ไข่ 14 ฟอง
+...
+
+⚠️ ผู้มีโรคประจำตัวควรปรึกษาแพทย์ก่อน`
+    }
+  },
+  {
+    id: 'fitness-trainer-pro', name: 'Fitness Trainer Pro', category: 'education',
+    desc: '4-week periodization + exercise library with form cues + progress tracker',
+    tags: ['fitness', 'workout', 'ppl', 'strength'],
+    useCases: ['gym beginner', 'home workout', 'sport-specific'],
+    warning: 'ผู้มีโรคประจำตัว/ตั้งครรภ์ ควรปรึกษาแพทย์ก่อน',
+    example: {
+      title: 'PPL 6 วัน/สัปดาห์ Beginner ยิม',
+      preview: `# 4-Week Push/Pull/Legs Program
+Level: Beginner (≤ 6 เดือน)
+Frequency: 6 days/week, ~60 min/session
+
+## Week 1-2: Foundation (Volume)
+### Push Day (Mon, Thu)
+1. Barbell Bench Press: 4×8
+2. Overhead Press: 3×10
+3. Incline DB Press: 3×10
+4. Lateral Raise: 3×12
+5. Tricep Extension: 3×12
+
+### Pull Day (Tue, Fri)
+1. Deadlift: 4×6
+2. Pull-up (or Lat Pulldown): 3×8
+3. Barbell Row: 3×10
+4. Face Pull: 3×15
+5. Bicep Curl: 3×12
+
+### Leg Day (Wed, Sat)
+1. Back Squat: 4×8
+2. Romanian Deadlift: 3×10
+3. Leg Press: 3×12
+...
+
+## Week 3-4: Intensity
+→ เพิ่มน้ำหนัก 5-10%
+→ ลด rep 1-2 ต่อเซ็ท
+→ Rest 2-3 min (compound)
+
+## Form Cues (ตัวอย่าง)
+Squat:
+  ✓ เข่าตามปลายเท้า (ไม่เข้าใน)
+  ✓ ก้นแตะจนต่ำกว่าหัวเข่า
+  ✓ หลังตรง (neutral spine)
+
+⚠️ ผู้มีอาการบาดเจ็บ/โรคประจำตัว ควรปรึกษาแพทย์`
+    }
+  },
+  {
+    id: 'doctor-helper', name: 'Doctor Helper', category: 'education',
+    desc: 'สรุป research + differential diagnosis list + drug interaction check + clinical pearl',
+    tags: ['medical', 'research', 'reference', 'gate-check'],
+    useCases: ['สรุป guideline', 'differential', 'drug reference'],
+    warning: '⚠️⚠️ สำหรับบุคลากรทางการแพทย์เท่านั้น — ห้ามใช้แทนการวินิจฉัย/รักษา',
+    example: {
+      title: 'ADA T2DM Guideline 2025',
+      preview: `# Summary: ADA Standards of Care 2025 (T2DM)
+
+## Key Updates vs 2024
+1. GLP-1 RA เป็น first-line ในผู้ป่วย CVD/CKD
+   (เดิม metformin first-line ทุกราย)
+2. CGM แนะนำสำหรับผู้ใช้ insulin ทุกราย
+   (ไม่จำกัด type 1)
+3. Target HbA1c < 6.5% สำหรับ newly diagnosed
+   (เดิม < 7.0%)
+
+## Screening Criteria
+Annual screening in adults ≥ 35 years
+High-risk: BMI ≥ 25 + risk factors
+(เทียบสมาคมโรคเบาหวานแห่งประเทศไทย 2564: ≥ 35 + BMI ≥ 23)
+
+## Pharmacologic Management Ladder
+Step 1: Lifestyle + Metformin
+Step 2: Add GLP-1 RA or SGLT2i
+Step 3: Add basal insulin or DPP-4i
+Step 4: Intensify insulin regimen
+
+## Drug Interactions (highlighted)
+- Metformin + contrast: hold 48h (renal)
+- SGLT2i + DKA risk (stop in illness)
+
+⚠️⚠️⚠️ Research reference only —
+Clinical decisions must be made by licensed
+practitioner based on individual patient context`
+    }
+  },
+  {
+    id: 'psychologist-helper', name: 'Psychologist Helper', category: 'education',
+    desc: 'SOAP session note + CBT worksheet + case conceptualization (Beck) + crisis hotline',
+    tags: ['psychology', 'cbt', 'therapy', 'soap'],
+    useCases: ['session documentation', 'CBT planning', 'case formulation'],
+    warning: '⚠️⚠️ สำหรับนักจิตวิทยาที่มีใบประกอบวิชาชีพเท่านั้น',
+    example: {
+      title: 'Session 4 — GAD + CBT Thought Record',
+      preview: `# SOAP Note — Session 4
+Client: [ID anonymized]
+Date: 2026-04-16 | Session: 4 of 12
+Diagnosis: Generalized Anxiety Disorder (F41.1)
+
+## S (Subjective)
+Client reports GAD-7 = 12 (baseline 18)
+Sleep improved (5→6.5 hrs avg)
+Still high anxiety re: work deadlines
+
+## O (Objective)
+Affect: constricted but brighter than session 1
+Speech: normal rate, minimal pressure
+Attention: focused, no flight of ideas
+
+## A (Assessment)
+Responding to CBT (cognitive restructuring)
+Continued safety behaviors noted
+  (excessive checking at work)
+
+## P (Plan)
+- Continue thought record homework (daily)
+- Introduce behavioral experiment: stop checking
+- Next session: body scan technique
+- If GAD-7 > 15 → consult psychiatrist re: meds
+
+# CBT Thought Record (worksheet)
+Situation: Sent proposal to boss
+Automatic Thought: "He'll think it's bad"
+Emotion: Anxiety 8/10
+Evidence For: (client-generated)
+Evidence Against: (client-generated)
+Balanced Thought: ___
+
+⚠️⚠️⚠️ Tool for licensed clinicians only
+Crisis Hotlines (Thailand):
+  - สายด่วนสุขภาพจิต: 1323 (24/7)
+  - Samaritans: 02-113-6789`
+    }
+  },
+  {
+    id: 'researcher-pro', name: 'Researcher Pro', category: 'education',
+    desc: 'literature review (thematic) + methodology (quant/qual) + IMRaD outline + citation',
+    tags: ['research', 'academic', 'paper', 'apa'],
+    useCases: ['thesis', 'research paper', 'conference', 'lit review'],
+    example: {
+      title: 'Lit Review: "AI in Education" 1,500 คำ',
+      preview: `# Literature Review: AI in Education
+
+## Theme 1: Personalization (5 papers)
+Smith et al. (2023) demonstrated adaptive learning
+systems improved outcomes by 23% in K-12
+(n=1,200, p<.001). Chen & Liu (2024) extended this
+to higher education, finding similar effects in
+STEM subjects but mixed results in humanities...
+
+## Theme 2: Teacher Workload (4 papers)
+Williams (2024) reported 40% reduction in grading
+time using AI assistants, though flagged quality
+concerns in open-ended assessments...
+
+## Theme 3: Equity & Access (3 papers)
+Rodriguez et al. (2023) found AI tools
+disproportionately benefited students with higher
+baseline digital literacy — raising equity
+concerns in low-income schools...
+
+## Research Gap Identified
+Longitudinal studies (> 2 years) are lacking.
+Most research focuses on short-term outcomes.
+
+## References (APA 7, partial)
+Chen, L., & Liu, M. (2024). Adaptive learning...
+  Computers & Education, 198, 104852.
+Rodriguez, J., et al. (2023). Equity implications...
+  Journal of Educational Technology, 62(3), 215-234.
+Smith, A., et al. (2023). Effects of AI tutoring...
+
+⚠️ Always verify AI-generated citations —
+hallucinations possible`
+    }
+  }
+];
+
+// ============ UI LOGIC ============
+const container = document.getElementById('skillsContainer');
+const empty = document.getElementById('empty');
+const searchInput = document.getElementById('searchInput');
+const catFilters = document.getElementById('catFilters');
+const modal = document.getElementById('modal');
+const modalClose = document.getElementById('modalClose');
+
+let activeCategory = 'all';
+let activeSearch = '';
+
+function render() {
+  const query = activeSearch.toLowerCase().trim();
+
+  const filtered = SKILLS.filter(s => {
+    if (activeCategory !== 'all' && s.category !== activeCategory) return false;
+    if (!query) return true;
+    const haystack = [
+      s.id, s.name, s.desc,
+      ...(s.tags || []),
+      ...(s.useCases || [])
+    ].join(' ').toLowerCase();
+    return haystack.includes(query);
+  });
+
+  if (!filtered.length) {
+    container.innerHTML = '';
+    empty.classList.add('show');
+    return;
+  }
+  empty.classList.remove('show');
+
+  // Group by category
+  const grouped = {};
+  filtered.forEach(s => {
+    if (!grouped[s.category]) grouped[s.category] = [];
+    grouped[s.category].push(s);
+  });
+
+  const html = Object.keys(CATEGORIES).map(cat => {
+    const items = grouped[cat];
+    if (!items) return '';
+    const meta = CATEGORIES[cat];
+    return `
+      <section class="category-section" data-cat-section="${cat}">
+        <div class="category-header">
+          <h2 class="category-title" style="color: ${meta.color}">${meta.name}</h2>
+          <span class="category-count">${items.length} skills</span>
+        </div>
+        <div class="skills-grid">
+          ${items.map(s => renderCard(s, meta.color)).join('')}
+        </div>
+      </section>
+    `;
+  }).join('');
+
+  container.innerHTML = html;
+  bindCards();
+}
+
+function renderCard(s, color) {
+  const tags = (s.tags || []).slice(0, 4).map(t => `<span class="skill-tag">${t}</span>`).join('');
+  const warn = s.warning ? `<div class="skill-warn">⚠️ ${s.warning}</div>` : '';
+  return `
+    <article class="skill-card" data-id="${s.id}" style="--cat-color: ${color}">
+      <div class="skill-head">
+        <div class="skill-name">${s.name}</div>
+        <code class="skill-cmd">/${s.id}</code>
+      </div>
+      <p class="skill-desc">${escapeHtml(s.desc)}</p>
+      <div class="skill-tags">${tags}</div>
+      ${warn}
+    </article>
+  `;
+}
+
+function bindCards() {
+  document.querySelectorAll('.skill-card').forEach(el => {
+    el.addEventListener('click', () => {
+      const skill = SKILLS.find(s => s.id === el.dataset.id);
+      openModal(skill);
+    });
+  });
+}
+
+function openModal(s) {
+  const color = CATEGORIES[s.category].color;
+  document.getElementById('modalTitle').textContent = s.name;
+  document.getElementById('modalTitle').style.color = color;
+  document.getElementById('modalCmd').textContent = '/' + s.id;
+
+  const tagHtml = (s.tags || []).map(t => `<span class="skill-tag">${t}</span>`).join('');
+  const useCaseHtml = (s.useCases || []).map(u => `<li>${escapeHtml(u)}</li>`).join('');
+  const warnHtml = s.warning ? `
+    <div class="skill-warn" style="margin-bottom: 20px;">⚠️ ${s.warning}</div>
+  ` : '';
+
+  document.getElementById('modalBody').innerHTML = `
+    ${warnHtml}
+    <div class="modal-section">
+      <h4>📝 คำอธิบาย</h4>
+      <p>${escapeHtml(s.desc)}</p>
+    </div>
+    <div class="modal-section">
+      <h4>🏷️ Tags</h4>
+      <div class="skill-tags">${tagHtml}</div>
+    </div>
+    <div class="modal-section">
+      <h4>🎯 Use Cases</h4>
+      <ul class="usecase-list">${useCaseHtml}</ul>
+    </div>
+    <div class="modal-section">
+      <h4>💡 ตัวอย่างผลลัพธ์</h4>
+      <div class="example-box">
+        <div class="ex-title">${escapeHtml(s.example.title)}</div>
+        <pre>${escapeHtml(s.example.preview)}</pre>
+      </div>
+    </div>
+    <div class="modal-section">
+      <h4>⚡ วิธีใช้</h4>
+      <div class="example-box">
+        <pre>/${s.id}
+/${s.id} <รายละเอียดที่ต้องการ></pre>
+      </div>
+    </div>
+  `;
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  modal.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Events
+modalClose.addEventListener('click', closeModal);
+modal.addEventListener('click', e => {
+  if (e.target === modal) closeModal();
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeModal();
+});
+
+searchInput.addEventListener('input', e => {
+  activeSearch = e.target.value;
+  render();
+});
+
+catFilters.addEventListener('click', e => {
+  if (!e.target.classList.contains('cat-chip')) return;
+  document.querySelectorAll('.cat-chip').forEach(c => c.classList.remove('active'));
+  e.target.classList.add('active');
+  activeCategory = e.target.dataset.cat;
+  render();
+});
+
+// Theme toggle
+const themeToggle = document.getElementById('themeToggle');
+const themeIcon = document.getElementById('themeIcon');
+const savedTheme = localStorage.getItem('theme') || 'dark';
+if (savedTheme === 'light') {
+  document.documentElement.setAttribute('data-theme', 'light');
+  themeIcon.textContent = '☾';
+}
+themeToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  if (current === 'light') {
+    document.documentElement.removeAttribute('data-theme');
+    themeIcon.textContent = '☀︎';
+    localStorage.setItem('theme', 'dark');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'light');
+    themeIcon.textContent = '☾';
+    localStorage.setItem('theme', 'light');
+  }
+});
+
+// Copy install
+document.getElementById('copyInstall').addEventListener('click', e => {
+  navigator.clipboard.writeText('git clone https://github.com/aiunlocked1412/claude-skill-unlock && cd claude-skill-unlock && ./install.sh');
+  e.target.textContent = 'Copied ✓';
+  e.target.classList.add('copied');
+  setTimeout(() => {
+    e.target.textContent = 'Copy';
+    e.target.classList.remove('copied');
+  }, 2000);
+});
+
+function escapeHtml(str) {
+  return String(str).replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
+// Initial render
+render();
+</script>
+
+</body>
+</html>
