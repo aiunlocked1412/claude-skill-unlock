@@ -2,6 +2,7 @@
 
 > **ปลดล็อกการใช้ AI ช่วยทำงานทุกอาชีพ** ด้วย Claude Code Skills **100 ตัว** ครอบคลุม **9 หมวดอาชีพ** พร้อมใช้งานทันที
 
+[![Live Demo](https://img.shields.io/badge/🌐_live_demo-claude--skill--unlock.vercel.app-black)](https://claude-skill-unlock.vercel.app/)
 [![Skills](https://img.shields.io/badge/skills-100-blue)](./docs/skill-catalog.md)
 [![Categories](https://img.shields.io/badge/หมวด-9-purple)](./docs/skill-catalog.md)
 [![Language](https://img.shields.io/badge/language-ภาษาไทย-red)](.)
@@ -10,6 +11,12 @@
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-orange)](https://claude.com/claude-code)
 
 > 🎁 **โปรเจคนี้แจกฟรี** — สร้างโดย [aiunlock.co](https://aiunlock.co) เพื่อคอมมูนิตี้คนไทยที่อยากใช้ AI ในสายอาชีพ
+
+## 🌐 ลองดูก่อน
+
+**👉 [claude-skill-unlock.vercel.app](https://claude-skill-unlock.vercel.app/)**
+
+หน้าเว็บแสดง 100 skills ครบทุกตัว — มี search, filter 9 หมวด, และตัวอย่างผลลัพธ์ของแต่ละ skill
 
 ---
 
