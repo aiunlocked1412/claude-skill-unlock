@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Claude Skill Unlock — Installer
-# ติดตั้ง 37 AI Career Skills ไปยัง ~/.claude/skills/
+# ติดตั้ง 150 AI Career Skills ไปยัง ~/.claude/skills/
 
 set -euo pipefail
 
@@ -35,7 +35,7 @@ done
 echo ""
 echo "╔════════════════════════════════════════════════╗"
 echo "║   Claude Skill Unlock — AI Career Skills       ║"
-echo "║   กำลังติดตั้ง 100 skills สำหรับ Claude Code      ║"
+echo "║   กำลังติดตั้ง 150 skills สำหรับ Claude Code      ║"
 echo "║   🎁 แจกฟรีโดย aiunlock.co                      ║"
 echo "╚════════════════════════════════════════════════╝"
 echo ""
