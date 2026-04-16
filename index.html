@@ -81,33 +81,91 @@
     background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: white; border: none;
   }
   .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 8px 20px var(--accent-glow); }
-  .hero { padding: 80px 0 60px; text-align: center; }
-  .badge-free {
-    display: inline-flex; align-items: center; gap: 8px;
-    padding: 6px 14px; border-radius: 100px;
-    background: linear-gradient(135deg, var(--accent-glow), rgba(244, 114, 182, 0.15));
-    border: 1px solid var(--border); font-size: 13px; font-weight: 500; color: var(--accent);
-    margin-bottom: 24px;
+  .hero { padding: 64px 0 48px; text-align: center; }
+
+  /* Trust badges row */
+  .trust-badges {
+    display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+    margin-bottom: 28px;
   }
+  .trust-badge {
+    font-size: 12px; padding: 6px 12px; border-radius: 100px;
+    background: var(--bg-card); border: 1px solid var(--border);
+    color: var(--text-dim); font-weight: 500;
+  }
+
+  /* Brand eyebrow */
+  .hero-eyebrow {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(14px, 1.5vw, 17px);
+    font-weight: 600; color: var(--text-dim);
+    margin-bottom: 18px; letter-spacing: 0.02em;
+  }
+  .hero-eyebrow .brand-mark { color: var(--text); }
+  .hero-eyebrow .plus { color: var(--text-muted); margin: 0 8px; }
+
+  /* Main heading */
   .hero h1 {
     font-family: 'Space Grotesk', 'IBM Plex Sans Thai', sans-serif;
-    font-size: clamp(32px, 6vw, 56px); font-weight: 700; line-height: 1.1;
-    letter-spacing: -0.02em; margin-bottom: 20px;
+    font-size: clamp(34px, 6.5vw, 64px); font-weight: 700; line-height: 1.05;
+    letter-spacing: -0.025em; margin-bottom: 24px;
   }
   .gradient-text {
     background: linear-gradient(135deg, var(--accent), var(--accent-2));
     -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
   }
-  .hero p {
-    font-size: clamp(16px, 2vw, 19px); color: var(--text-dim);
-    max-width: 680px; margin: 0 auto 40px;
+
+  /* Hero sub-heading with inline code */
+  .hero-sub {
+    font-size: clamp(16px, 1.8vw, 20px); color: var(--text-dim);
+    max-width: 760px; margin: 0 auto 32px; line-height: 1.6;
   }
+  .hero-sub strong { color: var(--text); font-weight: 600; }
+  .hero-sub code {
+    font-family: 'JetBrains Mono', monospace;
+    background: var(--bg-card); border: 1px solid var(--border);
+    padding: 3px 9px; border-radius: 6px; font-size: 0.85em;
+    color: var(--accent); white-space: nowrap; font-weight: 500;
+    margin: 0 2px;
+  }
+
+  /* Profession showcase */
+  .prof-showcase { margin-bottom: 36px; }
+  .prof-label {
+    display: block; font-size: 12px; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 14px;
+    font-weight: 500;
+  }
+  .prof-pills {
+    display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+    max-width: 720px; margin: 0 auto;
+  }
+  .prof-pills span {
+    font-size: 13px; padding: 7px 14px; border-radius: 100px;
+    background: var(--bg-card); border: 1px solid var(--border);
+    color: var(--text); font-weight: 500;
+    transition: all 0.15s;
+  }
+  .prof-pills span:hover {
+    border-color: var(--accent); transform: translateY(-1px);
+  }
+  .prof-pills .more {
+    color: var(--text-muted); border-style: dashed;
+  }
+
+  /* Stats — repositioned as proof */
   .hero-stats {
-    display: flex; gap: 48px; justify-content: center; flex-wrap: wrap; margin-bottom: 32px;
+    display: flex; gap: 40px; justify-content: center; flex-wrap: wrap;
+    margin: 8px 0 32px; padding: 24px 0;
+    border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+    max-width: 720px; margin-left: auto; margin-right: auto;
   }
-  .stat-item .num { font-family: 'Space Grotesk', sans-serif; font-size: 36px; font-weight: 700; color: var(--accent); }
-  .stat-item .lbl { font-size: 13px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; }
-  .hero-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .stat-item .num { font-family: 'Space Grotesk', sans-serif; font-size: 32px; font-weight: 700; color: var(--accent); line-height: 1; }
+  .stat-item .lbl { font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 4px; }
+
+  /* CTAs — bigger */
+  .hero-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 24px; }
+  .btn-lg { padding: 14px 28px; font-size: 15px; font-weight: 600; border-radius: 10px; }
   .install-snippet {
     max-width: 560px; margin: 32px auto 0;
     background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
@@ -293,10 +351,46 @@
 <main>
   <section class="hero" id="top">
     <div class="container">
-      <span class="badge-free">🎁 แจกฟรี · MIT License · v1.1.0</span>
-      <h1>ปลดล็อก AI ช่วยทำงาน<br><span class="gradient-text">ทุกอาชีพ</span> ภายใน 5 นาที</h1>
-      <p><strong>100 Claude Code skills ภาษาไทย</strong> ครอบคลุม <strong>9 หมวดอาชีพ</strong> — ตั้งแต่ครีเอเตอร์ นักการตลาด โปรแกรมเมอร์ จนถึงนักจิตวิทยา และชีวิตประจำวัน พร้อมใช้งานทันที</p>
 
+      <!-- Trust signals -->
+      <div class="trust-badges">
+        <span class="trust-badge">🎁 ฟรี 100%</span>
+        <span class="trust-badge">⚡ ติดตั้ง 1 คำสั่ง</span>
+        <span class="trust-badge">🇹🇭 ภาษาไทย</span>
+        <span class="trust-badge">📦 v1.1.0</span>
+      </div>
+
+      <!-- Brand identity -->
+      <div class="hero-eyebrow">
+        <span class="brand-mark">Claude</span><span class="plus">×</span><span class="brand-mark gradient-text">Skill Unlock</span>
+      </div>
+
+      <!-- Main hook -->
+      <h1>ผู้ช่วย AI ที่<br><span class="gradient-text">เข้าใจอาชีพคุณ</span></h1>
+
+      <!-- Value prop -->
+      <p class="hero-sub">
+        <strong>100 Claude Code skills ภาษาไทย</strong> ที่จะเปลี่ยน Claude ให้กลายเป็น<strong>มืออาชีพในสายงานของคุณ</strong>
+        <br>เพียงพิมพ์ <code>/youtuber-pro</code> · <code>/copywriter-pro</code> · <code>/teacher-pro</code> ก็ได้ผลลัพธ์ระดับมืออาชีพภายในไม่กี่วินาที
+      </p>
+
+      <!-- Profession showcase -->
+      <div class="prof-showcase">
+        <span class="prof-label">★ เหมาะสำหรับ ★</span>
+        <div class="prof-pills">
+          <span>🎬 ครีเอเตอร์</span>
+          <span>📣 นักการตลาด</span>
+          <span>💻 โปรแกรมเมอร์</span>
+          <span>🎨 ดีไซเนอร์</span>
+          <span>💼 SME / ผู้ประกอบการ</span>
+          <span>📚 ครู / นักเรียน</span>
+          <span>💰 ฟรีแลนซ์</span>
+          <span>🩺 บุคลากรการแพทย์</span>
+          <span class="more">+ อีกมากมาย</span>
+        </div>
+      </div>
+
+      <!-- Stats as proof -->
       <div class="hero-stats">
         <div class="stat-item"><div class="num">100</div><div class="lbl">Skills</div></div>
         <div class="stat-item"><div class="num">9</div><div class="lbl">หมวดอาชีพ</div></div>
@@ -304,15 +398,18 @@
         <div class="stat-item"><div class="num">100%</div><div class="lbl">ฟรี</div></div>
       </div>
 
+      <!-- Big CTAs -->
       <div class="hero-cta">
-        <a href="#categories" class="btn btn-primary">สำรวจ Skills →</a>
-        <a href="https://github.com/aiunlocked1412/claude-skill-unlock" class="btn" target="_blank" rel="noopener">⭐ Star บน GitHub</a>
+        <a href="#categories" class="btn btn-primary btn-lg">สำรวจ 100 Skills →</a>
+        <a href="https://github.com/aiunlocked1412/claude-skill-unlock" class="btn btn-lg" target="_blank" rel="noopener">⭐ Star on GitHub</a>
       </div>
 
+      <!-- Install snippet -->
       <div class="install-snippet">
         <code>git clone &amp;&amp; cd claude-skill-unlock &amp;&amp; ./install.sh</code>
         <button class="copy-btn" id="copyInstall">Copy</button>
       </div>
+
     </div>
   </section>
 
