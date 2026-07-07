@@ -81,15 +81,15 @@ for category_dir in "$SOURCE_DIR"/*/; do
         rm -rf "$target"
         cp -R "$skill_dir" "$target"
         echo "   🔄 เขียนทับ: /$skill_name"
-        ((OVERWRITTEN++))
+        ((++OVERWRITTEN))
       else
         echo "   ⏭️  ข้าม: /$skill_name (มีอยู่แล้ว)"
-        ((SKIPPED++))
+        ((++SKIPPED))
       fi
     else
       cp -R "$skill_dir" "$target"
       echo "   ✅ ติดตั้ง: /$skill_name"
-      ((INSTALLED++))
+      ((++INSTALLED))
     fi
   done
 done
